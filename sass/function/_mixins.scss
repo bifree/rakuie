@@ -2,8 +2,10 @@
 // メディアクエリー
 // ---
 
-@mixin mq($breakpoint: tab) {
-	@media #{map-get($breakpoints, $breakpoint)} {
+$sp: 599px;
+
+@mixin mobile {
+	@media screen and (max-width: $sp){
 		@content;
 	}
 }

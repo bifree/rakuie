@@ -1,290 +1,116 @@
-// ---
-// リセットCSS
-// ---
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
-
-/* リキッドレイアウト対応 */
-html {
-	//375px~787px
-	font-size: vw(375, 16);
-
-	@include mq("sp") {
-		font-size: 16px;
-	}
-
-	//787px~inner
-	@include mq("tab") {
-		font-size: vw(strip-unit($l-inner), 16);
-	}
-
-	//inner~max-screen
-	@media (min-width: $l-inner) {
-		font-size: 16px;
-	}
-}
-
-html,
-body {
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	font-family: $font-family-base;
-	font-size: $font-size-base;
-	font-weight: $font-weight-base;
-	color: $text-color;
-	line-height: $lh;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	background: $background;
-	overflow-wrap: break-word;
-	min-height: 100vh;
-	min-height: -webkit-fill-available;
-	position: relative;
-	z-index: -9999;
-}
-
-/* Box sizing rules */
-*,
-*::before,
-*::after {
+*{
   box-sizing: border-box;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-	display: block;
+body{
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3","游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic","メイリオ", "Meiryo", "verdana", sans-serif;
+  color:#333;
+  font-size:16px;
+  line-height:2;
+  min-width:1140px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-p,
-span,
-em,
-small,
-strong,
-sub,
-sup,
-mark,
-del,
-ins,
-strike,
-abbr,
-dfn,
-blockquote,
-q,
-cite,
-code,
-pre,
-ol,
-ul,
-li,
-dl,
-dt,
-dd,
-div,
-section,
-article,
-main,
-aside,
-nav,
-header,
-hgroup,
-footer,
-img,
-figure,
-figcaption,
-address,
-time,
-audio,
-video,
-canvas,
-iframe,
-details,
-summary,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td {
-	margin: 0;
-	padding: 0;
-	border: 0;
+a{
+  text-decoration:none;
+  display:inline-block;
 }
 
-a {
-	color: inherit;
-	cursor: pointer;
-	text-decoration: none;
+a:hover{
+  opacity:0.7;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
-	border: none;
-	vertical-align: top;
+li{
+  list-style:none;
 }
 
-video,
-iframe,
-object {
-	max-width: 100%;
-	height: auto;
-	border: none;
+img{
+  width:100%;
+  vertical-align:bottom;
 }
 
-
-ul,
-ol {
-	list-style: none;
+.sp-br{
+  display:none;
 }
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-	width: 100%;
-	table-layout: fixed;
-	border: 1px solid;
+.container{
+  width:1140px;
+  margin:0 auto;
+  padding:50px 10px;
 }
 
-th,
-td {
-	padding: 4px 6px;
-	text-align: left;
-	vertical-align: top;
-	border: 1px solid;
+.sentence{
+  max-width:800px;
+  margin:0 auto;
 }
 
-blockquote,
-q {
-	quotes: none;
+#fascia,#voice,#suitable,#profile-thought,#select,#treatment{
+  margin-top:-95px;
+  padding-top:95px;
 }
 
-blockquote::after,
-blockquote::before,
-q::after,
-q::before {
-	content: "";
-	content: none;
+.sec-title{
+  font-size:36px;
+  text-align:center;
+  color:#3D71B8;
+  padding-bottom:20px;
+  margin-bottom:50px;
+  position:relative;
 }
 
-address {
-	font-style: normal;
+.sec-title,.pc-menu,.sp-menu{
+  font-family:"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","游明朝","YuMincho","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝", 'Noto Serif JP', serif;
 }
 
-b,
-strong {
-	font-weight: 700;
+.sec-title:before {
+  position: absolute;
+  bottom:0px;
+  left: calc(50% - 200px);
+  width: 400px;
+  height:3px;
+  content: '';
+  background:red;
+  opacity:0.8;
 }
 
-form {
-	margin: 0;
-	padding: 0;
+.red{
+  color:red;
+  font-weight:bold;
 }
 
-label {
-	display: inline-block;
+.yellow{
+  color:yellow;
+  font-weight:bold;
 }
 
-a,
-area,
-button,
-input,
-label,
-select,
-summary,
-textarea,
-[tabindex] {
-	touch-action: manipulation;
+.marker-blue{
+  background: linear-gradient(transparent 60%, blue 0%);
+  padding-bottom:2px
 }
 
-input,
-button,
-select,
-optgroup,
-textarea {
-	margin: 0;
-	font-family: inherit;
-	font-size: inherit;
-	line-height: inherit;
+.marker-yellow{
+  background: linear-gradient(transparent 60%, yellow 0%);
+  padding-bottom:2px
 }
 
-button,
-select {
-	text-transform: none;
+.size-big{
+  font-size:20px;
+  padding:10px 0;
+  font-weight:bold;
 }
 
-select {
-	cursor: pointer;
+.title-big{
+  font-size:46px;
+  padding:10px 0;
+  font-weight:bold;
 }
 
-textarea {
-	overflow: auto;
-	-ms-overflow-style: scrollbar;
-	resize: vertical;
-}
-
-dialog {
-	background-color: inherit;
-	border: solid;
-	color: inherit;
-	display: block;
-	height: fit-content;
-	left: 0;
-	margin: auto;
-	padding: 1em;
-	position: absolute;
-	right: 0;
-	width: fit-content;
-
-	&:not([is-open]) {
-		display: none;
-	}
-}
-
-summary {
-	display: list-item;
-	cursor: pointer;
-}
-
-
-/* Remove all animations and transitions for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-   scroll-behavior: auto;
-  }
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
+header{
+  background:#fff;
+  margin:0 auto;
+  position:fixed;
+  top:0%;
+  left:0;
+  right:0;
+  box-shadow:0px 1px rgba(195,195,195,0.2);
+  z-index:6;
 }
