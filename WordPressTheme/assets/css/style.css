@@ -647,6 +647,15 @@ select {
 	text-decoration: none;
 }
 
+.container {
+	margin: 0 auto;
+	width: 1120px;
+}
+
+.container .suggestion {
+	margin-bottom: 100px;
+}
+
 .lp-top .lp-top__cp {
 	margin-top: 95px;
 	width: 100%;
@@ -654,6 +663,105 @@ select {
 
 .lp-top .lp-top__sp {
 	display: none;
+}
+
+.main-views {
+	background-image: url(../img/mv1.jpg);
+	background-size: cover;
+	height: 600px;
+	margin: 0 auto;
+	width: 1120px;
+}
+
+.main-views img {
+	width: 100%;
+}
+
+.second-box .title {
+	background-color: #90C222;
+	padding: 90px 0 160px;
+}
+
+.second-box .title .inner h3 {
+	color: #fff;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 1.4em;
+	text-align: center;
+}
+
+.second-box .content {
+	font-size: 16px;
+}
+
+.second-box .content .inner {
+	margin: 0 auto;
+	width: 1120px;
+}
+
+.second-box .content .inner .wrapItems {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: -100px;
+}
+
+.second-box .content .inner .wrapItems dl a {
+	background-color: #fff;
+	box-shadow: 0px 0px 12px #777777;
+	color: #333;
+	display: block;
+	padding: 40px 30px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	z-index: 1;
+}
+
+.second-box .content .inner .wrapItems dl a dt {
+	border-bottom: solid 1px #dedede;
+	color: #90C222;
+	font-size: 24px;
+	line-height: 1.4em;
+	margin-bottom: 14px;
+	padding-bottom: 14px;
+}
+
+.second-box .content .inner .wrapItems .item {
+	margin: 0 30px 30px 0;
+	width: calc((100% - 60px) / 3);
+}
+
+.second-box .content .inner .wrapItems .item:nth-child(3n + 3) {
+	margin-right: 0;
+}
+
+.blogs-box {
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 0;
+}
+
+.blogs-box .top_blog {
+	background-color: #f5f5f5;
+	border: 1px solid #dcdddd;
+	display: inline-block;
+	max-width: 1000px;
+	padding: 20px;
+	width: 45%;
+}
+
+.blogs-box .top_blog .ttl-Box .ttl {
+	color: #333;
+	font-size: 28px;
+	font-weight: 200;
+	line-height: 1.6em;
+}
+
+.blogs-box .top_blog .scroll_box {
+	box-sizing: border-box;
+	height: 267px;
+	overflow-y: scroll;
+	transform: translateZ(0);
 }
 
 @media screen and (max-width: 599px) {

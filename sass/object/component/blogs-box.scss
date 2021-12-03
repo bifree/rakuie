@@ -1,0 +1,27 @@
+.blogs-box {
+	padding: 100px 0;
+	display: flex;
+	justify-content: space-between;
+	.top_blog {
+		width: 45%;
+		max-width: 1000px;
+		border: 1px solid #dcdddd;
+		padding: 20px;
+		background-color: #f5f5f5;
+		display: inline-block;
+		.ttl-Box {
+			.ttl {
+				color: #333;
+				font-size: 28px;
+				font-weight: 200;
+				line-height: 1.6em;
+			}
+		}
+		.scroll_box {
+			box-sizing: border-box;
+			overflow-y: scroll;
+			transform: translateZ(0);
+			height: 267px;
+		}
+	}
+}

@@ -54,12 +54,11 @@
       </div>
       <div id="header-nav">
         <nav>
-          <ul>
-            <li><a href="">あああ</a></li>
-            <li><a href="">あああ</a></li>
-            <li><a href="">あああ</a></li>
-            <li><a href="">あああ</a></li>
-          </ul>
+          <?php 
+            wp_nav_menu( array( 
+            'theme_location' => 'header-nav', 
+            'container' => 'nav'
+          ) ); ?>
         </nav>
       </div>
     </div>
