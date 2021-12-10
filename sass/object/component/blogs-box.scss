@@ -3,7 +3,7 @@
 	display: flex;
 	justify-content: space-between;
 	.top_blog {
-		width: calc((100% - 30px) / 2);
+		width: calc((100% - 40px) / 2);
 		// border: 1px solid #dcdddd;
 		padding: 30px;
 		background-color: #fff;
@@ -15,6 +15,7 @@
 				font-size: 28px;
 				font-weight: 700;
 				line-height: 1.6em;
+				letter-spacing: 2px;
 				border-bottom: 3px solid #ccc;
 				position: relative;
 				&::after {
