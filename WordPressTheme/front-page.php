@@ -13,16 +13,16 @@
 				</div>
 				<div class="top_blog">
 					<div class="ttl-Box">
-						<p class="ttl">社長ブログ</p>
+						<p class="ttl">売買事例</p>
 					</div>
 					<div class="scroll_box">
 						<dl></dl>
 					</div>
 				</div>
 			</div>
-			<div class="suggestion">
+			<!-- <div class="suggestion">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/contact.png" alt="">
-			</div>
+			</div> -->
 		</div>
 		<div class="second-box">
 			<div class="title">
