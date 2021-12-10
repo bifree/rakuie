@@ -3,18 +3,30 @@
 	display: flex;
 	justify-content: space-between;
 	.top_blog {
-		width: 45%;
-		max-width: 1000px;
-		border: 1px solid #dcdddd;
-		padding: 20px;
-		background-color: #f5f5f5;
-		display: inline-block;
+		width: calc((100% - 30px) / 2);
+		// border: 1px solid #dcdddd;
+		padding: 30px;
+		background-color: #fff;
+		box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
 		.ttl-Box {
 			.ttl {
+				padding-bottom: 5px;
 				color: #333;
 				font-size: 28px;
-				font-weight: 200;
+				font-weight: 700;
 				line-height: 1.6em;
+				border-bottom: 3px solid #ccc;
+				position: relative;
+				&::after {
+					content: '';
+					display: block;
+					width: 160px;
+					height: 4px;
+					background-color: #e45213;
+					position: absolute;
+					bottom: -2px;
+					left: 0;
+				}
 			}
 		}
 		.scroll_box {
