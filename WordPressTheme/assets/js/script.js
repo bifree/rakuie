@@ -1,3 +1,32 @@
+const windowWidth = window.innerWidth
+const deviceType = windowWidth > 767 ? 'lg' : 'sm'
+let documentH = document.body.clientHeight - window.innerHeight
+if (deviceType === 'sm') {
+    documentH = documentH - EL.FOOTER.clientHeight + 0
+}
+
+window.addEventListener('scroll', function() {
+    const y = window.pageYOffset;
+    console.log(y)
+    // add class is-scroll
+    if (y > 151) {
+        if (!document.getElementsByTagName('html')[0].classList.contains('is-scroll')) {
+            document.getElementsByTagName('html')[0].classList.add('is-scroll');
+        }
+    } else {
+        document.getElementsByTagName('html')[0].classList.remove('is-scroll');
+    }
+
+    // add class is-footer
+    if (documentH <= y) {
+        if (!document.getElementsByTagName('html')[0].classList.contains('is-footer')) {
+            document.getElementsByTagName('html')[0].classList.add('is-footer');
+        }
+    } else {
+        document.getElementsByTagName('html')[0].classList.remove('is-footer');
+    }
+})
+
 let mySwiper = new Swiper ('.swiper-container', {
     loop: true,
     autoplay: {
@@ -8,12 +37,4 @@ let mySwiper = new Swiper ('.swiper-container', {
     centeredSlides: true,
     slidesPerView: 'auto',
     spaceBetween: 0,
-    // breakpoints: {
-    // 768: {
-    //     slidesPerView: 1.2,
-    // },
-    // 980: {
-    //     slidesPerView: 1.4, //前後ろ画像が半分表示される
-    // },
-    // }
 });

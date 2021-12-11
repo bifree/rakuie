@@ -8,17 +8,30 @@
 		background-color: #70c438;
 		.inner {
 			h3 {
-				font-size: 36px;
+				font-size: 3.6rem;
 				line-height: 1.4em;
-				letter-spacing: 2px;
+				letter-spacing: 0.1em;
 				text-align: center;
 				color: #fff;
 				font-weight: bold;
+				position: relative;
+				padding-bottom: 20px;
+				&::after {
+					content: '';
+					display: block;
+					width: 120px;
+					height: 2px;
+					background: #fff;
+					position: absolute;
+					bottom: 0;
+					left: 50%;
+					transform: translateX(-50%);
+				}
 			}
 		}
 	}
 	.content {
-		font-size: 16px;
+		font-size: 1.6rem;
 		.inner {
 			width: 1120px;
 			margin: 0 auto;
@@ -26,32 +39,57 @@
 				display: flex;
 				flex-wrap: wrap;
 				margin-top: -100px;
+				padding-bottom: 40px;
 				dl {
-					a {
-						background-color: #fff;
-						color: #333;
-						text-decoration: none;
-						display: block;
-						box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
-						padding: 40px 30px;
-						text-align: center;
-						position: relative;
-						z-index: 1;
-						dt {
-							font-size: 2.4rem;
-							font-weight: bold;
-							color: #90C222;
-							line-height: 1.6em;
-							letter-spacing: 1px;
-							padding-bottom: 14px;
-							border-bottom: solid 1px #dedede;
-							margin-bottom: 14px;
+					background-color: #fff;
+					color: #333;
+					text-decoration: none;
+					display: block;
+					box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+					padding: 40px 30px;
+					text-align: center;
+					position: relative;
+					z-index: 1;
+					dt {
+						font-size: 2.4rem;
+						font-weight: bold;
+						color: #90C222;
+						line-height: 1.6em;
+						letter-spacing: 1px;
+						padding-bottom: 14px;
+						border-bottom: solid 1px #dedede;
+						margin-bottom: 14px;
+					}
+					dd {
+						p.ttl {
+							line-height: 1.5;
 						}
-						dd {
-							p.ttl {
-								line-height: 1.5;
-							}
-						}
+					}
+					&::before {
+						width: 50px;
+						height: 50px;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						background: #e45213;
+						font-weight: bold;
+						font-size: 2.4rem;
+						color: #fff;
+						position: absolute;
+						top: -10px;
+						left: -10px;
+					}
+					&:nth-child(1)::before {
+						content: '1';
+					}
+					&:nth-child(2)::before {
+						content: '2';
+					}
+					&:nth-child(3)::before {
+						content: '3';
+					}
+					&:nth-child(4)::before {
+						content: '4';
 					}
 				}
 				.item {

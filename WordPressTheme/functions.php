@@ -141,3 +141,8 @@ function my_excerpt_more( $more ) {
 
 }
 add_filter( 'excerpt_more', 'my_excerpt_more' );
+
+/**
+ * WordPress管理バーの非表示
+ */
+add_filter( 'show_admin_bar', '__return_false' );

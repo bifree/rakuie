@@ -20,7 +20,7 @@
         <div class="inner">
           <div class="box-left">
             <div class="logo">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="株式会社ラクイエ">
             </div>
             <ul class="group-button">
               <li><span>幅広い広告戦略</span></li>

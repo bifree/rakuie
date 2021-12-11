@@ -3,8 +3,10 @@ html {
 }
 
 body {
+  padding-top: 220px!important;
   min-width: 1120px;
   * {
+    color: #333;
     box-sizing: border-box;
   }
 }
