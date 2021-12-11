@@ -1,0 +1,16 @@
+.rakuie-bnr {
+	background: #efefef;
+	padding: 80px;
+}
+
+.rakuie-bnr .inner {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 1120px;
+}
+
+.rakuie-bnr .inner img {
+	width: 543px;
+}
+
