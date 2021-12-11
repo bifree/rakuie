@@ -1,0 +1,79 @@
+.rakuie-baikyaku {
+	margin: 80px 0;
+	h2 {
+		font-size: 3.6rem;
+		line-height: 1.4em;
+		letter-spacing: 0.1em;
+		text-align: center;
+		font-weight: bold;
+		position: relative;
+		padding-bottom: 20px;
+		margin-bottom: 40px;
+		&::after {
+			content: '';
+			display: block;
+			width: 80px;
+			height: 4px;
+			background: #e45213;
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+	ol {
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+		li {
+			width: calc((100% - 10px * 4) / 5);
+			background: #fff;
+			// box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+			border: 2px solid #70c438;
+			position: relative;
+			& + li {
+				margin-left: 10px;
+				&::before {
+					content: '';
+					display: block;
+					width: 0;
+					height: 0;
+					border-style: solid;
+					border-width: 20px 0 20px 10px;
+					border-color: transparent transparent transparent #70c438;
+					position: absolute;
+					top: 50%;
+					left: -2px;
+					transform: translateX(-100%) translateY(-50%);
+				}
+			}
+			em {
+				display: block;
+				font-style: normal;
+				font-size: 1.8rem;
+				color: #fff;
+				font-weight: bold;
+				background: #70c438;
+				padding: 12px 0;
+				text-align: center;
+			}
+			dl {
+				padding: 20px;
+				dt {
+					font-weight: bold;
+					text-align: center;
+					font-size: 1.8rem;
+					color: #e45213;
+					margin-bottom: 15px;
+					padding-bottom: 15px;
+					border-bottom: 1px solid #dedede;
+					letter-spacing: 0.06em;
+				}
+				dd {
+					font-size: 1.6rem;
+					line-height: 1.4em;
+				}
+			}
+		}
+	}
+}

@@ -1,6 +1,6 @@
 .rakuie-omakase {
 	border: 2px solid #e45213;
-	margin: 150px 0 0;
+	margin: 130px 0 80px;
 	padding: 100px 60px 60px;
 	position: relative;
 }
@@ -34,41 +34,8 @@
 }
 
 .rakuie-omakase p strong {
-	background: linear-gradient(transparent 50%, #f6ee0f 50%);
+	background: linear-gradient(transparent 50%, #ffff01 50%);
 	font-size: 3.6rem;
 	margin: 0 0.3em;
-}
-
-.rakuie-omakase nav {
-	display: flex;
-	justify-content: center;
-	margin-top: 50px;
-}
-
-.rakuie-omakase nav a {
-	background: #e45213;
-	border-radius: 40px;
-	color: #fff;
-	display: block;
-	font-size: 1.8rem;
-	font-weight: bold;
-	padding: 19px 0 21px;
-	position: relative;
-	text-align: center;
-	text-decoration: none;
-	width: 300px;
-}
-
-.rakuie-omakase nav a::after {
-	border-left: 3px solid #fff;
-	border-top: 3px solid #fff;
-	content: '';
-	display: block;
-	height: 8px;
-	position: absolute;
-	right: 20px;
-	top: 50%;
-	transform: translateY(-50%) rotate(135deg);
-	width: 8px;
 }
 
