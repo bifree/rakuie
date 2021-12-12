@@ -2,10 +2,15 @@
 // メディアクエリー
 // ---
 
-$sp: 599px;
+$sp: 767px;
 
 @mixin mobile {
 	@media screen and (max-width: $sp){
 		@content;
 	}
+}
+
+
+@function vw($num, $baseWidth: 375) {
+	@return (1vw * $num / $baseWidth * 100);
 }

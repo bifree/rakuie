@@ -42,7 +42,7 @@
             <ul class="contact">
               <li class="phone">
                 <p>無料査定・相続不動産売却に関するご相談</p>
-                <a href="" class="phoneLink">0120-071-778</a>
+                <a href="tel:0120071778" class="phoneLink">0120-071-778</a>
                 <span>営業時間 10：00～18：30 | 定休日 水曜日</span>
               </li>
               <li class="mail">

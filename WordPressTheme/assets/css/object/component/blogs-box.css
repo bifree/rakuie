@@ -14,9 +14,9 @@
 .blogs-box .top_blog .ttl-Box .ttl {
 	border-bottom: 3px solid #ccc;
 	color: #333;
-	font-size: 28px;
+	font-size: 2.8rem;
 	font-weight: 700;
-	letter-spacing: 2px;
+	letter-spacing: 0.1em;
 	line-height: 1.6em;
 	padding-bottom: 5px;
 	position: relative;
@@ -38,5 +38,38 @@
 	height: 267px;
 	overflow-y: scroll;
 	transform: translateZ(0);
+}
+
+@media screen and (max-width: 767px) {
+
+.blogs-box {
+	display: block;
+	padding: 10.66667vw 0;
+}
+
+.blogs-box .top_blog {
+	box-shadow: 0.8vw 0.8vw 2.66667vw rgba(0, 0, 0, 0.3);
+	margin-bottom: 5.33333vw;
+	padding: 5.33333vw;
+	width: 100%;
+}
+
+.blogs-box .top_blog:last-of-type {
+	margin-bottom: 0;
+}
+
+.blogs-box .top_blog .ttl-Box .ttl {
+	font-size: 2.2rem;
+	padding-bottom: 1.33333vw;
+}
+
+.blogs-box .top_blog .ttl-Box .ttl::after {
+	width: 37.33333vw;
+}
+
+.blogs-box .top_blog .scroll_box {
+	height: 100vw;
+}
+
 }
 

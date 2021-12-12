@@ -8,7 +8,7 @@
 		font-weight: bold;
 		position: relative;
 		padding-bottom: 20px;
-		margin-bottom: 40px;
+		margin-bottom: 60px;
 		&::after {
 			content: '';
 			display: block;
@@ -22,56 +22,70 @@
 		}
 	}
 	ol {
-		display: flex;
-		justify-content: space-between;
 		list-style: none;
 		li {
-			width: calc((100% - 10px * 4) / 5);
+			width: 100%;
 			background: #fff;
-			// box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
-			border: 2px solid #70c438;
+			box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
 			position: relative;
 			& + li {
-				margin-left: 10px;
+				margin-top: 40px;
 				&::before {
 					content: '';
 					display: block;
 					width: 0;
 					height: 0;
 					border-style: solid;
-					border-width: 20px 0 20px 10px;
-					border-color: transparent transparent transparent #70c438;
+					border-width: 10px 20px 0 20px;
+					border-color: #e45213 transparent transparent transparent;
 					position: absolute;
-					top: 50%;
-					left: -2px;
-					transform: translateX(-100%) translateY(-50%);
+					top: -15px;
+					left: 50%;
+					transform: translateX(-50%) translateY(-100%);
 				}
 			}
-			em {
-				display: block;
-				font-style: normal;
-				font-size: 1.8rem;
+			span {
+				font-size: 1.3rem;
 				color: #fff;
 				font-weight: bold;
-				background: #70c438;
-				padding: 12px 0;
 				text-align: center;
+				width: 72px;
+				height: 72px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				background: #e45213;
+				font-weight: bold;
+				color: #fff;
+				position: absolute;
+				top: -10px;
+				left: -10px;
+				em {
+					display: block;
+					color: #fff;
+					font-size: 2.4rem;
+					font-style: normal;
+					margin-top: 5px;
+				}
 			}
 			dl {
-				padding: 20px;
+				position: relative;
+				padding: 30px;
 				dt {
 					font-weight: bold;
 					text-align: center;
-					font-size: 1.8rem;
-					color: #e45213;
-					margin-bottom: 15px;
-					padding-bottom: 15px;
+					font-size: 2.4rem;
+					color: #70c438;
+					margin-bottom: 20px;
+					padding-bottom: 20px;
 					border-bottom: 1px solid #dedede;
 					letter-spacing: 0.06em;
 				}
 				dd {
 					font-size: 1.6rem;
 					line-height: 1.4em;
+					text-align: center;
 				}
 			}
 		}

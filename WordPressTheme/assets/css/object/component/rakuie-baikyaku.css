@@ -7,7 +7,7 @@
 	font-weight: bold;
 	letter-spacing: 0.1em;
 	line-height: 1.4em;
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 	padding-bottom: 20px;
 	position: relative;
 	text-align: center;
@@ -26,64 +26,80 @@
 }
 
 .rakuie-baikyaku ol {
-	display: flex;
-	justify-content: space-between;
 	list-style: none;
 }
 
 .rakuie-baikyaku ol li {
 	background: #fff;
-	border: 2px solid #70c438;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 	position: relative;
-	width: calc((100% - 10px * 4) / 5);
+	width: 100%;
 }
 
 .rakuie-baikyaku ol li + li {
-	margin-left: 10px;
+	margin-top: 40px;
 }
 
 .rakuie-baikyaku ol li + li::before {
-	border-color: transparent transparent transparent #70c438;
+	border-color: #e45213 transparent transparent transparent;
 	border-style: solid;
-	border-width: 20px 0 20px 10px;
+	border-width: 10px 20px 0 20px;
 	content: '';
 	display: block;
 	height: 0;
-	left: -2px;
+	left: 50%;
 	position: absolute;
-	top: 50%;
-	transform: translateX(-100%) translateY(-50%);
+	top: -15px;
+	transform: translateX(-50%) translateY(-100%);
 	width: 0;
 }
 
-.rakuie-baikyaku ol li em {
-	background: #70c438;
+.rakuie-baikyaku ol li span {
+	align-items: center;
+	background: #e45213;
+	color: #fff;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.3rem;
+	font-weight: bold;
+	font-weight: bold;
+	height: 72px;
+	justify-content: center;
+	left: -10px;
+	position: absolute;
+	text-align: center;
+	top: -10px;
+	width: 72px;
+}
+
+.rakuie-baikyaku ol li span em {
 	color: #fff;
 	display: block;
-	font-size: 1.8rem;
+	font-size: 2.4rem;
 	font-style: normal;
-	font-weight: bold;
-	padding: 12px 0;
-	text-align: center;
+	margin-top: 5px;
 }
 
 .rakuie-baikyaku ol li dl {
-	padding: 20px;
+	padding: 30px;
+	position: relative;
 }
 
 .rakuie-baikyaku ol li dl dt {
 	border-bottom: 1px solid #dedede;
-	color: #e45213;
-	font-size: 1.8rem;
+	color: #70c438;
+	font-size: 2.4rem;
 	font-weight: bold;
 	letter-spacing: 0.06em;
-	margin-bottom: 15px;
-	padding-bottom: 15px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 
 .rakuie-baikyaku ol li dl dd {
 	font-size: 1.6rem;
 	line-height: 1.4em;
+	text-align: center;
 }
 

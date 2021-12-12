@@ -70,35 +70,35 @@
 				<h2>売却までの流れ</h2>
 				<ol>
 					<li>
-						<em>STEP1</em>
+						<span>STEP<em>01</em></span>
 						<dl>
 							<dt>査定のご依頼</dt>
 							<dd>お電話・メールにてご相談ください。物件の立地や、建物の内部など状態を確認して査定いたします。</dd>
 						</dl>
 					</li>
 					<li>
-						<em>STEP2</em>
+						<span>STEP<em>02</em></span>
 						<dl>
-							<dt>売却内容相談</dt>
+							<dt>売却内容のご相談</dt>
 							<dd>査定結果に基づいて、売却価格や契約方法のご説明・ご相談をさせていただきます。</dd>
 						</dl>
 					</li>
 					<li>
-						<em>STEP3</em>
+						<span>STEP<em>03</em></span>
 						<dl>
 							<dt>媒介契約</dt>
 							<dd>ご希望の内容で媒介契約を行います。</dd>
 						</dl>
 					</li>
 					<li>
-						<em>STEP4</em>
+						<span>STEP<em>04</em></span>
 						<dl>
 							<dt>広告・お客さま対応</dt>
 							<dd>弊社のポータルサイトにて物件を掲載、お客さまからのお問い合わせの対応などをいたします。</dd>
 						</dl>
 					</li>
 					<li>
-						<em>STEP5</em>
+						<span>STEP<em>05</em></span>
 						<dl>
 							<dt>売買契約</dt>
 							<dd>購入希望者との間で、売買契約を締結いたします。</dd>
@@ -133,8 +133,9 @@
 		</div> -->
 		<div class="rakuie-ceo">
 			<div class="inner">
-				<!-- <p>相続対策には様々な選択肢があります。たとえば、相続対策を建設会社に相談に行った場合は、通常ほかの選択肢を検討せずに、建物を建てましょうという提案になるでしょう。またリフォーム会社に相談にいけば、通常リフォームの提案となります。<br>しかし、当社ではそういった単一的な提案はせず、お客様にとってベストな選択をして頂けるよう様々な角度から多面的にご提案をさせて頂きます。公平中立な立場でお客様にとってベストプラクティスをご提案いたします。</p> -->
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/card.jpg" alt="">
+				<p>『安心・安全な不動産取引』をお約束<br>すべてのご家族に<br class="is_sp">笑顔と幸せをお届けします！</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/card.jpg" alt="" class="is_pc">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/card_sp.jpg" alt="" class="is_sp">
 			</div>
 		</div>
 		<div class="container">

@@ -1,7 +1,15 @@
+@import '../../function/mixins';
+
 .container {
 	width: 1120px;
 	margin: 0 auto;
 	.suggestion {
 		margin-bottom: 100px;
+	}
+
+	@include mobile {
+		min-width: auto;
+		width: 100%;
+		padding: 0 vw(20);
 	}
 }

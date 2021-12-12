@@ -1,3 +1,5 @@
+@import '../../function/mixins';
+
 .l-header {
 	position: fixed;
 	top: 0;
@@ -22,11 +24,6 @@
 			.inner {
 				width: 1120px;
 				margin: 0 auto;
-				h1 {
-					font-size: 1.2rem;
-					line-height: 1.4em;
-					letter-spacing: 0.1em;
-				}
 			}
 		}
 		.containerMiddle {
@@ -38,6 +35,10 @@
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
+				@media screen and (max-width: 767px) {
+					min-width: auto;
+					width: 100%;
+				}
 				.box-left {
 					display: flex;
 					align-items: center;
@@ -54,7 +55,7 @@
 						font-weight: 700;
 						font-size: 1.4rem;
 						line-height: 1.43;
-						letter-spacing: 1px;
+						letter-spacing: 0.1em;
 						list-style: none;
 						li {
 							// color: #fff;
@@ -105,6 +106,9 @@
 								font-size: 2.8rem;
 								font-weight: bold;
 								margin-bottom: 5px;
+								@media screen and (min-width: 768px) {
+									pointer-events: none;
+								}
 							}
 							a.phoneLink:before {
 								content: "";
@@ -123,10 +127,9 @@
 							}
 						}
 						.mail {
-							background-color: #e45213;
-							border-radius: 40px;
-							overflow: hidden;
 							a {
+								background-color: #e45213;
+								border-radius: 40px;
 								position: relative;
 								display: flex;
 								justify-content: center;
@@ -185,6 +188,70 @@
 			}
 		}
 	}
+	@include mobile {
+		.header-wrapper {
+			.containerTop {
+				display: none;
+				.inner {
+					min-width: auto;
+					width: 100%;
+				}
+			}
+			.containerMiddle {
+				padding: vw(15);
+				.inner {
+					min-width: auto;
+					width: 100%;
+					.box-left {
+						.logo {
+							height: vw(45);
+							width: auto;
+							margin-right: 30px;
+							img {
+								height: 100%;
+								image-rendering: -webkit-optimize-contrast;
+							}
+						}
+						.group-button {
+							display: none;
+						}
+					}
+					.box-right {
+						display: none;
+					}
+				}
+			}
+			#header-nav {
+				background-color: #70c438;
+				nav {
+					// width: 1000px;
+					width: 1000px;
+					margin: 0 auto;
+					ul {
+						display: flex;
+						justify-content: space-between;
+						border-right: 1px solid #fff;
+						li {
+							width: 100%;
+							border-left: 1px solid #fff;
+							a {
+								display: block;
+								text-decoration: none;
+								color: #fff;
+								width: 100%;
+								height: 60px;
+								text-align: center;
+								line-height: 60px;
+								font-weight: bold;
+								font-size: 1.4rem;
+								transition: 0.5s ease;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 .is-scroll {
@@ -202,5 +269,14 @@
 		height: 0;
 		opacity: 0;
 		visibility: hidden;
+	}
+	@include mobile {
+		.l-header .header-wrapper .containerMiddle {
+			padding: vw(15);
+		}
+		.l-header .header-wrapper #header-nav nav ul li a {
+			height: 50px;
+			line-height: 50px;
+		}
 	}
 }

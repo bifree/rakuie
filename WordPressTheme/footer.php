@@ -1,6 +1,6 @@
 <footer>
-	<div class="">
 	<div class="l-footer">
+		<a href="#gotop" class="l-footer__pagetop" data-scroll=""></a>
 		<div class="inner">
 			<dl class="box-left">
 				<dt class="logo">
