@@ -1,8 +1,10 @@
+document.getElementsByTagName('body')[0].id = 'gotop';
+
 const windowWidth = window.innerWidth
 const deviceType = windowWidth > 767 ? 'lg' : 'sm'
 let documentH = document.body.clientHeight - window.innerHeight
 if (deviceType === 'sm') {
-    documentH = documentH - EL.FOOTER.clientHeight + 0
+    documentH = documentH - document.querySelector('.l-footer').clientHeight + 0
 }
 
 window.addEventListener('scroll', function() {

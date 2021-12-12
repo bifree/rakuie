@@ -1,3 +1,5 @@
+@import 'mixins';
+
 html {
   font-size: 62.5%!important;
 }
@@ -8,5 +10,31 @@ body {
   * {
     color: #333;
     box-sizing: border-box;
+  }
+  @include mobile {
+    min-width: auto;
+    width: 100%;
+  }
+}
+
+a {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  @media screen and (min-width: 768px) {
+    &:hover {
+      opacity: 0.6!important;
+    }
+  }
+}
+
+.is_sp {
+  display: none!important;
+}
+@include mobile {
+  .is_pc {
+    display: none!important;
+  }
+  .is_sp {
+    display: block!important;
   }
 }

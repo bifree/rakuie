@@ -1,36 +1,61 @@
+@import '../../function/mixins';
+
 .rakuie-ceo {
 	padding: 80px;
 	background: #efefef;
 	.inner {
 		width: 1120px;
 		margin: 0 auto;
-		display: flex;
-		justify-content: center;
-		img {
-			display: block;
-			width: 543px;
-			flex: 1 0 auto;
-		}
+		text-align: center;
 		p {
-			margin-right: 40px;
-			background: #fff;
-			padding: 30px;
-			font-size: 1.8rem;
+			display: inline-block;
+			margin-bottom: 40px;
+			padding: 0 30px;
+			font-size: 2.8rem;
+			font-weight: bold;
 			line-height: 1.5em;
-			box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+			text-align: center;
 			position: relative;
+			&::before,
 			&::after {
 				content: '';
 				display: block;
-				width: 0;
-				height: 0;
-				border-style: solid;
-				border-width: 15px 0 20px 10px;
-				border-color: transparent transparent transparent #fff;
+				width: 3px;
+				height: 60px;
+				background: #333;
 				position: absolute;
-				top: 50%;
-				left: 100%;
-				transform: translateY(-50%);
+				bottom: -10px;
+			}
+			&::before {
+				left: 0;
+				transform: rotate(-20deg);
+			}
+			&::after {
+				right: 0;
+				transform: rotate(20deg);
+			}
+		}
+		img {
+			display: block;
+			width: 100%;
+		}
+	}
+
+	@include mobile {
+		padding: vw(40) vw(20);
+		.inner {
+			min-width: auto;
+			width: 100%;
+			p {
+				margin-bottom: vw(20);
+				padding: 0 vw(20);
+				font-size: 1.6rem;
+				&::before,
+				&::after {
+					width: 2px;
+					height: vw(30);
+					bottom: vw(-5);
+				}
 			}
 		}
 	}

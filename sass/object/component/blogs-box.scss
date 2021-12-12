@@ -1,3 +1,5 @@
+@import '../../function/mixins';
+
 .blogs-box {
 	padding: 100px 0;
 	display: flex;
@@ -12,10 +14,10 @@
 			.ttl {
 				padding-bottom: 5px;
 				color: #333;
-				font-size: 28px;
+				font-size: 2.8rem;
 				font-weight: 700;
 				line-height: 1.6em;
-				letter-spacing: 2px;
+				letter-spacing: 0.1em;
 				border-bottom: 3px solid #ccc;
 				position: relative;
 				&::after {
@@ -35,6 +37,32 @@
 			overflow-y: scroll;
 			transform: translateZ(0);
 			height: 267px;
+		}
+	}
+
+	@include mobile {
+		padding: vw(40) 0;
+		display: block;
+		.top_blog {
+			width: 100%;
+			margin-bottom: vw(20);
+			padding: vw(20);
+			box-shadow: vw(3) vw(3) vw(10) rgba(0,0,0,0.3);
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+			.ttl-Box {
+				.ttl {
+					padding-bottom: vw(5);
+					font-size: 2.2rem;
+					&::after {
+						width: vw(140);
+					}
+				}
+			}
+			.scroll_box {
+				height: vw(375);
+			}
 		}
 	}
 }

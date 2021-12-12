@@ -35,6 +35,10 @@
 		.inner {
 			width: 1120px;
 			margin: 0 auto;
+			@media screen and (max-width: 767px) {
+				min-width: auto;
+				width: 100%;
+			}
 			.wrapItems {
 				display: flex;
 				flex-wrap: wrap;

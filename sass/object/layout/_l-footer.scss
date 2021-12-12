@@ -1,6 +1,38 @@
+@import '../../function/mixins';
+
 .l-footer {
 	background-color: #fff;
 	padding: 40px 0;
+	&__pagetop {
+		display: block;
+		width: 60px;
+		height: 60px;
+		background: #e45213;
+		position: fixed;
+		bottom: 20px;
+		right: calc(50% - (1120px / 2 + 20px));
+		transform: translateX(100%);
+		visibility: hidden;
+		opacity: 0;
+		z-index: 999;
+		transition: opacity 0.5s ease, visibility 0.5s ease;
+		&::after {
+			content: '';
+			display: block;
+			width: 20px;
+			height: 20px;
+			border-top: 5px solid #fff;
+			border-left: 5px solid #fff;
+			position: absolute;
+			top: calc(50% + 5px);
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%) rotate(45deg);
+		}
+		.is-scroll & {
+			visibility: visible;
+			opacity: 1;
+		}
+	}
 	.inner {
 		width: 1120px;
 		margin: 0 auto;
@@ -21,6 +53,7 @@
 			}
 			dd {
 				font-size: 1.4rem;
+				font-weight: bold;
 				line-height: 1.5em;
 				white-space: nowrap;
 			}
@@ -65,5 +98,79 @@
 		font-size: 1.2rem;
 		font-style: normal;
 		font-weight: bold;
+	}
+
+	@include mobile {
+		padding: vw(30) vw(20);
+		&__pagetop {
+			width: vw(45);
+			height: vw(45);
+			bottom: vw(15);
+			right: vw(15);
+			transform: translateX(0);
+			&::after {
+				width: vw(16);
+				height: vw(16);
+				border-top: 4px solid #fff;
+				border-left: 4px solid #fff;
+				top: calc(50% + 4px);
+			}
+		}
+		.inner {
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+			min-width: auto;
+			width: 100%;
+			.box-left {
+				display: block;
+				margin-bottom: vw(20);
+				.logo {
+					height: vw(60);
+					margin-right: 0;
+					margin-bottom: vw(10);
+				}
+				dd {
+					text-align: center;
+				}
+			}
+			.box-right {
+				justify-content: center;
+				margin: vw(20) 0 0 vw(-25);
+				li {
+					margin-bottom: vw(15);
+					margin-left: vw(25);
+					a {
+						display: block;
+						padding-left: 16px;
+						font-size: 1.5rem;
+						font-weight: bold;
+						text-decoration: none;
+						position: relative;
+						&::before {
+							position: absolute;
+							top: 50%;
+							left: 0;
+							content: '';
+							display: block;
+							width: 6px;
+							height: 6px;
+							border-top: 2px solid #e45213;
+							border-left: 2px solid #e45213;
+							transform: translateY(-50%) rotate(135deg);
+						}
+					}
+				}
+			}
+		}
+		& + address {
+			display: block;
+			background-color: #efefef;
+			padding: 20px 0;
+			text-align: center;
+			font-size: 1.2rem;
+			font-style: normal;
+			font-weight: bold;
+		}
 	}
 }
