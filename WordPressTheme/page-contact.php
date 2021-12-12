@@ -20,7 +20,7 @@
 
       <h4 class="contact__content__sub-title">ご相談・査定依頼フォーム</h4>
       <div class="contact__form">
-       <?php echo do_shortcode('[mwform_formkey key="7"]'); ?>
+       <?php echo do_shortcode('[mwform_formkey key="6"]'); ?>
       </div>
     </div>
 
