@@ -1,5 +1,10 @@
 <?php get_header(); ?>
-	<?php get_template_part('template/main-views');?>
+	<div class="sp-none">
+		<?php get_template_part('template/main-views');?>
+	</div>
+	<!-- <div class="pc-none">
+		<//?php get_template_part('template/main-sp-views');?>
+	</div> -->
 	<main id="main">
 		<div class="container">
 			<div class="rakuie-omakase">

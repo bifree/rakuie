@@ -40,3 +40,30 @@ let mySwiper = new Swiper ('.swiper-container', {
     slidesPerView: 'auto',
     spaceBetween: 0,
 });
+
+
+//faqアコーディオン  
+$(function(){
+	$(".grad-item").each(function(){
+        var thisHeight=$(this).height();
+        itemHeights.push(thisHeight);
+        $(this).addClass("is-hide");
+        returnHeight=$(this).height();
+	});
+});
+
+$(".grad-trigger").click(function(){
+	if(!$(this).hasClass("is-show")){
+        var index = $(this).index(".grad-trigger");
+        var addHeight = itemHeights[index];
+        $(this).addClass("is-show").next().animate{height:addHeight},200).removeClass("is-hide");
+	}else{
+        $(this).removeClass("is-show").next().animate({height:returnHeight},200).addClass("is-hide");
+	}
+});
+
+$(function(){
+	$(".accordion_outer") .click(function(){
+        $(this).next().slideToggle();
+	});
+});
