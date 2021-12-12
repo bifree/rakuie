@@ -1383,6 +1383,108 @@ select {
 	width: 290px;
 }
 
+.accordion {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.accordion .accordion_outer {
+	cursor: pointer;
+	display: flex;
+	margin-top: 15px auto 0 auto;
+	padding: 10px;
+	position: relative;
+}
+
+.accordion .accordion_outer .icon_q {
+	background-color: #9e0e0e;
+	box-sizing: border-box;
+	color: white;
+	display: inline-block;
+	font-size: 3rem;
+	font-weight: bold;
+	margin: 10px 0;
+	padding: 5px 5px;
+}
+
+.accordion .accordion_outer .ques {
+	background-color: #fc4c07;
+	box-sizing: border-box;
+	color: white;
+	font-size: 2rem;
+	margin: 10px 0;
+	padding: 5px 5px;
+}
+
+.accordion .accordion_inner {
+	background-color: white;
+	box-shadow: 5px 5px 5px #969494;
+	display: flex;
+	padding: 10px;
+	position: relative;
+}
+
+.accordion .accordion_inner .icon_a {
+	background-color: yellow;
+	box-sizing: border-box;
+	color: black;
+	display: inline-block;
+	font-size: 2.2rem;
+	font-weight: bold;
+	margin: 10px 0;
+	padding: 5px 5px;
+	text-align: center;
+}
+
+.accordion .accordion_inner .answer {
+	color: white;
+	color: black;
+	font-size: 1.4rem;
+	margin: 0 auto;
+	max-width: 90%;
+}
+
+.accordion .grad-wrap + .grad-wrap {
+	margin-top: 40px;
+}
+
+.accordion .grad-trigger.fa {
+	margin-right: .5em;
+}
+
+.accordion .grad-item {
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
+
+.accordion .grad-item.is-hide {
+	height: 40px;
+}
+
+.accordion .grad-item::before {
+	background: linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 50%);
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 40px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.accordion .grad-trigger.is-show {
+	bottom: -2em;
+}
+
+.accordion .grad-trigger.is-show::after {
+	content: "閉じる";
+}
+
+.accordion .grad-trigger.is-show + .grad-item::before {
+	display: none;
+}
+
 .rakuie-baikyaku {
 	margin: 80px 0;
 }
