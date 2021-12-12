@@ -9,7 +9,7 @@ if (deviceType === 'sm') {
 
 window.addEventListener('scroll', function() {
     const y = window.pageYOffset;
-    console.log(y)
+
     // add class is-scroll
     if (y > 151) {
         if (!document.getElementsByTagName('html')[0].classList.contains('is-scroll')) {
@@ -28,6 +28,26 @@ window.addEventListener('scroll', function() {
         document.getElementsByTagName('html')[0].classList.remove('is-footer');
     }
 })
+
+/**
+ * ハンバーガーメニューの処理を行います
+ */
+let isActive = false
+document.querySelector('.js-hamburger').addEventListener('click', (e) => {
+    isActive ? navHide() : navShow()
+})
+function navShow() {
+    isActive = true
+    document.getElementsByTagName('html')[0].classList.add('is-nav-active')
+}
+function navHide() {
+    isActive = false
+    document.getElementsByTagName('html')[0].classList.remove('is-nav-active')
+}
+
+window.addEventListener('resize', (e) => {
+    if (isActive) navHide()
+}, false)
 
 let mySwiper = new Swiper ('.swiper-container', {
     loop: true,
@@ -56,7 +76,7 @@ $(".grad-trigger").click(function(){
 	if(!$(this).hasClass("is-show")){
         var index = $(this).index(".grad-trigger");
         var addHeight = itemHeights[index];
-        $(this).addClass("is-show").next().animate{height:addHeight},200).removeClass("is-hide");
+        $(this).addClass("is-show").next().animate({height:addHeight},200).removeClass("is-hide");
 	}else{
         $(this).removeClass("is-show").next().animate({height:returnHeight},200).addClass("is-hide");
 	}

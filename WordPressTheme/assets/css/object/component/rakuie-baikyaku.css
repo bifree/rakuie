@@ -103,3 +103,63 @@
 	text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+
+.rakuie-baikyaku {
+	margin: 10.66667vw 0;
+}
+
+.rakuie-baikyaku h2 {
+	font-size: 2.4rem;
+	margin-bottom: 8vw;
+	padding-bottom: 4vw;
+}
+
+.rakuie-baikyaku h2::after {
+	height: 3px;
+	width: 16vw;
+}
+
+.rakuie-baikyaku ol li {
+	box-shadow: 0.8vw 0.8vw 2.66667vw rgba(0, 0, 0, 0.3);
+}
+
+.rakuie-baikyaku ol li + li {
+	margin-top: 8vw;
+}
+
+.rakuie-baikyaku ol li + li::before {
+	border-width: 2.66667vw 5.33333vw 0 5.33333vw;
+	top: -2.66667vw;
+}
+
+.rakuie-baikyaku ol li span {
+	font-size: 1.2rem;
+	height: 14.66667vw;
+	left: -2.66667vw;
+	top: -2.66667vw;
+	width: 14.66667vw;
+}
+
+.rakuie-baikyaku ol li span em {
+	font-size: 2rem;
+	margin-top: 1.06667vw;
+}
+
+.rakuie-baikyaku ol li dl {
+	padding: 5.33333vw;
+}
+
+.rakuie-baikyaku ol li dl dt {
+	font-size: 1.8rem;
+	margin-bottom: 4vw;
+	padding-bottom: 4vw;
+}
+
+.rakuie-baikyaku ol li dl dd {
+	font-size: 1.4rem;
+	text-align: left;
+}
+
+}
+
