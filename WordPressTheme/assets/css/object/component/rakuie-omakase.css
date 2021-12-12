@@ -27,7 +27,7 @@
 .rakuie-omakase p {
 	font-size: 2.4rem;
 	font-weight: bold;
-	letter-spacing: 1px;
+	letter-spacing: 0.1em;
 	line-height: 2em;
 	margin-bottom: 30px;
 	text-align: center;
@@ -42,43 +42,26 @@
 @media screen and (max-width: 767px) {
 
 .rakuie-omakase {
-	border: 2px solid #e45213;
-	margin: 21.33333vw 0 10.66667vw;
+	margin: 16vw 0 10.66667vw;
 	padding: 13.33333vw 5.33333vw 5.33333vw;
 }
 
 .rakuie-omakase h2 {
-	background: #fff;
-	color: #e45213;
-	display: inline-block;
-	font-size: 2.4rem;
-	font-weight: bold;
-	left: 50%;
-	letter-spacing: 0.1em;
-	line-height: 1.3;
-	padding: 0 20px;
-	position: absolute;
-	text-align: center;
-	top: -55px;
-	transform: translateX(-50%);
-	width: -webkit-max-content;
-	width: -moz-max-content;
-	width: max-content;
+	font-size: 2rem;
+	padding: 0 4vw;
+	top: -7.2vw;
 }
 
 .rakuie-omakase p {
-	font-size: 2.4rem;
+	font-size: 1.4rem;
 	font-weight: bold;
-	letter-spacing: 1px;
-	line-height: 2em;
-	margin-bottom: 30px;
-	text-align: center;
+	line-height: 1.6em;
+	margin-bottom: 5.33333vw;
+	text-align: justify;
 }
 
 .rakuie-omakase p strong {
-	background: linear-gradient(transparent 50%, #ffff01 50%);
-	font-size: 3.6rem;
-	margin: 0 0.3em;
+	font-size: 2rem;
 }
 
 }

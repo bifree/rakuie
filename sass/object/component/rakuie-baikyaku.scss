@@ -1,3 +1,5 @@
+@import '../../function/mixins';
+
 .rakuie-baikyaku {
 	margin: 80px 0;
 	h2 {
@@ -86,6 +88,54 @@
 					font-size: 1.6rem;
 					line-height: 1.4em;
 					text-align: center;
+				}
+			}
+		}
+	}
+
+	@include mobile {
+		margin: vw(40) 0;
+		h2 {
+			font-size: 2.4rem;
+			padding-bottom: vw(15);
+			margin-bottom: vw(30);
+			&::after {
+				width: vw(60);
+				height: 3px;
+			}
+		}
+		ol {
+			li {
+				box-shadow: vw(3) vw(3) vw(10) rgba(0,0,0,0.3);
+				& + li {
+					margin-top: vw(30);
+					&::before {
+						border-width: vw(10) vw(20) 0 vw(20);
+						top: vw(-10);
+					}
+				}
+				span {
+					font-size: 1.2rem;
+					width: vw(55);
+					height: vw(55);
+					top: vw(-10);
+					left: vw(-10);
+					em {
+						font-size: 2rem;
+						margin-top: vw(4);
+					}
+				}
+				dl {
+					padding: vw(20);
+					dt {
+						font-size: 1.8rem;
+						margin-bottom: vw(15);
+						padding-bottom: vw(15);
+					}
+					dd {
+						font-size: 1.4rem;
+						text-align: left;
+					}
 				}
 			}
 		}

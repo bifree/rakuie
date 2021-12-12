@@ -1,3 +1,5 @@
+@import '../../function/mixins';
+
 .second-box {
 	background: url('../img/mv1.jpg') center bottom / cover no-repeat;
 	background-color:rgba(255,255,255,0.3);
@@ -35,10 +37,6 @@
 		.inner {
 			width: 1120px;
 			margin: 0 auto;
-			@media screen and (max-width: 767px) {
-				min-width: auto;
-				width: 100%;
-			}
 			.wrapItems {
 				display: flex;
 				flex-wrap: wrap;
@@ -58,11 +56,10 @@
 						font-size: 2.4rem;
 						font-weight: bold;
 						color: #70c438;
-						line-height: 1.6em;
-						letter-spacing: 1px;
-						padding-bottom: 14px;
+						letter-spacing: 0.1em;
+						padding-bottom: 20px;
 						border-bottom: solid 1px #dedede;
-						margin-bottom: 14px;
+						margin-bottom: 20px;
 					}
 					dd {
 						p.ttl {
@@ -102,6 +99,62 @@
 				}
 				.item:nth-child(2n) {
 					margin-right: 0;
+				}
+			}
+		}
+	}
+
+	@include mobile {
+		.title {
+			padding: vw(40) 0 vw(100);
+			.inner {
+				h2 {
+					font-size: 2.4rem;
+					padding-bottom: vw(15);
+					&::after {
+						width: vw(60);
+						height: 3px;
+					}
+				}
+			}
+		}
+		.content {
+			font-size: 1.4rem;
+			.inner {
+				min-width: auto;
+				width: 100%;
+				padding: 0 vw(20);
+				.wrapItems {
+					margin-top: vw(-60);
+					padding-bottom: vw(30);
+					dl {
+						box-shadow: vw(3) vw(3) vw(10) rgba(0,0,0,0.3);
+						padding: vw(30) vw(20) vw(25);
+						dt {
+							font-size: 1.8rem;
+							padding-bottom: vw(15);
+							margin-bottom: vw(15);
+						}
+						dd {
+							p.ttl {
+								text-align: left;
+							}
+						}
+						&::before {
+							width: vw(36);
+							height: vw(36);
+							font-size: 1.8rem;
+							top: vw(-10);
+							left: vw(-10);
+						}
+					}
+					.item {
+						width: 100%;
+						margin: 0 0 vw(20) 0;
+					}
+					.item:last-child {
+						margin-bottom: 0;
+					}
 				}
 			}
 		}
