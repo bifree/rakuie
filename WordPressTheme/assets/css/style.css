@@ -1218,6 +1218,7 @@ select {
 
 .contact .contact__content .contact__form {
 	color: #333;
+	line-height: 22.4px;
 }
 
 .contact .contact__content .contact__form th,
@@ -1237,6 +1238,24 @@ select {
 	width: 20%;
 }
 
+.contact .contact__content .contact__form th .mandatory {
+	color: #fff;
+	position: relative;
+}
+
+.contact .contact__content .contact__form th .mandatory:after {
+	background: #DE7067;
+	border-radius: 2px;
+	bottom: -1px;
+	color: #fff;
+	content: "必須";
+	font-size: 1.1rem;
+	line-height: 1;
+	padding: 2px;
+	position: absolute;
+	right: -28px;
+}
+
 .contact .contact__content .contact__form td {
 	border: solid 1px #cdcdcd;
 	border-radius: 2px;
@@ -1245,13 +1264,12 @@ select {
 
 .contact .contact__content .contact__form td .contact__form__caution {
 	color: #009900;
-	line-height: 1.6;
 }
 
 .contact .contact__content .contact__form td input[type="text"] {
 	border: solid 1px #767676;
 	color: #333;
-	line-height: 1.4;
+	line-height: 19.6px;
 	padding: 5px;
 	width: 100%;
 }
@@ -1260,12 +1278,37 @@ select {
 	border: solid 1px #000;
 }
 
+.contact .contact__content .contact__form td .mwform-radio-field-text,
+.contact .contact__content .contact__form td .mwform-checkbox-field-text {
+	line-height: 22.4px;
+	padding-right: 0;
+}
+
+.contact .contact__content .contact__form td label {
+	border: dotted 1px #FFCE3C;
+	border-radius: 3px;
+	line-height: 22.4px;
+	margin-right: 10px;
+	padding: 8px 6px 6px;
+}
+
+.contact .contact__content .contact__form td label:hover {
+	background: #FFCE3C;
+}
+
+.contact .contact__content .contact__form td input[type="radio"]:checked + label {
+	background: #FFCE3C;
+}
+
 .contact .contact__content .contact__form td input[type="radio"] + span::before {
 	border: solid 1px #333;
 	border-radius: 50%;
 	height: 13px;
-	margin-right: 5px;
 	width: 13px;
+}
+
+.contact .contact__content .contact__form td input[type="radio"] + span:hover::after {
+	background: #fff;
 }
 
 .contact .contact__content .contact__form td input[type="radio"]:checked + span::before {
@@ -1281,19 +1324,48 @@ select {
 	z-index: 10;
 }
 
-.contact .contact__content .contact__form td .mwform-radio-field {
-	border: solid 1px #FFCE3C;
-	margin-right: 10px;
-	padding: 8px 2px 6px 6px;
+.contact .contact__content .contact__form td input[type="radio"]:checked + .mwform-radio-field-text {
+	color: #333;
 }
 
-.contact .contact__content .contact__form td input[type="radio"] + span:hover::after {
-	background: #fff;
+.contact .contact__content .contact__form td input[type="checkbox"] + span::before {
+	border: solid 1px #333;
+	border-radius: 3px;
+	height: 13px;
+	width: 13px;
 }
 
-.contact .contact__content .contact__form td select {
-	font-size: 1.4rem;
-	padding: 4px 25px 4px 4px;
+.contact .contact__content .contact__form td input[type="checkbox"] + span:hover::after {
+	background: rgba(255, 255, 255, 0);
+}
+
+.contact .contact__content .contact__form td input[type="checkbox"]:checked + span::before {
+	background: #2C77F6;
+	border: solid 1px #2C77F6;
+}
+
+.contact .contact__content .contact__form td input[type="checkbox"]:checked + span::after {
+	background: #2C77F6;
+	border-bottom: 2px solid #fff;
+	border-left: 2px solid #fff;
+	content: "";
+	height: 4px;
+	left: -4.5px;
+	margin-top: -5px;
+	position: absolute;
+	top: 50%;
+	transform: rotate(-45deg);
+	width: 8px;
+}
+
+.contact .contact__content .contact__form td input[type="checkbox"]:checked + .mwform-checkbox-field-text {
+	color: #333;
+}
+
+.contact .contact__content .contact__form td .error {
+	color: #B70000;
+	display: block;
+	font-size: 1.3rem;
 }
 
 .contact .contact__content .contact__form .confirm-btn {
