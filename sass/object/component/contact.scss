@@ -1,0 +1,178 @@
+.contact{
+  font-family:"游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+  box-sizing:border-box;
+
+  li{
+  list-style:none;
+  }
+
+
+  .contact__top{
+    height:300px;
+    position:relative;
+
+    .contact__top__text{
+      font-size:3.8rem;
+      font-family:noto-sans-cjk-jp,sans-serif;
+      font-weight: 400;
+      color:#111;
+      margin:0;
+      position:absolute;
+      top:calc(50% - 1.9rem);
+    }
+  }
+
+
+  .contact__navi{
+    margin:25px 0;
+    .contact__navi__list{
+      display:flex;
+      font-size:1.3rem;
+
+      a{
+        color:#EB5E00;
+      }
+    }
+  }
+
+
+  .contact__content{
+    padding:20px 0 30px;
+    
+    .contact__content__title{
+      font-size:3.2rem;
+      font-family:noto-sans-cjk-jp,sans-serif;
+      font-weight: 400;
+      position:relative;
+      text-align:center;
+      margin-bottom:25px;
+
+      &:after{
+        position: absolute;
+        bottom:calc(50% - 7px);
+        left: 0;
+        width: 100%;
+        height: 10px;
+        content: '';
+        background-image: -webkit-repeating-linear-gradient(135deg, #71C0CB,#71C0CB 1px, transparent 2px, transparent 5px);
+        background-image: repeating-linear-gradient(-45deg,#71C0CB,#71C0CB 1px, transparent 2px, transparent 5px);
+        background-size: 7px 7px;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+
+      span{
+        padding:0 25px;
+        background:#fff;
+        position:relative;
+        z-index:10;
+      }
+    }
+
+    .contact__content__sub-title{
+      font-size:2.4rem;
+      color:#fff;
+      background:#eb5e00;
+      border-left:solid 6px #ff8748;
+      padding:13px 20px;
+      margin-bottom:25px;
+      font-family:noto-sans-cjk-jp,sans-serif;
+      font-weight:400;
+    }
+
+    .contact__form{
+      color:#333;
+
+      th,td{
+        padding:12px;
+        font-size:1.4rem;
+        text-align:left;
+      }
+
+      th{
+        background:#ff8748;
+        color:#fff;
+        font-weight:bold;
+        width:20%;
+        border:1px solid #ff8748;
+        border-right-color: #fff;
+        border-bottom-color: #fff;
+      }
+
+      td{
+        width:80%;
+        border:solid 1px #cdcdcd;
+        border-radius:2px;
+
+        .contact__form__caution{
+          color:#009900;
+          line-height:1.6;
+        }
+
+        input[type="text"],{
+          padding:5px;
+          border:solid 1px #767676;
+          width:100%;
+          color:#333;
+          line-height:1.4;
+
+          &:hover{
+            border:solid 1px #000;
+          }
+        }
+
+
+        input[type="radio"] + span::before{
+          width:13px;
+          height:13px;
+          margin-right:5px;
+          border:solid 1px #333;
+          border-radius:50%;
+        }
+
+        input[type="radio"]:checked + span::before{
+          border:solid 1px #2C77F6;
+        }
+        
+        input[type="radio"]:checked + span::after{
+          background:#2C77F6;
+          width:9px;
+          height:9px;
+          left:-4.5px;
+          margin-top:-5px;
+          z-index:10;
+        }
+
+        .mwform-radio-field{
+          border:solid 1px #FFCE3C;
+          padding:8px 2px 6px 6px;
+          margin-right:10px;
+        }
+
+        input[type="radio"] + span:hover::after{
+          background:#fff;
+        }
+
+        select{
+          font-size:1.4rem;
+          padding:4px 25px 4px 4px;  
+        }
+      }
+
+      .confirm-btn{
+        width:290px;
+        height:60px;
+        font-size:1.6rem;
+        color:#fff;
+        background:#EB5E00;
+        font-family:noto-sans-cjk-jp,sans-serif;
+        font-weight:400;
+        margin:20px 390px;
+        text-align:center;
+        align-items:center;
+        padding:10px 25px;
+        border:solid 1px #EB5E00;
+      }
+    }
+  }
+}
