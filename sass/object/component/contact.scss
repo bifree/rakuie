@@ -82,6 +82,7 @@
 
     .contact__form{
       color:#333;
+      line-height:22.4px;
 
       th,td{
         padding:12px;
@@ -97,6 +98,24 @@
         border:1px solid #ff8748;
         border-right-color: #fff;
         border-bottom-color: #fff;
+
+        .mandatory{
+          color:#fff;
+          position:relative;
+
+          &:after{
+            content:"必須";
+            font-size:1.1rem;
+            line-height:1;
+            color:#fff;
+            padding:2px;
+            background:#DE7067;
+            position:absolute;
+            right:-28px;
+            bottom:-1px;
+            border-radius:2px;
+          }
+        }
       }
 
       td{
@@ -106,28 +125,52 @@
 
         .contact__form__caution{
           color:#009900;
-          line-height:1.6;
         }
 
-        input[type="text"],{
+        input[type="text"]{
           padding:5px;
           border:solid 1px #767676;
           width:100%;
           color:#333;
-          line-height:1.4;
+          line-height:19.6px;
 
           &:hover{
             border:solid 1px #000;
           }
         }
 
+        .mwform-radio-field-text,
+        .mwform-checkbox-field-text{
+          padding-right:0;
+          line-height:22.4px;
+        }
+
+        label{
+          border:dotted 1px #FFCE3C;
+          border-radius:3px;
+          padding:8px 6px 6px;
+          margin-right:10px;
+          line-height:22.4px;
+        }
+
+        label:hover{
+          background:#FFCE3C;
+        }
+
+        input[type="radio"]:checked + label{
+          background:#FFCE3C;
+        }
+
 
         input[type="radio"] + span::before{
           width:13px;
           height:13px;
-          margin-right:5px;
           border:solid 1px #333;
           border-radius:50%;
+        }
+
+        input[type="radio"] + span:hover::after{
+          background:#fff;
         }
 
         input[type="radio"]:checked + span::before{
@@ -142,21 +185,52 @@
           margin-top:-5px;
           z-index:10;
         }
-
-        .mwform-radio-field{
-          border:solid 1px #FFCE3C;
-          padding:8px 2px 6px 6px;
-          margin-right:10px;
+ 
+        input[type="radio"]:checked +  .mwform-radio-field-text{
+          color:#333;
         }
 
-        input[type="radio"] + span:hover::after{
-          background:#fff;
+
+        input[type="checkbox"] + span::before{
+          width:13px;
+          height:13px;
+          border:solid 1px #333;
+          border-radius:3px;
         }
 
-        select{
-          font-size:1.4rem;
-          padding:4px 25px 4px 4px;  
+        input[type="checkbox"] + span:hover::after{
+          background:rgba(255,255,255,0);
         }
+
+        input[type="checkbox"]:checked + span::before{
+          border:solid 1px #2C77F6;
+          background:#2C77F6;
+        }
+        
+        input[type="checkbox"]:checked + span::after{
+          content: "";
+          position: absolute;
+          width:8px;
+          height:4px;
+          margin-top: -5px;
+          top: 50%;
+          left:-4.5px;
+          transform: rotate(-45deg);
+          border-bottom: 2px solid #fff;
+          border-left: 2px solid #fff;
+          background:#2C77F6
+          
+        }
+
+        input[type="checkbox"]:checked +  .mwform-checkbox-field-text{
+          color:#333;
+        }
+      
+        .error{
+          font-size:1.3rem;
+          color:#B70000;
+          display:block;
+        }  
       }
 
       .confirm-btn{
