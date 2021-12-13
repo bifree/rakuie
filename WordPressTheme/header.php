@@ -50,7 +50,7 @@
               </li>
             </ul>
           </div>
-          <div class="c-hamburger js-hamburger" role="button">
+          <div class="c-hamburger js-hamburger is_sp" role="button">
             <span></span>
             <span></span>
             <span></span>

@@ -163,5 +163,20 @@
 		<div class="rakuie-map">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420125.9754026142!2d135.24020243281248!3d34.64878830000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f0.2!3m3!1m2!1s0x6000ddb7145b1b6d%3A0x8d0ec4ee45879a2a!2z5qCq5byP5Lya56S-44Op44Kv44Kk44Ko!5e0!3m2!1sja!2sjp!4v1639232120303!5m2!1sja!2sjp" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 		</div>
+		<p id="homebanner">
+			<span class="text_wide">
+				今すぐ無料査定
+			</span>
+			<span class="img_wide">
+				<a href="">
+					無料査定
+				</a>
+			</span>
+			<span class="img_wide">
+				<a href="">
+					LINEで相談する
+				</a>
+			</span>
+		</p>
 	</main>
 <?php get_footer(); ?>
