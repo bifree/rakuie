@@ -7,7 +7,7 @@
 	</div> -->
 	<main id="main">
 		<div class="container">
-			<div class="rakuie-omakase">
+			<div class="rakuie-omakase js-inview">
 				<h2>相続不動産の売却は<br>ラクイエにお任せください</h2>
 				<p>『司法書士・行政書士・宅地建物取引士・相続診断士』の<br class="is_pc"><strong>専門資格の連携</strong>で<br class="is_pc">多様な相続不動産のケースにご対応が可能です。</p>
 				<p>相続には時として、さまざまな専門家の力が必要になります。<br>
@@ -27,7 +27,7 @@
 			</div>
 			<div class="content">
 				<div class="inner">
-					<div class="wrapItems">
+					<div class="wrapItems js-inview">
 						<dl class="item">
 							<dt>各所への相談がラクイエで完結</dt>
 							<dd>
@@ -67,7 +67,7 @@
 		<div class="container">
 			<div class="rakuie-baikyaku">
 				<h2>売却までの流れ</h2>
-				<ol>
+				<ol class="js-inview">
 					<li>
 						<span>STEP<em>01</em></span>
 						<dl>
@@ -109,28 +109,7 @@
 				</nav>
 			</div>
 		</div>
-		<!-- <div class="third-box">
-			<div class="title">
-				<div class="inner">
-					<h2>ラクイエのうれしい無料特典</h2>
-				</div>
-			</div>
-			<div class="content">
-				<div class="inner">
-					<ul class="wrapItems">
-						<li>相続登記、名義変更や遺産分割の相談</li>
-						<li>不動産税金、相続税の相談</li>
-						<li>家の片付け／処分の見積もり</li>
-						<li>家の片付け／処分の見積もり</li>
-						<li>解体、測量のお見積もり</li>
-						<li>不動産現地調査、役所調査</li>
-						<li>不動産査定書作成</li>
-						<li>相続の窓口として一括相談</li>
-					</ul>
-				</div>
-			</div>
-		</div> -->
-		<div class="rakuie-ceo">
+		<div class="rakuie-ceo js-inview">
 			<div class="inner">
 				<p>『安心・安全な不動産取引』をお約束<br>すべてのご家族に<br class="is_sp">笑顔と幸せをお届けします！</p>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/card.jpg" alt="" class="is_pc">
@@ -138,7 +117,7 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="blogs-box">
+			<div class="blogs-box js-inview">
 				<div class="top_blog">
 					<div class="ttl-Box">
 						<p class="ttl">社長ブログ</p>

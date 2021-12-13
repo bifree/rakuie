@@ -60,3 +60,9 @@ let mySwiper = new Swiper ('.swiper-container', {
     slidesPerView: 'auto',
     spaceBetween: 0,
 });
+
+$(function () {
+    $(".js-inview").on("inview", function () {
+        $(this).addClass("is-inview");
+    });
+});

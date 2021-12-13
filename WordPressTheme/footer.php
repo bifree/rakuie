@@ -25,7 +25,8 @@
 	<address>Copyright &copy; 株式会社ラクイエ all rights reserved.</address>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.mCustomScrollbar.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.scroll.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.inview.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>

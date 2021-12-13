@@ -5,6 +5,16 @@
 	padding: 100px 60px 60px;
 	border: 2px solid #e45213;
 	position: relative;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(20px);
+	transition: 0.7s ease;
+	transition-delay: 0.3s;
+	&.is-inview {
+		opacity: 1;
+		visibility: visible;
+		transform: translateY(0);
+	}
 	h2 {
 		position: absolute;
 		top: -55px;

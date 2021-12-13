@@ -4,6 +4,16 @@
 	padding: 100px 0;
 	display: flex;
 	justify-content: space-between;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(20px);
+	transition: 0.7s ease;
+	transition-delay: 0.3s;
+	&.is-inview {
+		opacity: 1;
+		visibility: visible;
+		transform: translateY(0);
+	}
 	.top_blog {
 		width: calc((100% - 40px) / 2);
 		// border: 1px solid #dcdddd;

@@ -3,6 +3,13 @@
 	padding: 80px;
 }
 
+.rakuie-ceo.is-inview .inner p,
+.rakuie-ceo.is-inview .inner img {
+	opacity: 1;
+	transform: translateY(0);
+	visibility: visible;
+}
+
 .rakuie-ceo .inner {
 	margin: 0 auto;
 	text-align: center;
@@ -15,9 +22,14 @@
 	font-weight: bold;
 	line-height: 1.5em;
 	margin-bottom: 40px;
+	opacity: 0;
 	padding: 0 30px;
 	position: relative;
 	text-align: center;
+	transform: translateY(20px);
+	transition: 0.7s ease;
+	transition-delay: 0.3s;
+	visibility: hidden;
 }
 
 .rakuie-ceo .inner p::before,
@@ -43,6 +55,11 @@
 
 .rakuie-ceo .inner img {
 	display: block;
+	opacity: 0;
+	transform: translateY(20px);
+	transition: 0.7s ease;
+	transition-delay: 0.5s;
+	visibility: hidden;
 	width: 100%;
 }
 

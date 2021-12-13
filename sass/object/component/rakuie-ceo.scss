@@ -3,6 +3,12 @@
 .rakuie-ceo {
 	padding: 80px;
 	background: #efefef;
+	&.is-inview .inner p,
+	&.is-inview .inner img {
+		opacity: 1;
+		visibility: visible;
+		transform: translateY(0);
+	}
 	.inner {
 		width: 1120px;
 		margin: 0 auto;
@@ -16,6 +22,11 @@
 			line-height: 1.5em;
 			text-align: center;
 			position: relative;
+			opacity: 0;
+			visibility: hidden;
+			transform: translateY(20px);
+			transition: 0.7s ease;
+			transition-delay: 0.3s;
 			&::before,
 			&::after {
 				content: '';
@@ -38,6 +49,11 @@
 		img {
 			display: block;
 			width: 100%;
+			opacity: 0;
+			visibility: hidden;
+			transform: translateY(20px);
+			transition: 0.7s ease;
+			transition-delay: 0.5s;
 		}
 	}
 

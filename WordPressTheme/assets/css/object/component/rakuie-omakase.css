@@ -1,8 +1,19 @@
 .rakuie-omakase {
 	border: 2px solid #e45213;
 	margin: 130px 0 80px;
+	opacity: 0;
 	padding: 100px 60px 60px;
 	position: relative;
+	transform: translateY(20px);
+	transition: 0.7s ease;
+	transition-delay: 0.3s;
+	visibility: hidden;
+}
+
+.rakuie-omakase.is-inview {
+	opacity: 1;
+	transform: translateY(0);
+	visibility: visible;
 }
 
 .rakuie-omakase h2 {
