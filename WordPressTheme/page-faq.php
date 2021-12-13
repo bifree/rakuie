@@ -2,7 +2,9 @@
 
 <main class="faq">
   <div class="faq__top">
-    <h2 class="faq__top__title">よくある質問</h2>
+    <div class="container">
+      <h2 class="faq__top__title">よくある質問</h2>
+    </div>
   </div>
   <div class="container">
     <dl class="faq-inner">

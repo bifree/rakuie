@@ -1696,166 +1696,6 @@ select {
 	width: 290px;
 }
 
-.faq .faq__top {
-	height: 300px;
-	position: relative;
-}
-
-.faq .faq__top .faq__top__title {
-	color: #111;
-	font-size: 3.8rem;
-	font-weight: 400;
-	margin: 0;
-	position: absolute;
-	top: calc(50% - 1.9rem);
-}
-
-.faq .container {
-	width: 1120px;
-}
-
-.faq-inner {
-	margin: 0 auto;
-	width: 80%;
-}
-
-.faq-inner h3 {
-	background: url(../images/under_bg_h3.jpg) repeat-x center center;
-	background: #fff100;
-	color: #000000;
-	font-size: 32px;
-	margin-bottom: 40px;
-	padding: 1rem 2rem calc(1rem + 10px);
-	position: relative;
-	text-align: center;
-}
-
-.faq-inner h3 span {
-	display: inline-block;
-	padding: 0 25px;
-}
-
-.faq-inner h3:before {
-	border: 4px solid #000;
-	content: '';
-	height: 100%;
-	left: -8px;
-	position: absolute;
-	top: -8px;
-	width: 100%;
-}
-
-.faq-inner .intro {
-	margin-bottom: 60px;
-}
-
-.faq-inner .intro p {
-	font-size: 1.4rem;
-	line-height: 1.7;
-}
-
-.faq-inner .question {
-	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-	margin-bottom: 30px;
-}
-
-.faq-inner .question .question_outer {
-	display: flex;
-	margin-top: 15px auto 0 auto;
-	padding: 10px;
-	position: relative;
-}
-
-.faq-inner .question .question_outer .ques {
-	box-sizing: border-box;
-	font-size: 2rem;
-	margin: 10px 0;
-	padding: 5px 5px;
-}
-
-.faq-inner .question .question_inner {
-	background-color: white;
-	display: flex;
-	padding: 10px;
-	position: relative;
-}
-
-.faq-inner .question .question_inner .answer {
-	color: white;
-	color: black;
-	font-size: 1.4rem;
-	letter-spacing: 0.1em;
-	line-height: 1.7;
-	margin: 0 auto;
-	max-width: 90%;
-}
-
-.faq-inner .grad-wrap + .grad-wrap {
-	margin-top: 40px;
-}
-
-.faq-inner .grad-trigger.fa {
-	margin-right: .5em;
-}
-
-.faq-inner .grad-item {
-	display: flex;
-	overflow: hidden;
-	position: relative;
-}
-
-.faq-inner .grad-item.is-hide {
-	height: 40px;
-}
-
-.faq-inner .grad-item::before {
-	background: linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 50%);
-	bottom: 0;
-	content: "";
-	display: block;
-	height: 40px;
-	left: 0;
-	position: absolute;
-	width: 100%;
-}
-
-.faq-inner .grad-trigger.is-show {
-	bottom: -2em;
-}
-
-.faq-inner .grad-trigger.is-show::after {
-	content: "閉じる";
-}
-
-.faq-inner .grad-trigger.is-show + .grad-item::before {
-	display: none;
-}
-
-.icon {
-	align-items: center;
-	border-radius: 1000px;
-	color: #fff;
-	display: flex;
-	flex: none;
-	font-family: 'Lato', sans-serif;
-	font-size: 1.875rem;
-	font-weight: 700;
-	height: 4.375rem;
-	justify-content: center;
-	letter-spacing: 0;
-	line-height: 1;
-	margin-right: 3rem;
-	width: 4.375rem;
-}
-
-.icon_q {
-	background-color: #e45213;
-}
-
-.icon_a {
-	background-color: #70c438;
-}
-
 .rakuie-baikyaku {
 	margin: 80px 0;
 }
@@ -2110,23 +1950,221 @@ select {
 	margin: 0 0.3em;
 }
 
+.faq .faq__top {
+	background-image: url(../img/faq_bg.jpg);
+	background-position-y: center;
+	background-size: 100%;
+	height: 300px;
+	position: relative;
+}
+
+.faq .faq__top .container {
+	margin-top: 0 !important;
+	width: 1120px;
+}
+
+.faq .faq__top .container .faq__top__title {
+	color: #FFF;
+	font-size: 3.8rem;
+	font-weight: 900;
+	margin: 0;
+	position: absolute;
+	top: calc(50% - 1.9rem);
+	z-index: 999;
+}
+
+.faq .faq__top::after {
+	background: rgba(0, 0, 0, 0.4);
+	bottom: 0;
+	content: ' ';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 99;
+}
+
+.container {
+	margin-top: 60px;
+	width: 1120px;
+}
+
+.faq-inner {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.faq-inner h3 {
+	background: url(../images/under_bg_h3.jpg) repeat-x center center;
+	background: #fff100;
+	color: #000000;
+	font-size: 32px;
+	margin-bottom: 40px;
+	padding: 1rem 2rem calc(1rem + 10px);
+	position: relative;
+	text-align: center;
+}
+
+.faq-inner h3 span {
+	display: inline-block;
+	padding: 0 25px;
+}
+
+.faq-inner h3:before {
+	border: 4px solid #000;
+	content: '';
+	height: 100%;
+	left: -8px;
+	position: absolute;
+	top: -8px;
+	width: 100%;
+}
+
+.faq-inner .intro {
+	margin-bottom: 60px;
+}
+
+.faq-inner .intro p {
+	font-size: 1.4rem;
+	line-height: 1.7;
+}
+
+.faq-inner .question {
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 30px;
+}
+
+.faq-inner .question .question_outer {
+	display: flex;
+	margin-top: 15px auto 0 auto;
+	padding: 20px;
+	position: relative;
+}
+
+.faq-inner .question .question_outer .ques {
+	box-sizing: border-box;
+	font-size: 2rem;
+	margin: 10px 0;
+	padding: 5px 5px;
+}
+
+.faq-inner .question .question_inner {
+	background-color: white;
+	display: flex;
+	padding: 20px;
+	position: relative;
+}
+
+.faq-inner .question .question_inner .answer {
+	color: white;
+	color: black;
+	font-size: 1.4rem;
+	letter-spacing: 0.1em;
+	line-height: 1.7;
+	margin: 0 auto;
+	max-width: 90%;
+}
+
+.faq-inner .grad-wrap + .grad-wrap {
+	margin-top: 40px;
+}
+
+.faq-inner .grad-trigger.fa {
+	margin-right: .5em;
+}
+
+.faq-inner .grad-item {
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
+
+.faq-inner .grad-item.is-hide {
+	height: 40px;
+}
+
+.faq-inner .grad-item::before {
+	background: linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 50%);
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 40px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.faq-inner .grad-trigger.is-show {
+	bottom: -2em;
+}
+
+.faq-inner .grad-trigger.is-show::after {
+	content: "閉じる";
+}
+
+.faq-inner .grad-trigger.is-show + .grad-item::before {
+	display: none;
+}
+
+.icon {
+	align-items: center;
+	border-radius: 1000px;
+	color: #fff;
+	display: flex;
+	flex: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.875rem;
+	font-weight: 700;
+	height: 4.375rem;
+	justify-content: center;
+	letter-spacing: 0;
+	line-height: 1;
+	margin-right: 3rem;
+	width: 4.375rem;
+}
+
+.icon_q {
+	background-color: #e45213;
+}
+
+.icon_a {
+	background-color: #70c438;
+}
+
 .service p {
 	font-size: 1.4rem;
 	line-height: 1.7;
 }
 
 .service .service__top {
+	background-image: url(../img/service_bg.jpg);
+	background-position-y: center;
+	background-size: 100%;
 	height: 300px;
+	height: 300px;
+	position: relative;
 	position: relative;
 }
 
 .service .service__top h2 {
-	color: #111;
+	color: #FFF;
 	font-size: 3.8rem;
-	font-weight: 400;
+	font-weight: 900;
 	margin: 0;
 	position: absolute;
 	top: calc(50% - 1.9rem);
+	z-index: 999;
+}
+
+.service .service__top::after {
+	background: rgba(0, 0, 0, 0.4);
+	bottom: 0;
+	content: ' ';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 99;
 }
 
 .service .container {
@@ -2139,6 +2177,7 @@ select {
 	color: #000000;
 	font-size: 32px;
 	margin-bottom: 40px;
+	margin-top: 60px;
 	padding: 1rem 2rem calc(1rem + 10px);
 	position: relative;
 	text-align: center;
