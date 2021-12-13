@@ -6,7 +6,7 @@
       <h2 class="faq__top__title">よくある質問</h2>
     </div>
   </div>
-  <div class="container">
+  <div class="faq-container">
     <dl class="faq-inner">
       <h3><span>相続不動産売却に関するQ&A</span></h3>
       <div class="intro">
