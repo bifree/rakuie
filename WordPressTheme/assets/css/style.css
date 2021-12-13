@@ -1394,6 +1394,47 @@ select {
 	transform: translateZ(0);
 }
 
+.blogs-box .top_blog .news-list__outline {
+	border-bottom: 1px solid #ccc;
+	padding: 15px 0;
+}
+
+.blogs-box .top_blog .news-list__outline .news-list__left {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.blogs-box .top_blog .news-list__outline .news-list__left .post-date {
+	font-size: 1.4rem;
+}
+
+.blogs-box .top_blog .news-list__outline .news-list__left .list-title {
+	font-size: 1.6rem;
+	font-weight: 700;
+	margin: 8px 0;
+	width: 100%;
+}
+
+.blogs-box .top_blog .news-list__outline .news-list__left .list-title a {
+	text-decoration: none;
+}
+
+.blogs-box .top_blog .news-list__outline .post-categories a {
+	background: #e45213;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.3rem;
+	margin-right: 10px;
+	padding: 2px 5px 3px;
+	text-decoration: none;
+}
+
+.blogs-box .top_blog .news-list__outline .news-list__right p {
+	font-size: 1.4rem;
+	line-height: 1.4em;
+}
+
 .contact {
 	box-sizing: border-box;
 	font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
@@ -2214,6 +2255,7 @@ a:hover {
 
 body {
 	min-width: auto;
+	padding-bottom: 20.25867vw;
 	padding-top: 16vw !important;
 	width: 100%;
 }
@@ -2593,6 +2635,19 @@ body {
 
 .blogs-box .top_blog .scroll_box {
 	height: 100vw;
+}
+
+.blogs-box .top_blog .news-list__outline {
+	padding: 4vw 0;
+}
+
+.blogs-box .top_blog .news-list__outline .news-list__left .list-title {
+	margin: 2.13333vw 0;
+}
+
+.blogs-box .top_blog .news-list__outline .post-categories a {
+	margin-right: 2.66667vw;
+	padding: 0.53333vw 1.33333vw 0.8vw;
 }
 
 .rakuie-baikyaku {
