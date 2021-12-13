@@ -103,16 +103,16 @@
 	@include mobile {
 		padding: vw(30) vw(20);
 		&__pagetop {
-			width: vw(45);
-			height: vw(45);
-			bottom: vw(15);
-			right: vw(15);
+			width: vw(40);
+			height: vw(40);
+			bottom: vw(85);
+			right: vw(10);
 			transform: translateX(0);
 			&::after {
-				width: vw(16);
-				height: vw(16);
-				border-top: 4px solid #fff;
-				border-left: 4px solid #fff;
+				width: vw(12);
+				height: vw(12);
+				border-top: 3px solid #fff;
+				border-left: 3px solid #fff;
 				top: calc(50% + 4px);
 			}
 		}
@@ -126,9 +126,10 @@
 				display: block;
 				margin-bottom: vw(20);
 				.logo {
-					height: vw(60);
+					height: vw(46);
 					margin-right: 0;
 					margin-bottom: vw(10);
+					text-align: center;
 				}
 				dd {
 					text-align: center;
