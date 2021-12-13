@@ -7,7 +7,9 @@
 	width: 600px;
 	margin-bottom: 0;
 	padding: 5px;
-	bottom: -160px;
+	bottom: 20px;
+	opacity: 0;
+	visibility: hidden;
 	transition: all 0.5s;
 	flex-wrap: wrap;
 	display: flex;
@@ -84,7 +86,14 @@
 	}
 }
 #homebanner.show {
-	bottom: 20px;
+	opacity: 1;
+	visibility: visible;
+}
+.is-footer {
+	#homebanner.show {
+		opacity: 0;
+		visibility: hidden;
+	}	
 }
 
 @include mobile {

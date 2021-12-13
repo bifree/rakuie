@@ -103,3 +103,9 @@ $(function () {
         $(this).addClass("is-inview");
     });
 });
+
+if (deviceType === 'lg') {
+    $(window).on("scroll", function(){
+        $(".l-header").css("left", -$(window).scrollLeft());
+    });
+}
