@@ -41,11 +41,11 @@
 		.inner {
 			width: 1120px;
 			margin: 0 auto;
+			padding: 0 30px 40px;
 			.wrapItems {
 				display: flex;
 				flex-wrap: wrap;
 				margin-top: -100px;
-				padding-bottom: 40px;
 				&.is-inview dl {
 					opacity: 1;
 					visibility: visible;

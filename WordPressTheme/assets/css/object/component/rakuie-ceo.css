@@ -1,6 +1,6 @@
 .rakuie-ceo {
 	background: #efefef;
-	padding: 80px;
+	padding: 80px 30px;
 }
 
 .rakuie-ceo.is-inview .inner p,
@@ -13,7 +13,7 @@
 .rakuie-ceo .inner {
 	margin: 0 auto;
 	text-align: center;
-	width: 1120px;
+	width: 1060px;
 }
 
 .rakuie-ceo .inner p {

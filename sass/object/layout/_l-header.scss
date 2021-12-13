@@ -4,9 +4,9 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 100%;
 	z-index: 999;
 	width: 100%;
+	min-width: 1120px;
 	background: #fff;
 	transition: 0.5s ease;
 	a {
@@ -24,6 +24,7 @@
 			.inner {
 				width: 1120px;
 				margin: 0 auto;
+				padding: 0 30px;
 			}
 		}
 		.containerMiddle {
@@ -32,6 +33,7 @@
 			.inner {
 				width: 1120px;
 				margin: 0 auto;
+				padding: 0 30px;
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
@@ -189,20 +191,18 @@
 		}
 	}
 	@include mobile {
+		min-width: inherit;
 		height: vw(60);
 		.header-wrapper {
 			.containerTop {
 				display: none;
-				.inner {
-					min-width: auto;
-					width: 100%;
-				}
 			}
 			.containerMiddle {
 				padding: vw(10);
 				.inner {
 					min-width: auto;
 					width: 100%;
+					padding: 0;
 					.box-left {
 						.logo {
 							height: vw(40);

@@ -558,6 +558,7 @@ select {
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
+	padding: 0 30px;
 	width: 1120px;
 }
 
@@ -594,12 +595,12 @@ select {
 
 .l-footer .inner .box-right li {
 	margin-bottom: 10px;
-	margin-left: 25px;
+	margin-left: 20px;
 }
 
 .l-footer .inner .box-right li a {
 	display: block;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	font-weight: bold;
 	padding-left: 16px;
 	position: relative;
@@ -632,10 +633,10 @@ select {
 .l-header {
 	background: #fff;
 	left: 0;
+	min-width: 1120px;
 	position: fixed;
 	top: 0;
 	transition: 0.5s ease;
-	width: 100%;
 	width: 100%;
 	z-index: 999;
 }
@@ -656,6 +657,7 @@ select {
 
 .l-header .header-wrapper .containerTop .inner {
 	margin: 0 auto;
+	padding: 0 30px;
 	width: 1120px;
 }
 
@@ -669,6 +671,7 @@ select {
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
+	padding: 0 30px;
 	width: 1120px;
 }
 
@@ -974,6 +977,7 @@ select {
 
 .container {
 	margin: 0 auto;
+	padding: 0 30px;
 	width: 1120px;
 }
 
@@ -984,15 +988,17 @@ select {
 #homebanner {
 	background-color: #FFF;
 	border: 1px solid #eb5e00;
-	bottom: -160px;
+	bottom: 20px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	left: calc(50% - 300px);
 	margin-bottom: 0;
+	opacity: 0;
 	padding: 5px;
 	position: fixed;
 	transition: all 0.5s;
+	visibility: hidden;
 	width: 600px;
 	z-index: 999;
 }
@@ -1072,7 +1078,13 @@ select {
 }
 
 #homebanner.show {
-	bottom: 20px;
+	opacity: 1;
+	visibility: visible;
+}
+
+.is-footer #homebanner.show {
+	opacity: 0;
+	visibility: hidden;
 }
 
 .lp-top .lp-top__cp {
@@ -1151,6 +1163,7 @@ select {
 
 .second-box .content .inner {
 	margin: 0 auto;
+	padding: 0 30px 40px;
 	width: 1120px;
 }
 
@@ -1158,7 +1171,6 @@ select {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: -100px;
-	padding-bottom: 40px;
 }
 
 .second-box .content .inner .wrapItems.is-inview dl {
@@ -1822,7 +1834,7 @@ select {
 
 .rakuie-ceo {
 	background: #efefef;
-	padding: 80px;
+	padding: 80px 30px;
 }
 
 .rakuie-ceo.is-inview .inner p,
@@ -1835,7 +1847,7 @@ select {
 .rakuie-ceo .inner {
 	margin: 0 auto;
 	text-align: center;
-	width: 1120px;
+	width: 1060px;
 }
 
 .rakuie-ceo .inner p {
@@ -2400,15 +2412,11 @@ body {
 
 .l-header {
 	height: 16vw;
+	min-width: inherit;
 }
 
 .l-header .header-wrapper .containerTop {
 	display: none;
-}
-
-.l-header .header-wrapper .containerTop .inner {
-	min-width: auto;
-	width: 100%;
 }
 
 .l-header .header-wrapper .containerMiddle {
@@ -2417,6 +2425,7 @@ body {
 
 .l-header .header-wrapper .containerMiddle .inner {
 	min-width: auto;
+	padding: 0;
 	width: 100%;
 }
 

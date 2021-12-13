@@ -1,7 +1,7 @@
 @import '../../function/mixins';
 
 .rakuie-ceo {
-	padding: 80px;
+	padding: 80px 30px;
 	background: #efefef;
 	&.is-inview .inner p,
 	&.is-inview .inner img {
@@ -10,7 +10,7 @@
 		transform: translateY(0);
 	}
 	.inner {
-		width: 1120px;
+		width: 1060px;
 		margin: 0 auto;
 		text-align: center;
 		p {
