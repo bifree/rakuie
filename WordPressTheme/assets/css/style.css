@@ -2198,12 +2198,12 @@ body {
 }
 
 .main-views {
-	height: 160vw;
+	height: 200vw;
 }
 
 .main-views .swiper-container .swiper-slide {
 	min-width: auto;
-	width: 100%;
+	width: 100% !important;
 }
 
 .second-box {
