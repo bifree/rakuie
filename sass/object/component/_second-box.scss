@@ -1,7 +1,11 @@
 @import '../../function/mixins';
 
 .second-box {
-	background: url('../img/mv1.jpg') center bottom / cover no-repeat;
+	background-image: url('../img/mv1.jpg');
+	background-size: auto 140%;
+  	background-position: center top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 	background-color:rgba(255,255,255,0.3);
 	background-blend-mode:lighten;
 	.title {
@@ -73,6 +77,7 @@
 					dd {
 						p.ttl {
 							line-height: 1.5;
+							font-weight: 500;
 						}
 					}
 					&::before {
@@ -126,6 +131,7 @@
 	}
 
 	@include mobile {
+		background-position: left 30% top;
 		.title {
 			padding: vw(40) 0 vw(100);
 			.inner {

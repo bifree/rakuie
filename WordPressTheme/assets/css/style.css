@@ -579,7 +579,7 @@ select {
 
 .l-footer .inner .box-left dd {
 	font-size: 1.4rem;
-	font-weight: bold;
+	font-weight: 500;
 	line-height: 1.5em;
 	white-space: nowrap;
 }
@@ -1055,9 +1055,13 @@ select {
 }
 
 .second-box {
-	background: url("../img/mv1.jpg") center bottom/cover no-repeat;
+	background-attachment: fixed;
 	background-blend-mode: lighten;
 	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url("../img/mv1.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: auto 140%;
 }
 
 .second-box .title {
@@ -1137,6 +1141,7 @@ select {
 }
 
 .second-box .content .inner .wrapItems dl dd p.ttl {
+	font-weight: 500;
 	line-height: 1.5;
 }
 
@@ -1877,6 +1882,7 @@ select {
 
 .rakuie-baikyaku ol li dl dd {
 	font-size: 1.6rem;
+	font-weight: 500;
 	line-height: 1.4em;
 	text-align: center;
 }
@@ -1985,7 +1991,7 @@ select {
 
 .rakuie-omakase p {
 	font-size: 2.4rem;
-	font-weight: bold;
+	font-weight: 500;
 	letter-spacing: 0.1em;
 	line-height: 2em;
 	margin-bottom: 30px;
@@ -1995,6 +2001,7 @@ select {
 .rakuie-omakase p strong {
 	background: linear-gradient(transparent 50%, #ffff01 50%);
 	font-size: 3.6rem;
+	font-weight: 700;
 	margin: 0 0.3em;
 }
 
@@ -2256,6 +2263,10 @@ body {
 .main-views .swiper-container .swiper-slide {
 	min-width: auto;
 	width: 100%;
+}
+
+.second-box {
+	background-position: left 30% top;
 }
 
 .second-box .title {
