@@ -19,7 +19,7 @@
 				</nav>
 			</div>
 		</div>
-		<div class="second-box">
+		<div class="second-box parallax">
 			<div class="title">
 				<div class="inner">
 					<h2>ラクイエに依頼する<br class="is_sp">4つのメリット</h2>

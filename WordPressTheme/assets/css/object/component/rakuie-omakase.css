@@ -37,7 +37,7 @@
 
 .rakuie-omakase p {
 	font-size: 2.4rem;
-	font-weight: bold;
+	font-weight: 500;
 	letter-spacing: 0.1em;
 	line-height: 2em;
 	margin-bottom: 30px;
@@ -47,6 +47,7 @@
 .rakuie-omakase p strong {
 	background: linear-gradient(transparent 50%, #ffff01 50%);
 	font-size: 3.6rem;
+	font-weight: 700;
 	margin: 0 0.3em;
 }
 
