@@ -17,10 +17,10 @@
 	}
 
 	@media screen and (max-width: 767px) {
-		height: 160vw;
+		height: vw(750);
 		.swiper-container .swiper-slide {
 			min-width: auto;
-			width: 100%;
+			width: 100%!important;
 		}
 	}
 }
