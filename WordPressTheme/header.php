@@ -33,7 +33,7 @@
         <div class="inner">
           <div class="box-left">
             <div class="logo">
-              <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="株式会社ラクイエ"></a>
+              <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="株式会社ラクイエ"></a>
             </div>
             <ul class="group-button">
               <li><span>幅広い広告戦略</span></li>

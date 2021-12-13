@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
 <main class="faq">
+  <div class="faq__top">
+    <h2 class="faq__top__title">よくある質問</h2>
+  </div>
   <div class="container">
-    <div class="faq__top">
-      <h2 class="faq__top__title">よくある質問</h2>
-    </div>
     <dl class="faq-inner">
       <h3><span>相続不動産売却に関するQ&A</span></h3>
       <div class="intro">
@@ -119,6 +119,9 @@
           </dd>
         </section>
     </dl>
+    <div class="contact-btn">
+      <h3>ご相談フォームはこちら</h3>
+    </div>
   </div>
 </main>
 

@@ -1590,16 +1590,12 @@ select {
 	width: 290px;
 }
 
-.faq .container {
-	width: 1120px;
-}
-
-.faq .container .faq__top {
+.faq .faq__top {
 	height: 300px;
 	position: relative;
 }
 
-.faq .container .faq__top .faq__top__title {
+.faq .faq__top .faq__top__title {
 	color: #111;
 	font-family: noto-sans-cjk-jp,sans-serif;
 	font-size: 3.8rem;
@@ -1607,6 +1603,10 @@ select {
 	margin: 0;
 	position: absolute;
 	top: calc(50% - 1.9rem);
+}
+
+.faq .container {
+	width: 1120px;
 }
 
 .faq-inner {
