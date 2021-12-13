@@ -148,12 +148,12 @@
 			</span>
 			<span class="img_wide">
 				<a href="">
-					無料査定
+					<span>無料査定</span>
 				</a>
 			</span>
 			<span class="img_wide">
 				<a href="">
-					LINEで相談する
+					<span>LINEで相談する</span>
 				</a>
 			</span>
 		</p>
