@@ -1624,20 +1624,33 @@ select {
 }
 
 .faq .faq__top {
+	background-image: url(../img/faq_bg.jpg);
+	background-position-y: center;
+	background-size: 100%;
 	height: 300px;
 	position: relative;
 }
 
-.faq .faq__top .faq__top__title {
-	color: #111;
+.faq .faq__top .container {
+	margin-top: 0 !important;
+	width: 1120px;
+}
+
+.faq .faq__top .container .faq__top__title {
+	color: #FFF;
 	font-size: 3.8rem;
-	font-weight: 400;
+	font-weight: 900;
 	margin: 0;
 	position: absolute;
 	top: calc(50% - 1.9rem);
 }
 
-.faq .container {
+.faq .faq__top::after {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.container {
+	margin-top: 60px;
 	width: 1120px;
 }
 
@@ -1689,7 +1702,7 @@ select {
 .faq-inner .question .question_outer {
 	display: flex;
 	margin-top: 15px auto 0 auto;
-	padding: 10px;
+	padding: 20px;
 	position: relative;
 }
 
@@ -1703,7 +1716,7 @@ select {
 .faq-inner .question .question_inner {
 	background-color: white;
 	display: flex;
-	padding: 10px;
+	padding: 20px;
 	position: relative;
 }
 
