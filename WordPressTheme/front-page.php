@@ -123,6 +123,33 @@
 						<p class="ttl">社長ブログ</p>
 					</div>
 					<div class="scroll_box">
+					<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+			$the_query = new WP_Query( array(
+					'post_status' => 'publish',
+					'paged' => $paged,
+					'posts_per_page' => 5, // 表示件数
+					'orderby'     => 'date',
+					'order' => 'DESC'
+			) );
+					if ($the_query->have_posts()) :
+				while ($the_query->have_posts()) : $the_query->the_post(); ?>
+			
+				<div class="news-list__outline">
+				<div class="news-list__box">
+						<div class="news-list__left">
+							<span class="<?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->slug; } ?>" style=""><?php the_category(); ?></span><span class="post-date"><?php echo get_the_date('Y.n.j'); ?></span>
+							<div class="list-title">
+								<a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
+							</div>
+						</div>
+						<div class="news-list__right">
+							<p><?php the_excerpt(); ?></p>
+						</div>
+					</div>
+				</div>
+			
+
+			<?php endwhile; endif; ?>
 						<dl></dl>
 					</div>
 				</div>
