@@ -1,7 +1,18 @@
 .blogs-box {
 	display: flex;
 	justify-content: space-between;
+	opacity: 0;
 	padding: 100px 0;
+	transform: translateY(20px);
+	transition: 0.7s ease;
+	transition-delay: 0.3s;
+	visibility: hidden;
+}
+
+.blogs-box.is-inview {
+	opacity: 1;
+	transform: translateY(0);
+	visibility: visible;
 }
 
 .blogs-box .top_blog {
