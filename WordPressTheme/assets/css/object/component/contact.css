@@ -11,34 +11,6 @@
 	display: none;
 }
 
-.contact .contact__top {
-	height: 300px;
-	position: relative;
-}
-
-.contact .contact__top .contact__top__text {
-	color: #111;
-	font-family: noto-sans-cjk-jp,sans-serif;
-	font-size: 3.8rem;
-	font-weight: 400;
-	margin: 0;
-	position: absolute;
-	top: calc(50% - 1.9rem);
-}
-
-.contact .contact__navi {
-	margin: 25px 0;
-}
-
-.contact .contact__navi .contact__navi__list {
-	display: flex;
-	font-size: 1.3rem;
-}
-
-.contact .contact__navi .contact__navi__list a {
-	color: #EB5E00;
-}
-
 .contact .contact__content {
 	padding: 20px 0 30px;
 }
@@ -294,11 +266,6 @@
 
 .contact .sp-br {
 	display: block;
-}
-
-.contact .contact__top .contact__top__text {
-	font-size: 2.4rem;
-	top: calc(50% - 1.2rem);
 }
 
 .contact .contact__content .contact__content__title {

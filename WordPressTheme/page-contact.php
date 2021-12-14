@@ -1,18 +1,19 @@
 <?php get_header(); ?>
 
 <main class="contact">
-  <div class="contact__top">
+
+  <div class="c-lowpage__mv">
     <div class="container">
-     <h2 class="contact__top__text">ご相談・査定依頼フォーム</h2>
+      <h2 class="contact__top__text">ご相談・<br class="is_sp">査定依頼フォーム</h2>
     </div>
   </div>
 
   <div class="container">
-    <div class="contact__navi">
-      <ul class="contact__navi__list">
+    <div class="c-breadcrumbs">
+      <ol>
         <li><a href="">HOME</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</li>
         <li>ご相談・査定依頼フォーム</li>
-      </ul>
+      </ol>
     </div>
 
     <div class="contact__content">

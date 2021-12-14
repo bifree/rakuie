@@ -851,6 +851,20 @@ select {
 	visibility: hidden;
 }
 
+.c-breadcrumbs {
+	margin: 25px 0;
+}
+
+.c-breadcrumbs ol {
+	display: flex;
+	font-size: 1.3rem;
+	list-style: none;
+}
+
+.c-breadcrumbs ol a {
+	color: #EB5E00;
+}
+
 .c-button {
 	display: flex;
 	justify-content: center;
@@ -940,6 +954,24 @@ select {
 .is-nav-active .c-hamburger span:nth-of-type(3) {
 	bottom: calc(50% - 2px / 2);
 	transform: rotate(315deg);
+}
+
+.c-lowpage__mv {
+	background: url(../img/lowpage-mv2.jpg) center/cover no-repeat;
+	height: 200px;
+	position: relative;
+}
+
+.c-lowpage__mv .contact__top__text {
+	color: #fff;
+	font-size: 3.6rem;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	line-height: 1.3;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .contact-btn {
@@ -1458,34 +1490,6 @@ select {
 
 .contact .sp-br {
 	display: none;
-}
-
-.contact .contact__top {
-	height: 300px;
-	position: relative;
-}
-
-.contact .contact__top .contact__top__text {
-	color: #111;
-	font-family: noto-sans-cjk-jp,sans-serif;
-	font-size: 3.8rem;
-	font-weight: 400;
-	margin: 0;
-	position: absolute;
-	top: calc(50% - 1.9rem);
-}
-
-.contact .contact__navi {
-	margin: 25px 0;
-}
-
-.contact .contact__navi .contact__navi__list {
-	display: flex;
-	font-size: 1.3rem;
-}
-
-.contact .contact__navi .contact__navi__list a {
-	color: #EB5E00;
 }
 
 .contact .contact__content {
@@ -2533,6 +2537,14 @@ body {
 	line-height: 13.33333vw;
 }
 
+.c-breadcrumbs {
+	margin: 3.2vw 0;
+}
+
+.c-breadcrumbs ol {
+	font-size: 1.2rem;
+}
+
 .c-hamburger {
 	height: 10.66667vw;
 	width: 10.66667vw;
@@ -2567,6 +2579,15 @@ body {
 .is-nav-active .l-navigation__back {
 	opacity: 1;
 	visibility: visible;
+}
+
+.c-lowpage__mv {
+	background: url(../img/lowpage-mv2.jpg) left center/112vw auto no-repeat;
+	height: 32vw;
+}
+
+.c-lowpage__mv .contact__top__text {
+	font-size: 2rem;
 }
 
 .container {
@@ -2745,11 +2766,6 @@ body {
 
 .contact .sp-br {
 	display: block;
-}
-
-.contact .contact__top .contact__top__text {
-	font-size: 2.4rem;
-	top: calc(50% - 1.2rem);
 }
 
 .contact .contact__content .contact__content__title {

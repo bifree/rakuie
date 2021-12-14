@@ -1,0 +1,21 @@
+@import '../../function/mixins';
+
+.c-breadcrumbs {
+  margin:25px 0;
+  ol {
+    display:flex;
+    font-size:1.3rem;
+    list-style: none;
+
+    a{
+      color:#EB5E00;
+    }
+  }
+
+  @include mobile {
+    margin: vw(12) 0;
+    ol {
+      font-size: 1.2rem;
+    }
+  }
+}
