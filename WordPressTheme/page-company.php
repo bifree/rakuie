@@ -1,11 +1,10 @@
 <?php get_header(); ?>
 
 <main class="company">
-  <div class="contact__top">
-    <div class="c-lowpage__mv">
-      <div class="container">
-        <h2 class="contact__top__text">会社案内</h2>
-      </div>
+
+  <div class="c-lowpage__mv">
+    <div class="container">
+      <h2 class="contact__top__text">会社案内</h2>
     </div>
   </div>
 
