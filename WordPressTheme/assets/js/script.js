@@ -109,3 +109,16 @@ if (deviceType === 'lg') {
         $(".l-header").css("left", -$(window).scrollLeft());
     });
 }
+
+
+$("input").change(function(){
+    $("input").each(function(){
+      if($(this).is(":checked")){
+        $(this).parent().addClass("selected");
+      }else{
+        $(this).parent().removeClass("selected");
+      }
+    });
+  });
+
+  
