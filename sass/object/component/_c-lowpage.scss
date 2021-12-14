@@ -1,0 +1,18 @@
+.c-lowpage {
+	&__mv {
+		height: 200px;
+		position:relative;
+		background: url(../img/lowpage-mv2.jpg) center / cover no-repeat;
+	
+		.contact__top__text{
+			font-size: 3.6rem;
+			font-family:noto-sans-cjk-jp,sans-serif;
+			font-weight: 700;
+			letter-spacing: 0.1em;
+			color:#fff;
+			margin:0;
+			position:absolute;
+			top:calc(50% - 1.9rem);
+		}
+	}
+}

@@ -851,6 +851,47 @@ select {
 	visibility: hidden;
 }
 
+.c-breadcrumbs {
+	margin: 25px 0;
+}
+
+.c-breadcrumbs ol {
+	display: flex;
+	font-size: 1.3rem;
+	list-style: none;
+}
+
+.c-breadcrumbs ol a {
+	color: #EB5E00;
+}
+
+.l-navigation__back {
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 100vh;
+	left: 0;
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	transition: visibility 0.5s ease, opacity 0.5s ease;
+	visibility: hidden;
+	width: 100vw;
+	z-index: 500;
+}
+
+.is-nav-active .c-hamburger span:nth-of-type(1) {
+	top: calc(50% - 2px / 2);
+	transform: rotate(-315deg);
+}
+
+.is-nav-active .c-hamburger span:nth-of-type(2) {
+	opacity: 0;
+}
+
+.is-nav-active .c-hamburger span:nth-of-type(3) {
+	bottom: calc(50% - 2px / 2);
+	transform: rotate(315deg);
+}
+
 .c-button {
 	display: flex;
 	justify-content: center;
@@ -940,6 +981,23 @@ select {
 .is-nav-active .c-hamburger span:nth-of-type(3) {
 	bottom: calc(50% - 2px / 2);
 	transform: rotate(315deg);
+}
+
+.c-lowpage__mv {
+	background: url(../img/lowpage-mv2.jpg) center/cover no-repeat;
+	height: 200px;
+	position: relative;
+}
+
+.c-lowpage__mv .contact__top__text {
+	color: #fff;
+	font-family: noto-sans-cjk-jp,sans-serif;
+	font-size: 3.6rem;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	margin: 0;
+	position: absolute;
+	top: calc(50% - 1.9rem);
 }
 
 .contact-btn {
@@ -2530,6 +2588,42 @@ body {
 .is-scroll .l-header .header-wrapper #header-nav nav ul li a {
 	height: 13.33333vw;
 	line-height: 13.33333vw;
+}
+
+.c-breadcrumbs {
+	height: 10.66667vw;
+	width: 10.66667vw;
+}
+
+.c-breadcrumbs span {
+	height: 0.53333vw;
+	left: calc((10.66667vw - 5.33333vw) / 2);
+	width: 5.33333vw;
+}
+
+.c-breadcrumbs span:nth-of-type(1) {
+	top: 2.66667vw;
+}
+
+.c-breadcrumbs span:nth-of-type(2) {
+	top: calc((10.66667vw - 0.53333vw) / 2);
+}
+
+.c-breadcrumbs span:nth-of-type(3) {
+	bottom: 2.66667vw;
+}
+
+.is-nav-active .c-hamburger span:nth-of-type(1) {
+	top: calc(50% - 0.53333vw / 2);
+}
+
+.is-nav-active .c-hamburger span:nth-of-type(3) {
+	bottom: calc(50% - 0.53333vw / 2);
+}
+
+.is-nav-active .l-navigation__back {
+	opacity: 1;
+	visibility: visible;
 }
 
 .c-hamburger {
