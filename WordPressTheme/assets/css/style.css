@@ -2491,6 +2491,7 @@ body {
 }
 
 .l-header .header-wrapper #header-nav {
+	height: 0;
 	opacity: 0;
 	transition: 0.5s ease;
 	visibility: hidden;
@@ -2517,6 +2518,7 @@ body {
 }
 
 .is-nav-active .l-header .header-wrapper #header-nav {
+	height: auto;
 	opacity: 1;
 	visibility: visible;
 }

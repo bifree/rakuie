@@ -223,6 +223,7 @@
 				}
 			}
 			#header-nav {
+				height: 0;
 				opacity: 0;
 				visibility: hidden;
 				transition: 0.5s ease;
@@ -244,6 +245,7 @@
 				}
 
 				.is-nav-active & {
+					height: auto;
 					opacity: 1;
 					visibility: visible;
 				}
