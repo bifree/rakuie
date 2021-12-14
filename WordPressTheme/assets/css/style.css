@@ -1456,6 +1456,10 @@ select {
 	list-style: none;
 }
 
+.contact .sp-br {
+	display: none;
+}
+
 .contact .contact__top {
 	height: 300px;
 	position: relative;
@@ -1492,7 +1496,7 @@ select {
 	font-family: noto-sans-cjk-jp,sans-serif;
 	font-size: 3.2rem;
 	font-weight: 400;
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 	position: relative;
 	text-align: center;
 }
@@ -1519,7 +1523,7 @@ select {
 }
 
 .contact .contact__content .contact__content__sub-title {
-	background: #eb5e00;
+	background: #E45213;
 	border-left: solid 6px #ff8748;
 	color: #fff;
 	font-family: noto-sans-cjk-jp,sans-serif;
@@ -1536,19 +1540,24 @@ select {
 
 .contact .contact__content .contact__form th,
 .contact .contact__content .contact__form td {
-	font-size: 1.4rem;
 	padding: 12px;
 	text-align: left;
 }
 
 .contact .contact__content .contact__form th {
-	background: #ff8748;
-	border: 1px solid #ff8748;
+	background: #70C438;
+	border: 1px solid #70C438;
 	border-bottom-color: #fff;
 	border-right-color: #fff;
 	color: #fff;
+	font-size: 1.6rem;
 	font-weight: bold;
 	width: 20%;
+}
+
+.contact .contact__content .contact__form th .contact__th__caution {
+	color: #fff;
+	font-size: 1.4rem;
 }
 
 .contact .contact__content .contact__form th .mandatory {
@@ -1557,29 +1566,35 @@ select {
 }
 
 .contact .contact__content .contact__form th .mandatory:after {
-	background: #DE7067;
+	background: #E45213;
 	border-radius: 2px;
-	bottom: -1px;
+	bottom: 2px;
 	color: #fff;
 	content: "必須";
 	font-size: 1.1rem;
 	line-height: 1;
 	padding: 2px;
 	position: absolute;
-	right: -28px;
+	right: -30px;
 }
 
 .contact .contact__content .contact__form td {
 	border: solid 1px #cdcdcd;
 	border-radius: 2px;
+	font-size: 1.4rem;
 	width: 80%;
 }
 
 .contact .contact__content .contact__form td .contact__form__caution {
-	color: #009900;
+	color: #E45213;
 }
 
-.contact .contact__content .contact__form td input[type="text"] {
+.contact .contact__content .contact__form td .contact__form__caution:nth-child(n+2) {
+	margin-top: 8px;
+}
+
+.contact .contact__content .contact__form td input[type="text"],
+.contact .contact__content .contact__form td input[type="email"] {
 	border: solid 1px #767676;
 	color: #333;
 	line-height: 19.6px;
@@ -1587,8 +1602,18 @@ select {
 	width: 100%;
 }
 
-.contact .contact__content .contact__form td input[type="text"]:hover {
+.contact .contact__content .contact__form td input[type="text"]:hover,
+.contact .contact__content .contact__form td input[type="email"]:hover {
 	border: solid 1px #000;
+}
+
+.contact .contact__content .contact__form td input[type="text"]:focus,
+.contact .contact__content .contact__form td input[type="email"]:focus {
+	border: solid 1px #000;
+}
+
+.contact .contact__content .contact__form td select {
+	text-align: center;
 }
 
 .contact .contact__content .contact__form td .mwform-radio-field-text,
@@ -1601,7 +1626,7 @@ select {
 	border: dotted 1px #FFCE3C;
 	border-radius: 3px;
 	line-height: 22.4px;
-	margin-right: 10px;
+	margin: 5px 10px 5px 0;
 	padding: 8px 6px 6px;
 }
 
@@ -1609,12 +1634,12 @@ select {
 	background: #FFCE3C;
 }
 
-.contact .contact__content .contact__form td input[type="radio"]:checked + label {
+.contact .contact__content .contact__form td label.selected {
 	background: #FFCE3C;
 }
 
 .contact .contact__content .contact__form td input[type="radio"] + span::before {
-	border: solid 1px #333;
+	border: solid 1px #767676;
 	border-radius: 50%;
 	height: 13px;
 	width: 13px;
@@ -1642,10 +1667,15 @@ select {
 }
 
 .contact .contact__content .contact__form td input[type="checkbox"] + span::before {
-	border: solid 1px #333;
+	border: solid 1px #767676;
 	border-radius: 3px;
 	height: 13px;
 	width: 13px;
+}
+
+.contact .contact__content .contact__form td input[type="radio"] + span:hover::before,
+.contact .contact__content .contact__form td input[type="checkbox"] + span:hover::before {
+	border-color: #333;
 }
 
 .contact .contact__content .contact__form td input[type="checkbox"] + span:hover::after {
@@ -1668,11 +1698,19 @@ select {
 	position: absolute;
 	top: 50%;
 	transform: rotate(-45deg);
-	width: 8px;
+	width: 7.5px;
 }
 
 .contact .contact__content .contact__form td input[type="checkbox"]:checked + .mwform-checkbox-field-text {
 	color: #333;
+}
+
+.contact .contact__content .contact__form td .contact__form__visit {
+	margin-bottom: 8px;
+}
+
+.contact .contact__content .contact__form td textarea {
+	vertical-align: top;
 }
 
 .contact .contact__content .contact__form td .error {
@@ -1682,16 +1720,20 @@ select {
 }
 
 .contact .contact__content .contact__form .confirm-btn {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.contact .contact__content .contact__form .confirm-btn button[type="submit"] {
 	align-items: center;
 	background: #EB5E00;
 	border: solid 1px #EB5E00;
 	color: #fff;
 	font-family: noto-sans-cjk-jp,sans-serif;
-	font-size: 1.6rem;
-	font-weight: 400;
+	font-size: 1.8rem;
+	font-weight: 600;
 	height: 60px;
-	margin: 20px 390px;
-	padding: 10px 25px;
+	letter-spacing: 0.1rem;
 	text-align: center;
 	width: 290px;
 }
@@ -2696,6 +2738,46 @@ body {
 .blogs-box .top_blog .news-list__outline .post-categories a {
 	margin-right: 2.66667vw;
 	padding: 0.53333vw 1.33333vw 0.8vw;
+}
+
+.contact .sp-br {
+	display: block;
+}
+
+.contact .contact__top .contact__top__text {
+	font-size: 2.4rem;
+	top: calc(50% - 1.2rem);
+}
+
+.contact .contact__content .contact__content__title {
+	display: none;
+}
+
+.contact .contact__content .contact__content__title span {
+	display: none;
+}
+
+.contact .contact__content .contact__content__sub-title {
+	font-size: 2rem;
+}
+
+.contact .contact__content .contact__form th {
+	display: block;
+	width: 100%;
+}
+
+.contact .contact__content .contact__form td {
+	display: block;
+	width: 100%;
+}
+
+.contact .contact__content .contact__form td .error {
+	font-size: 1.2rem;
+}
+
+.contact .contact__content .contact__form .confirm-btn button[type="submit"] {
+	height: 60px;
+	width: 200px;
 }
 
 .rakuie-baikyaku {
