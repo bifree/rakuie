@@ -1666,7 +1666,8 @@ select {
 }
 
 .contact .contact__content .contact__form td input[type="text"]:focus,
-.contact .contact__content .contact__form td input[type="email"]:focus {
+.contact .contact__content .contact__form td input[type="email"]:focus,
+.contact .contact__content .contact__form td textarea:focus {
 	border: solid 1px #000;
 }
 
