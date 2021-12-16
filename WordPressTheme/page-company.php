@@ -4,7 +4,7 @@
 
   <div class="c-lowpage__mv">
     <div class="container">
-      <h2 class="contact__top__text">会社案内</h2>
+      <h2>会社案内</h2>
     </div>
   </div>
 
@@ -20,29 +20,29 @@
   <div class="container">
     <div class="company__lead js-inview">
       <h2>ラクイエのビジョン</h2>
-      <p>日本の相続問題を解決すべく、新たな市場と価値を生み出だし、<br>
-        <strong>「<em>豊かな暮らし</em>」</strong>と<strong>「<em>健康な住環境</em>」</strong>を創造する。</p>
+      <p>日本の相続問題を解決すべく、<br class="is_sp">新たな市場と価値を生み出だし、<br>
+        <strong>「<em>豊かな暮らし</em>」</strong>と<strong><br class="is_sp">「<em>健康な住環境</em>」</strong>を創造する。</p>
     </div>
   </div>
 
   <div class="company__nav">
     <div class="container">
-      <ul>
+      <ul class="js-inview">
         <li>
           <a href="#about">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample.jpg" alt="会社概要">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company_nav01.jpg" alt="会社概要">
             <span>会社概要</span>
           </a>
         </li>
         <li>
           <a href="#message">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample.jpg" alt="会社概要">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company_nav02.jpg" alt="会社概要">
             <span>代表挨拶</span>
           </a>
         </li>
         <li>
           <a href="#access">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample.jpg" alt="会社概要">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company_nav03.jpg" alt="会社概要">
             <span>アクセス</span>
           </a>
         </li>
@@ -84,7 +84,7 @@
         </tr>
         <tr>
           <th>所在地</th>
-          <td>〒543-0054 大阪市天王寺区南河堀町1-15</td>
+          <td>〒543-0054 <br class="is_sp">大阪市天王寺区南河堀町1-15</td>
         </tr>
         <tr>
           <th>代表者</th>

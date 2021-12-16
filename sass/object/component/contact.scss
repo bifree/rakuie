@@ -1,5 +1,4 @@
 .contact{
-  font-family:"游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
   box-sizing:border-box;
 
   li{
@@ -11,7 +10,7 @@
   }
 
   .contact__content{
-    padding:20px 0 30px;
+    // padding:20px 0 30px;
     
     .contact__content__title{
       font-size:3.2rem;
@@ -49,7 +48,6 @@
       border-left:solid 6px #ff8748;
       padding:13px 20px;
       margin-bottom:25px;
-      font-family:noto-sans-cjk-jp,sans-serif;
       font-weight:400;
     }
 

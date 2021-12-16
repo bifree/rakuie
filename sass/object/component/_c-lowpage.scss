@@ -6,7 +6,7 @@
 		position:relative;
 		background: url(../img/lowpage-mv2.jpg) center / cover no-repeat;
 	
-		.contact__top__text{
+		h2{
 			font-size: 4.2rem;
 			line-height: 1.3;
 			font-weight: 700;
@@ -21,7 +21,7 @@
 			height: vw(120);
 			background: url(../img/lowpage-mv2.jpg) left center / vw(420) auto no-repeat;
 		
-			.contact__top__text{
+			h2{
 				font-size: 2rem;
 			}
 		}

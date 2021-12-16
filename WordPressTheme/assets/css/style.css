@@ -852,6 +852,7 @@ select {
 }
 
 .c-breadcrumbs {
+	margin-bottom: 60px;
 	padding: 12px 0;
 }
 
@@ -962,7 +963,7 @@ select {
 	position: relative;
 }
 
-.c-lowpage__mv .contact__top__text {
+.c-lowpage__mv h2 {
 	color: #fff;
 	font-size: 4.2rem;
 	font-weight: 700;
@@ -1481,7 +1482,6 @@ select {
 
 .contact {
 	box-sizing: border-box;
-	font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
 }
 
 .contact li {
@@ -1490,10 +1490,6 @@ select {
 
 .contact .sp-br {
 	display: none;
-}
-
-.contact .contact__content {
-	padding: 20px 0 30px;
 }
 
 .contact .contact__content .contact__content__title {
@@ -1529,7 +1525,6 @@ select {
 	background: #E45213;
 	border-left: solid 6px #ff8748;
 	color: #fff;
-	font-family: noto-sans-cjk-jp,sans-serif;
 	font-size: 2.4rem;
 	font-weight: 400;
 	margin-bottom: 25px;
@@ -2085,8 +2080,31 @@ select {
 	list-style: none;
 }
 
+.company__nav ul.is-inview li::after {
+	transform: scaleX(0);
+}
+
+.company__nav ul.is-inview li::after a span {
+	transform: scaleX(0);
+}
+
 .company__nav ul li {
+	position: relative;
 	width: calc((100% - 80px) / 3);
+}
+
+.company__nav ul li::after {
+	background: #efefef;
+	content: '';
+	display: block;
+	height: calc(100% + 10px);
+	left: -10px;
+	position: absolute;
+	top: 0;
+	transform-origin: right top;
+	transition: 0.5s ease;
+	transition-delay: 0.3s;
+	width: calc(100% + 10px);
 }
 
 .company__nav ul li a {
@@ -2110,6 +2128,19 @@ select {
 	padding: 12px 18px 14px;
 	position: absolute;
 	width: 80%;
+}
+
+.company__nav ul li a span::after {
+	border-left: 3px solid #fff;
+	border-top: 3px solid #fff;
+	content: '';
+	display: block;
+	height: 8px;
+	position: absolute;
+	right: 20px;
+	top: calc(50% - 4px);
+	transform: translateY(-50%) rotate(-135deg);
+	width: 8px;
 }
 
 .company__about {
@@ -2196,6 +2227,7 @@ select {
 	border-top: 1px solid #ccc;
 	font-size: 1.6rem;
 	font-weight: 500;
+	line-height: 1.8;
 	padding: 20px;
 }
 
@@ -2240,7 +2272,7 @@ select {
 	background-image: url("../img/mv1.jpg");
 	background-position: center top;
 	background-repeat: no-repeat;
-	background-size: auto 160%;
+	background-size: auto 200%;
 }
 
 .company__message .title {
@@ -2946,7 +2978,7 @@ body {
 	height: 32vw;
 }
 
-.c-lowpage__mv .contact__top__text {
+.c-lowpage__mv h2 {
 	font-size: 2rem;
 }
 
@@ -3258,6 +3290,258 @@ body {
 
 .rakuie-omakase p strong {
 	font-size: 2rem;
+}
+
+.company__title {
+	font-size: 2.4rem;
+	margin-bottom: 8vw;
+	padding-bottom: 4vw;
+}
+
+.company__title::after {
+	height: 3px;
+	width: 16vw;
+}
+
+.company__lead {
+	margin: 10.66667vw 0;
+	padding: 6.66667vw 5.33333vw 5.33333vw;
+}
+
+.company__lead h2 {
+	font-size: 2.4rem;
+	padding: 0 5.33333vw;
+	top: -4.8vw;
+}
+
+.company__lead p {
+	font-size: 1.4rem;
+}
+
+.company__lead p strong {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.company__lead p strong em {
+	background: linear-gradient(transparent 50%, #ffff01 50%);
+	font-style: normal;
+}
+
+.company__nav {
+	padding: 10.66667vw 0;
+}
+
+.company__nav ul {
+	flex-direction: column;
+}
+
+.company__nav ul li {
+	margin-bottom: 8vw;
+	width: 100%;
+}
+
+.company__nav ul li::after {
+	height: calc(100% + 2.66667vw);
+	left: -2.66667vw;
+	width: calc(100% + 2.66667vw);
+}
+
+.company__nav ul li a span {
+	background: #e45213;
+	bottom: -2.66667vw;
+	color: #fff;
+	display: block;
+	font-size: 1.6rem;
+	font-weight: 700;
+	left: -2.66667vw;
+	padding: 12px 18px 14px;
+	position: absolute;
+	width: 80%;
+}
+
+.company__about {
+	padding: 10.66667vw 0;
+}
+
+.company__about section {
+	margin-bottom: 10.66667vw;
+}
+
+.company__about section h3 {
+	border-left: solid 1.6vw #c5e8ae;
+	font-size: 1.8rem;
+	margin-bottom: 5.33333vw;
+	padding: 2.66667vw 4.26667vw 3.2vw;
+}
+
+.company__about--wrap {
+	align-items: center;
+	flex-direction: column;
+}
+
+.company__about--wrap img {
+	margin-bottom: 5.33333vw;
+	margin-right: 0;
+	width: 32vw;
+}
+
+.company__about--wrap p {
+	font-size: 1.4rem;
+}
+
+.company__about--wrap ul {
+	margin: 4vw 0;
+}
+
+.company__about--wrap ul li {
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 1.8;
+	margin-bottom: 0;
+	padding-left: 16px;
+	position: relative;
+}
+
+.company__about--wrap ul li span {
+	display: inline-block;
+	margin: 0 0.5em;
+}
+
+.company__about--wrap ul li:last-child {
+	margin-bottom: 0;
+}
+
+.company__about--wrap ul li::before {
+	background: #e45213;
+	border-radius: 50%;
+	content: '';
+	display: block;
+	height: 8px;
+	left: 0;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 8px;
+}
+
+.company__about table th,
+.company__about table td {
+	display: block;
+	font-size: 1.6rem;
+	font-weight: 500;
+	padding: 2.66667vw 5.33333vw;
+	text-align: center;
+}
+
+.company__about table th {
+	text-align: center;
+	width: 100%;
+}
+
+.company__about table ul li {
+	margin-bottom: 10px;
+	padding-left: 16px;
+	position: relative;
+	text-align: left;
+}
+
+.company__about table ul li:last-child {
+	margin-bottom: 0;
+}
+
+.company__about table ul li::before {
+	background: #e45213;
+	border-radius: 50%;
+	content: '';
+	display: block;
+	height: 8px;
+	left: 0;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 8px;
+}
+
+.company__message {
+	background-position: left 30% top;
+	background-size: auto 250%;
+}
+
+.company__message .title {
+	padding: 10.66667vw 0 26.66667vw;
+}
+
+.company__message .title .inner h2 {
+	font-size: 2.4rem;
+	padding-bottom: 4vw;
+}
+
+.company__message .title .inner h2::after {
+	height: 3px;
+	width: 16vw;
+}
+
+.company__message--box {
+	background: url(../img/company_message.jpg) center bottom/69.33333vw auto no-repeat;
+	background-color: #fff;
+	box-shadow: 0.8vw 0.8vw 2.66667vw rgba(0, 0, 0, 0.3);
+	margin-top: -16vw;
+	padding: 6.66667vw 6.66667vw 85.33333vw 6.66667vw;
+}
+
+.company__message--box p {
+	font-size: 1.4rem;
+	margin-bottom: 4vw;
+	text-align: justify;
+}
+
+.company__message--box .sign {
+	font-size: 2.4rem;
+	margin-top: 5.33333vw;
+	text-align: right;
+}
+
+.company__message--box .sign small {
+	font-size: 1.4rem;
+	margin-right: 4vw;
+}
+
+.company__message .content {
+	font-size: 1.4rem;
+	padding-bottom: 10.66667vw;
+}
+
+.company__message .content .inner {
+	min-width: inherit;
+	padding: 0 5.33333vw;
+	width: 100%;
+}
+
+.company__access {
+	padding: 10.66667vw 0;
+}
+
+.company__access h3 {
+	border-left: solid 1.6vw #c5e8ae;
+	font-size: 1.8rem;
+	margin-bottom: 5.33333vw;
+	padding: 2.66667vw 4.26667vw 3.2vw;
+}
+
+.company__access--wrap {
+	flex-direction: column;
+}
+
+.company__access--wrap iframe {
+	height: 69.33333vw;
+	margin-bottom: 8vw;
+	width: 100%;
+}
+
+.company__access--wrap div {
+	font-size: 1.4rem;
+	width: 100%;
 }
 
 }
