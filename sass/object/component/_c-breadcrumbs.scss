@@ -1,14 +1,15 @@
 @import '../../function/mixins';
 
 .c-breadcrumbs {
-  margin:25px 0;
+  padding: 12px 0;
+  margin-bottom: 60px;
   ol {
     display:flex;
     font-size:1.3rem;
     list-style: none;
 
     a{
-      color:#EB5E00;
+      color:#e45213;
     }
   }
 
