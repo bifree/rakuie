@@ -1,8 +1,10 @@
 <?php get_header(); ?>
 
 <main class="service">
-  <div class="service__top">
-    <h2>事業紹介</h2>
+  <div class="c-lowpage__mv">
+    <div class="container">
+      <h2>事業紹介</h2>
+    </div>
   </div>
   <div class="container">
     <div class="service-inner">

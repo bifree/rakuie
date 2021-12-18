@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
 <main class="faq">
-  <div class="faq__top">
+  <div class="c-lowpage__mv">
     <div class="container">
-      <h2 class="faq__top__title">よくある質問</h2>
+      <h2>よくある質問</h2>
     </div>
   </div>
   <div class="faq-container">

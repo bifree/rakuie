@@ -2312,27 +2312,9 @@ select {
 	display: block;
 	justify-content: space-between;
 	margin-top: -100px;
-	opacity: 0;
 	padding: 50px 370px 50px 50px;
 	position: relative;
 	text-decoration: none;
-	transform: translateY(20px);
-	transition: 0.7s ease;
-	visibility: hidden;
-	z-index: 1;
-}
-
-.company__message--box.is-inview {
-	opacity: 1;
-	transform: translateY(0);
-	visibility: visible;
-}
-
-.company__message--box p {
-	font-size: 1.6rem;
-	line-height: 1.8;
-	margin-bottom: 20px;
-	width: 100%;
 }
 
 .company__message--box .sign {
@@ -2346,6 +2328,27 @@ select {
 	display: inline-block;
 	font-size: 1.8rem;
 	margin-right: 20px;
+}
+
+.company__message--box .message {
+	opacity: 0;
+	transform: translateX(-50px);
+	transition: 0.7s ease;
+	visibility: hidden;
+	z-index: 1;
+}
+
+.company__message--box .message p {
+	font-size: 1.6rem;
+	line-height: 1.8;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.company__message--box .message.is-inview {
+	opacity: 1;
+	transform: translateX(0);
+	visibility: visible;
 }
 
 .company__message .content {
@@ -2424,6 +2427,7 @@ select {
 }
 
 .faq-container {
+	margin: 60px auto 0;
 	margin-top: 60px;
 	width: 1120px;
 }
