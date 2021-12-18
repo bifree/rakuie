@@ -29,19 +29,19 @@
     <div class="container">
       <ul class="js-inview">
         <li>
-          <a href="#about">
+          <a href="#about" class="scale">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company_nav01.jpg" alt="会社概要">
             <span>会社概要</span>
           </a>
         </li>
         <li>
-          <a href="#message">
+          <a href="#message" class="scale">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company_nav02.jpg" alt="会社概要">
             <span>代表挨拶</span>
           </a>
         </li>
         <li>
-          <a href="#access">
+          <a href="#access" class="scale">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company_nav03.jpg" alt="会社概要">
             <span>アクセス</span>
           </a>

@@ -18,6 +18,19 @@ a {
 	transition: opacity 0.5s ease;
 }
 
+a.scale {
+	overflow: hidden;
+}
+
+a.scale:hover {
+	opacity: 1 !important;
+}
+
+a.scale img {
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
 .is_sp {
 	display: none !important;
 }
@@ -2737,6 +2750,11 @@ select {
 
 a:hover {
 	opacity: 0.6 !important;
+}
+
+a.scale img:hover {
+	opacity: 1 !important;
+	transform: scale(1.2) !important;
 }
 
 .l-header .header-wrapper .containerMiddle .inner .box-right ul .phone a {
