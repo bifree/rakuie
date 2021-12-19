@@ -2628,6 +2628,76 @@ select {
 	width: 1120px;
 }
 
+.service .container ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 80px 0;
+}
+
+.service .container ul.is-inview li::after {
+	transform: scaleX(0);
+}
+
+.service .container ul.is-inview li::after a span {
+	transform: scaleX(0);
+}
+
+.service .container ul li {
+	position: relative;
+	width: calc((100% - 80px) / 3);
+}
+
+.service .container ul li::after {
+	background: #efefef;
+	content: '';
+	display: block;
+	height: calc(100% + 10px);
+	left: -10px;
+	position: absolute;
+	top: 0;
+	transform-origin: right top;
+	transition: 0.5s ease;
+	transition-delay: 0.3s;
+	width: calc(100% + 10px);
+}
+
+.service .container ul li a {
+	display: block;
+	position: relative;
+	text-decoration: none;
+}
+
+.service .container ul li a img {
+	width: 100%;
+}
+
+.service .container ul li a span {
+	background: #e45213;
+	bottom: -10px;
+	color: #fff;
+	display: block;
+	font-size: 2rem;
+	font-weight: 700;
+	left: -10px;
+	padding: 12px 18px 14px;
+	position: absolute;
+	width: 80%;
+}
+
+.service .container ul li a span::after {
+	border-left: 3px solid #fff;
+	border-top: 3px solid #fff;
+	content: '';
+	display: block;
+	height: 8px;
+	position: absolute;
+	right: 20px;
+	top: calc(50% - 4px);
+	transform: translateY(-50%) rotate(-135deg);
+	width: 8px;
+}
+
 .service .container h3.subtitle {
 	background: #fff100;
 	color: #000000;
@@ -2659,41 +2729,37 @@ select {
 	width: 70%;
 }
 
-.service .container .rakuie__service {
+.service .container .rakuie__service h3 {
+	color: #e45213;
+	font-size: 2rem;
+	margin-bottom: 80px;
+	padding-bottom: 30px;
+	position: relative;
+	text-align: center;
+}
+
+.service .container .rakuie__service h3::after {
+	background: #e45213;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 3px;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	width: 100px;
+}
+
+.service .container .rakuie__service .inner {
 	display: flex;
 }
 
-.service .container .rakuie__service .promise h3 {
-	font-size: 3rem;
-	margin-bottom: 30px;
-	padding: 0 65px;
-	position: relative;
-	text-align: center;
-	width: 85%;
-}
-
-.service .container .rakuie__service .promise h3 span {
-	background: #fff;
-	padding: 0 1em;
-	position: relative;
-}
-
-.service .container .rakuie__service .promise h3:before {
-	background: #000;
-	content: '';
-	height: 2px;
-	left: 0;
-	position: absolute;
-	top: calc(50% - 1px);
-	width: 100%;
-}
-
-.service .container .rakuie__service .promise dl {
+.service .container .rakuie__service .inner .promise dl {
 	margin-bottom: 40px;
 	width: 85%;
 }
 
-.service .container .rakuie__service .promise dl dt {
+.service .container .rakuie__service .inner .promise dl dt {
 	border-top: 3px solid #e45213;
 	color: #e45213;
 	font-size: 2.3rem;
@@ -2704,7 +2770,7 @@ select {
 	position: relative;
 }
 
-.service .container .rakuie__service .promise dl dt span {
+.service .container .rakuie__service .inner .promise dl dt span {
 	color: #fff;
 	display: block;
 	font-size: 40px;
@@ -2717,7 +2783,7 @@ select {
 	z-index: 1;
 }
 
-.service .container .rakuie__service .promise dl dt:before {
+.service .container .rakuie__service .inner .promise dl dt:before {
 	background: #e45213;
 	content: '';
 	height: 300%;
@@ -2728,22 +2794,146 @@ select {
 	width: 200px;
 }
 
-.service .container .rakuie__service .promise dl dd {
+.service .container .rakuie__service .inner .promise dl dd {
 	font-size: 1.4rem;
 	line-height: 1.7;
 }
 
-.service .container .rakuie__service .promise-img {
+.service .container .rakuie__service .inner .promise-img {
 	width: 45%;
 }
 
-.service .container .rakuie__service .promise-img img {
+.service .container .rakuie__service .inner .promise-img img {
 	width: 100%;
 }
 
-.service .container .rakuie__service .promise-img .block-img {
+.service .container .rakuie__service .inner .promise-img .block-img {
 	display: block;
 	margin-top: 30px;
+}
+
+.service .container .merit {
+	margin-top: 80px;
+}
+
+.service .container .merit__intro h3 {
+	color: #e45213;
+	font-size: 2rem;
+	padding-bottom: 30px;
+	position: relative;
+	text-align: center;
+}
+
+.service .container .merit__intro h3::after {
+	background: #e45213;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 3px;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	width: 100px;
+}
+
+.service .container .merit .wrapItems {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 80px;
+}
+
+.service .container .merit .wrapItems.is-inview dl {
+	opacity: 1;
+	transform: translateY(0);
+	visibility: visible;
+}
+
+.service .container .merit .wrapItems dl {
+	background-color: #fff;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+	color: #333;
+	display: block;
+	opacity: 0;
+	padding: 40px 30px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transform: translateY(20px);
+	transition: 0.7s ease;
+	visibility: hidden;
+	z-index: 1;
+}
+
+.service .container .merit .wrapItems dl dt {
+	border-bottom: solid 1px #dedede;
+	color: #70c438;
+	font-size: 2.4rem;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.service .container .merit .wrapItems dl dd p.ttl {
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.service .container .merit .wrapItems dl::before {
+	align-items: center;
+	background: #e45213;
+	color: #fff;
+	display: flex;
+	font-size: 2.4rem;
+	font-weight: bold;
+	height: 50px;
+	justify-content: center;
+	left: -10px;
+	position: absolute;
+	top: -10px;
+	width: 50px;
+}
+
+.service .container .merit .wrapItems dl:nth-child(1) {
+	transition-delay: 0.3s;
+}
+
+.service .container .merit .wrapItems dl:nth-child(1)::before {
+	content: '1';
+}
+
+.service .container .merit .wrapItems dl:nth-child(2) {
+	transition-delay: 0.5s;
+}
+
+.service .container .merit .wrapItems dl:nth-child(2)::before {
+	content: '2';
+}
+
+.service .container .merit .wrapItems dl:nth-child(3) {
+	transition-delay: 0.7s;
+}
+
+.service .container .merit .wrapItems dl:nth-child(3)::before {
+	content: '3';
+}
+
+.service .container .merit .wrapItems dl:nth-child(4) {
+	transition-delay: 0.9s;
+}
+
+.service .container .merit .wrapItems dl:nth-child(4)::before {
+	content: '4';
+}
+
+.service .container .merit .wrapItems .item {
+	margin: 0 40px 40px 0;
+	width: calc((100% - 40px) / 2);
+}
+
+.service .container .merit .wrapItems .item:nth-child(2n) {
+	margin-right: 0;
 }
 
 @media screen and (min-width: 768px) {
