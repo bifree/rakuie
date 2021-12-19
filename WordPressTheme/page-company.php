@@ -9,11 +9,8 @@
   </div>
 
   <div class="container">
-    <div class="c-breadcrumbs">
-      <ol>
-        <li><a href="">HOME</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</li>
-        <li>会社案内</li>
-      </ol>
+    <div class="c-breadcrumb">
+      <?php breadcrumb(); ?>
     </div>
   </div>
   

@@ -6,6 +6,9 @@
       <h2>事業紹介</h2>
     </div>
   </div>
+  <div class="c-breadcrumb">
+    <?php breadcrumb(); ?>
+  </div>
   <div class="container">
     <ul class="js-inview">
         <li>
