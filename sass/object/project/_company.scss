@@ -287,22 +287,6 @@
       padding: 50px 370px 50px 50px;
       background: url(../img/company_message.jpg) right -60px bottom / 450px auto no-repeat;
       position: relative;
-      z-index: 1;
-      opacity: 0;
-      visibility: hidden;
-      transform: translateY(20px);
-      transition: 0.7s ease;
-      &.is-inview {
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0);
-      }
-      p {
-        width: 100%;
-        font-size: 1.6rem;
-        line-height: 1.8;
-        margin-bottom: 20px;
-      }
       .sign {
         margin-top: 20px;
         font-weight: 700;
@@ -312,6 +296,24 @@
           display: inline-block;
           margin-right: 20px;
           font-size: 1.8rem;
+        }
+      }
+      .message {
+        z-index: 1;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(-50px);
+        transition: 0.7s ease;
+        p {
+          width: 100%;
+          font-size: 1.6rem;
+          line-height: 1.8;
+          margin-bottom: 20px;
+        }
+        &.is-inview {
+          opacity: 1;
+          visibility: visible;
+          transform: translateX(0);
         }
       }
     }
