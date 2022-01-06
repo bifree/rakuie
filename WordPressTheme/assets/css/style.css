@@ -2683,6 +2683,100 @@ select {
 	margin-bottom: 60px;
 }
 
+.reason .reason-container {
+	padding-top: 80px;
+}
+
+.reason .reason-container h3 {
+	font-size: 3.6rem;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	line-height: 1.4em;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	position: relative;
+	text-align: center;
+}
+
+.reason .reason-container h3::after {
+	background: #e45213;
+	bottom: 0;
+	content: '';
+	display: block;
+	height: 4px;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	width: 80px;
+}
+
+.reason .reason-container article .green_bg {
+	background: #ffffdf;
+}
+
+.reason .reason-container article .reason_box {
+	padding: 100px 50px;
+}
+
+.reason .reason-container article .reason_box .box_inner {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.reason .reason-container article .reason_box .box_inner h2.title {
+	font-size: 36px;
+	line-height: 1.4;
+	padding-top: 65px;
+	position: relative;
+}
+
+.reason .reason-container article .reason_box .box_inner h2.title::after {
+	color: #ffd165;
+	display: block;
+	font-size: 100px;
+	font-style: italic;
+	font-weight: bold;
+	left: 0;
+	position: absolute;
+	top: 0px;
+	z-index: 0;
+}
+
+.reason .reason-container article .reason_box .box_inner h2.title span {
+	position: relative;
+	z-index: 1;
+}
+
+.reason .reason-container article .reason_box .box_inner .left {
+	width: 48%;
+}
+
+.reason .reason-container article .reason_box .box_inner .left p {
+	font-size: 14px;
+	line-height: 1.8;
+}
+
+.reason .reason-container article .reason_box .box_inner .left ul li {
+	font-size: 14px;
+	line-height: 1.8;
+}
+
+.reason .reason-container article .reason_1 h2.title::after {
+	content: "01";
+}
+
+.reason .reason-container article .reason_2 h2.title::after {
+	content: "02";
+}
+
+.reason .reason-container article .reason_3 h2.title::after {
+	content: "03";
+}
+
+.reason .reason-container article .reason_4 h2.title::after {
+	content: "04";
+}
+
 .service p {
 	font-size: 1.4rem;
 	line-height: 1.7;
