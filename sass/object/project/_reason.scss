@@ -144,49 +144,51 @@
                 }
             }
         }
-        .contact-btn {
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            background-color: #fff100;
-            border-bottom: 5px solid #ccc100;
-            border-radius: 0.5rem;
-            color: #000;
-            color: #212529;
-            cursor: pointer;
-            display: block;
-            font-size: 1.6rem;
-            font-weight: 700;
-            letter-spacing: 0.1em;
-            line-height: 1.5;
-            margin: 60px auto;
-            padding: 1rem 4rem;
-            position: relative;
-            text-align: center;
-            text-decoration: none;
-            transition: all 0.3s;
-            user-select: none;
-            vertical-align: middle;
-            width: 350px;
-            @include mobile {
-                width: 80%;
-            }
-            h4 {
-                font-size: 1.6rem !important;
-                margin-bottom: 0 !important;
-                padding-bottom: 0 !important;
-                @include mobile {
-                    font-size: 1.4rem !important;
-                }
-                &::after {
-                    display: none;
-                }
-            }
-            &:hover {
-                background: #fff20a;
-                border-bottom: 2px solid #ccc100;
+        a {
+            .contact-btn {
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                background-color: #fff100;
+                border-bottom: 5px solid #ccc100;
+                border-radius: 0.5rem;
                 color: #000;
-                margin-top: 63px;
+                color: #212529;
+                cursor: pointer;
+                display: block;
+                font-size: 1.6rem;
+                font-weight: 700;
+                letter-spacing: 0.1em;
+                line-height: 1.5;
+                margin: 60px auto;
+                padding: 1rem 4rem;
+                position: relative;
+                text-align: center;
+                text-decoration: none;
+                transition: all 0.3s;
+                user-select: none;
+                vertical-align: middle;
+                width: 350px;
+                @include mobile {
+                    width: 80%;
+                }
+                h4 {
+                    font-size: 1.6rem !important;
+                    margin-bottom: 0 !important;
+                    padding-bottom: 0 !important;
+                    @include mobile {
+                        font-size: 1.4rem !important;
+                    }
+                    &::after {
+                        display: none;
+                    }
+                }
+                &:hover {
+                    background: #fff20a;
+                    border-bottom: 2px solid #ccc100;
+                    color: #000;
+                    margin-top: 63px;
+                }
             }
         }
     }

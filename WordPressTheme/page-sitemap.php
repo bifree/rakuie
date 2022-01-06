@@ -23,7 +23,7 @@
                                 <a href="<?php echo esc_url( home_url( '/service#promise' ) ); ?>">５つの約束</a>
                             </li>
                             <li>
-                                <a href="<?php echo esc_url( home_url( '/service#strench' ) ); ?>">ラクイエの強み</a>
+                                <a href="<?php echo esc_url( home_url( '/service#merit' ) ); ?>">ラクイエの強み</a>
                             </li>
                             <li>
                                 <a href="<?php echo esc_url( home_url( '/service#tokuten' ) ); ?>">特典情報</a>
@@ -40,13 +40,13 @@
                         <a href="<?php echo esc_url( home_url( '/company' ) ); ?>" class="first">会社案内</a>
                         <ul>
                             <li>
-                                <a href="">会社概要</a>
+                                <a href="<?php echo esc_url( home_url( '/company#about' ) ); ?>">会社概要</a>
                             </li>
                             <li>
-                                <a href="">代表挨拶</a>
+                                <a href="<?php echo esc_url( home_url( '/company#message' ) ); ?>">代表挨拶</a>
                             </li>
                             <li>
-                                <a href="">アクセス</a>
+                                <a href="<?php echo esc_url( home_url( '/company#access' ) ); ?>">アクセス</a>
                             </li>
                         </ul>
                     </li>

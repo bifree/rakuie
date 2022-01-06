@@ -2,6 +2,14 @@
     .container {
         width: 1120px;
         margin: 0 auto;
+        @include mobile {
+            width: 100%;
+            article {
+                .inner {
+                    width: 100%;
+                }
+            }
+        }
         article {
             .inner {
                 width: calc((99.99% - 13px * 2 * 3) / 3);

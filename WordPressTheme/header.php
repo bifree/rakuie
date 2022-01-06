@@ -50,7 +50,7 @@
                 <span>営業時間 10：00～18：30 | 定休日 水曜日</span>
               </li>
               <li class="mail">
-                <a href="https://www.rakuie.jp/contact/">相続不動産売却の<br>無料査定はこちら</a>
+                <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">相続不動産売却の<br>無料査定はこちら</a>
               </li>
             </ul>
           </div>
