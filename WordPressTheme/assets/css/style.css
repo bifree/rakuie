@@ -2852,11 +2852,22 @@ select {
 }
 
 .reason .reason-container article .reason_box .box_inner .right {
+	opacity: 0;
+	transform: translateX(-50px);
+	transition: 3s ease;
+	visibility: hidden;
 	width: 48%;
+	z-index: 1;
 }
 
 .reason .reason-container article .reason_box .box_inner .right img {
 	width: 100%;
+}
+
+.reason .reason-container article .reason_box .box_inner .right.is-inview {
+	opacity: 1;
+	transform: translateX(0);
+	visibility: visible;
 }
 
 .reason .reason-container article .reason_1 h2.title::after {
@@ -3775,13 +3786,17 @@ body {
 	width: 100%;
 }
 
+.tokuten {
+	width: 100%;
+}
+
 .tokuten .inner .tokuten {
 	display: block;
 }
 
 .tokuten .inner .tokuten .item {
-	margin: 20px 0;
-	width: 100%;
+	margin: 20px auto;
+	width: 80%;
 }
 
 .blogs-box {
@@ -4224,6 +4239,45 @@ body {
 
 .faq-inner h3 span {
 	padding: 0;
+}
+
+.reason .reason-container h3 {
+	font-size: 2.4rem;
+	margin-bottom: 8vw;
+	padding-bottom: 4vw;
+}
+
+.reason .reason-container article .reason_box {
+	padding: 50px 0;
+}
+
+.reason .reason-container article .reason_box .box_inner {
+	display: block;
+	max-width: none;
+	width: 80%;
+}
+
+.reason .reason-container article .reason_box .box_inner h2.title {
+	font-size: 2.4rem;
+	margin-bottom: 8vw;
+	padding-bottom: 4vw;
+}
+
+.reason .reason-container article .reason_box .box_inner .left {
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.reason .reason-container article .reason_box .box_inner .right {
+	width: 100%;
+}
+
+.reason .reason-container .contact-btn {
+	width: 80%;
+}
+
+.reason .reason-container .contact-btn h4 {
+	font-size: 1.4rem !important;
 }
 
 .service .container {

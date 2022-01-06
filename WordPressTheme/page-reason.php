@@ -18,7 +18,7 @@
                         </h2>
                         <p>相続にはときとして、さまざまな専門家の力が必要に。<br> 相続に関する専門家のとりまとめ、窓口役となり事務手続きや提携士業との連携で相続問題を<span class="bold">ワンストップでラクイエが解決!!</span></p>
                     </div>
-                    <div class="right">
+                    <div class="right js-inview">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/madoguchi.jpg" alt="">
                     </div>
                 </div>
@@ -31,7 +31,7 @@
                         </h2>
                         <p>不動産仲介会社は仲介が得意<br>新築販売会社は新築が得意<br>というふうに不動産業界の中でも得意分野があるように、<br><span class="bold">弊社 ラクイエは不動産相続に強い不動産会社です。</span></p>
                     </div>
-                    <div class="right">
+                    <div class="right js-inview">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pro.jpg" alt="">
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                             ノルマがあると…結論を急いで求めてくる、商売につながる偏った説明に</p>
                         </div>
                     </div>
-                    <div class="right">
+                    <div class="right js-inview">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/priority.jpg" alt="">
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="right">
+                    <div class="right js-inview">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/touki.jpg" alt="">
                     </div>
                 </div>
