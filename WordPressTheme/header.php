@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
+  <link rel=”icon” href=“<?php echo get_template_directory_uri(); ?>/assets/img/favicon.ico”>
   <script>
     (function(d) {
       var config = {
@@ -49,7 +50,7 @@
                 <span>営業時間 10：00～18：30 | 定休日 水曜日</span>
               </li>
               <li class="mail">
-                <a href="">相続不動産売却の<br>無料査定はこちら</a>
+                <a href="https://www.rakuie.jp/contact/">相続不動産売却の<br>無料査定はこちら</a>
               </li>
             </ul>
           </div>

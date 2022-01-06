@@ -34,11 +34,17 @@
 	.container {
 		width: 1120px;
 		margin: 0 auto;
+		@include mobile {
+			width: 100%;
+		}
 		ul {
 			padding: 80px 0;
 			display: flex;
 			justify-content: space-between;
 			list-style: none;
+			@include mobile {
+				flex-direction: column;
+			}
 			&.is-inview {
 			li::after {
 			transform: scaleX(0);
@@ -50,6 +56,10 @@
 		li {
 			width: calc((100% - 80px) / 3);
 			position: relative;
+			margin-bottom: 30px;
+			@include mobile {
+				width: 100%;
+			}
 			&::after {
 				content: '';
 				display: block;
@@ -121,8 +131,8 @@
 			border: 4px solid #000;
 		}
 		.intro {
-			width: 70%;
-			margin-bottom: 60px;
+			width: 90%;
+			margin: 0 auto 90px;
 		}
 		.rakuie__service {
 			h3 {
@@ -147,10 +157,16 @@
 			}
 			.inner {
 				display: flex;
+				@include mobile {
+					display: block;
+				}
 				.promise {
 					dl {
 						width: 85%;
 						margin-bottom: 40px;
+						@include mobile {
+							width: 100%;
+						}
 						dt {
 							position: relative;
 							overflow: hidden;
@@ -159,6 +175,9 @@
 							font-size: 2.3rem;
 							font-weight: bold;
 							color: #e45213;
+							@include mobile {
+								font-size: 1.6rem;
+							}
 							span {
 								font-size: 40px;
 								font-size: 4rem;
@@ -191,6 +210,9 @@
 				}
 				.promise-img {
 					width: 45%;
+					@include mobile {
+						width: 90%;
+					}
 					img {
 						width: 100%;
 					}
@@ -304,9 +326,74 @@
 				.item {
 					width: calc((100% - 40px) / 2);
 					margin: 0 40px 40px 0;
+					@include mobile {
+						width: 100%;
+						margin: 20px 0;
+					}
 				}
 				.item:nth-child(2n) {
 					margin-right: 0;
+				}
+			}
+		}
+		.tokuten {
+			margin-top: 50px;
+			h3 {
+				font-size: 2rem;
+				text-align: center;
+				position: relative;
+				padding-bottom: 30px;
+				color: #e45213;
+				&::after {
+					content: "";
+					display: block;
+					position: absolute;
+					bottom: 0;
+					left: 50%;
+					transform: translateX(-50%);
+					background: #e45213;
+					height: 3px;
+					width: 100px;
+				}
+			}
+			.inner {
+				.intro {
+					width: 90%;
+					margin: 60px auto 90px;
+				}
+				.tokuten {
+					display: flex;
+					justify-content: space-between;
+					@include mobile {
+						display: block;
+					}
+					.item {
+						width: 32%;
+						border: 1px solid #ccc;
+						@include mobile {
+							width: 100%;
+							margin: 20px 0;
+						}
+						.item-inner {
+							width: 100%;
+							figure {
+								margin: 10px 0;
+								img {
+									width: 100%;
+								}
+							}
+						}
+					}
+					.red {
+						background-color: #e45213;
+						color: #FFF;
+						font-size: 16px;
+						padding-bottom: 10px;
+						padding-top: 10px;
+					}
+					p {
+						font-size: 14px;
+					}
 				}
 			}
 		}

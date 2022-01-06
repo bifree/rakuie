@@ -3,7 +3,7 @@
 <main class="service">
   <div class="c-lowpage__mv">
     <div class="container">
-      <h2>事業紹介</h2>
+      <h2>サービス紹介</h2>
     </div>
   </div>
   <div class="c-breadcrumb">
@@ -13,19 +13,19 @@
     <ul class="js-inview">
         <li>
           <a href="#promise" class="scale">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company_nav01.jpg" alt="会社概要">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/promise1.jpg" alt="会社概要">
             <span>５つの約束</span>
           </a>
         </li>
         <li>
           <a href="#merit" class="scale">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company_nav02.jpg" alt="会社概要">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/house3.jpg" alt="会社概要">
             <span>売却のメリット</span>
           </a>
         </li>
         <li>
-          <a href="#access" class="scale">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company_nav03.jpg" alt="会社概要">
+          <a href="#tokuten" class="scale">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/tokuten.jpg" alt="会社概要">
             <span>特典</span>
           </a>
         </li>
@@ -133,6 +133,50 @@
 					</div>
 				</div>
         </div>
+      </div>
+
+      <div class="tokuten" id="tokuten">
+        <h3>ラクイエの特典</h3>
+        <div class="inner">
+          <div class="intro">
+            <p>相続不動産売却には、様々な専門家を訪ねなければならず手間…
+              ラクイエなら、下記のような特典があり、あなたの売却を徹底サポートいたします。
+            </p>
+          </div>
+          <div class="tokuten">
+            <div class="item">
+              <h3 class="red">司法書士によるサポート</h3>
+              <div class="item-inner">
+                <figure>
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fudousan.jpg" alt="">
+                </figure>
+                <p>相続登記、名義変更や遺産分割の相談無料！</p>
+              </div>
+            </div>
+            <div class="item">
+              <h3 class="red">税理士によるサポート</h3>
+              <div class="item-inner">
+                <figure>
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/zeiri.jpg" alt="">
+                </figure>
+                <p>不動産税金、相続税の相談　無料！</p>
+              </div>
+            </div>
+            <div class="item">
+              <h3 class="red">宅地建物取引士によるサポート</h3>
+              <div class="item-inner">
+                <figure>
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/takuchi.jpg" alt="">
+                </figure>
+                <p>不動産現地調査、役所調査、無料！</p>
+                <p>不動産査定書作成　無料！</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-btn">
+      <h3>ご相談フォームはこちら</h3>
       </div>
     </div>
   </div>

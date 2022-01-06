@@ -2,9 +2,9 @@
 	<div class="sp-none">
 		<?php get_template_part('template/main-views');?>
 	</div>
-	<!-- <div class="pc-none">
+	<!-- <div class="pc-none"> -->
 		<//?php get_template_part('template/main-sp-views');?>
-	</div> -->
+	<!-- </div> -->
 	<main id="main">
 		<div class="container">
 			<div class="rakuie-omakase js-inview">
@@ -15,7 +15,7 @@
 					事務手続きや提携士業との連携で<br class="is_pc">
 					<strong>相続問題をワンストップで</strong><br>ラクイエが解決いたします。</p>
 				<nav class="c-button">
-					<a href="">選ばれる理由</a>
+					<a href="https://www.rakuie.jp/service/">選ばれる理由</a>
 				</nav>
 			</div>
 		</div>
@@ -105,7 +105,7 @@
 					</li>
 				</ol>
 				<nav class="c-button">
-					<a href="">サービス内容</a>
+					<a href="https://www.rakuie.jp/service/">サービス内容</a>
 				</nav>
 			</div>
 		</div>
@@ -113,7 +113,7 @@
 			<div class="inner">
 				<p>『安心・安全な不動産取引』をお約束<br>すべてのご家族に<br class="is_sp">笑顔と幸せをお届けします！</p>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/card.jpg" alt="" class="is_pc">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/card_sp.jpg" alt="" class="is_sp">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/card_sp2.png" alt="" class="is_sp">
 			</div>
 		</div>
 		<div class="container">

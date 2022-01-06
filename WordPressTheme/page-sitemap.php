@@ -14,30 +14,30 @@
             <div class="inner">
                 <ul>
                     <li>
-                        <a href="" class="first">トップページ</a>
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="first">トップページ</a>
                     </li>
                     <li>
-                        <a href="" class="first">サービス内容</a>
+                        <a href="<?php echo esc_url( home_url( '/service' ) ); ?>" class="first">サービス内容</a>
                         <ul>
                             <li>
-                                <a href="">５つの約束</a>
+                                <a href="<?php echo esc_url( home_url( '/service#promise' ) ); ?>">５つの約束</a>
                             </li>
                             <li>
-                                <a href="">ラクイエの強み</a>
+                                <a href="<?php echo esc_url( home_url( '/service#strench' ) ); ?>">ラクイエの強み</a>
                             </li>
                             <li>
-                                <a href="">特典情報</a>
+                                <a href="<?php echo esc_url( home_url( '/service#tokuten' ) ); ?>">特典情報</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="" class="first">ご相談・査定依頼フォーム</a>
+                        <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="first">ご相談・査定依頼フォーム</a>
                     </li>
                     <li>
-                        <a href="" class="first">よくあるご質問</a>
+                        <a href="<?php echo esc_url( home_url( '/faq' ) ); ?>" class="first">よくあるご質問</a>
                     </li>
                     <li>
-                        <a href="" class="first">会社案内</a>
+                        <a href="<?php echo esc_url( home_url( '/company' ) ); ?>" class="first">会社案内</a>
                         <ul>
                             <li>
                                 <a href="">会社概要</a>
@@ -51,10 +51,10 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="" class="first">プライバシーポリシー</a>
+                        <a href="<?php echo esc_url( home_url( '/privacy' ) ); ?>" class="first">プライバシーポリシー</a>
                     </li>
                     <li>
-                        <a href="" class="first">サイトマップ</a>
+                        <a href="<?php echo esc_url( home_url( '/sitemap' ) ); ?>" class="first">サイトマップ</a>
                     </li>
                 </ul>
             </div>
