@@ -1449,7 +1449,8 @@ select {
 }
 
 .tokuten {
-	margin: 50px auto 0;
+	margin: 0 auto 0;
+	padding-top: 80px;
 	width: 1120px;
 }
 
@@ -2182,6 +2183,151 @@ select {
 	position: absolute;
 	right: 20px;
 	top: calc(50% - 5px);
+}
+
+.building {
+	margin: 0 auto;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	width: 820px;
+}
+
+.building .section {
+	padding: 0 0 40px 0;
+}
+
+.building .section .case_info {
+	background: #f9f9f9;
+	box-sizing: border-box;
+	padding: 25px;
+	width: 100%;
+}
+
+.building .section .case_info .case_row {
+	align-items: flex-end;
+	border-bottom: 1px #ddd solid;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px 0;
+	width: 100%;
+}
+
+.building .section .case_info .case_row .info_name {
+	flex-direction: column;
+}
+
+.building .section .case_info dl {
+	box-sizing: border-box;
+	display: flex;
+	padding: 0 10px;
+	width: 48%;
+}
+
+.building .section .imagePost {
+	background: #ddd;
+	height: 400px;
+	text-align: center;
+	width: 100%;
+}
+
+.building .section .imagePost img {
+	max-height: 100%;
+	max-width: 100%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.building .section .listThumbs {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+.building .section .listThumbs li {
+	background-position: center center;
+	background-size: cover;
+	box-sizing: border-box;
+	cursor: pointer;
+	height: 140px;
+	margin: 5px;
+	position: relative;
+	transition: all 0.2s;
+	width: calc((100% - 50px) / 5);
+	z-index: 1;
+}
+
+.building h4 {
+	background: #70c438;
+	border-left: 6px solid #c5e8ae;
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 25px;
+	padding: 13px 20px;
+}
+
+.building .table {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 140%;
+}
+
+.building .table dl {
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	margin: -1px -2px 0 0px;
+	width: 50%;
+}
+
+.building .table dl dt {
+	background: #70c438;
+	border: solid 1px #fff;
+	box-sizing: border-box;
+	color: #ffffff;
+	font-size: 140%;
+	font-weight: bold;
+	line-height: 1.85em;
+	padding: 10px;
+	width: 40%;
+}
+
+.building .table dl dd {
+	background: #fff;
+	border: solid 1px #efefef;
+	box-sizing: border-box;
+	font-size: 140%;
+	margin: 0px -1px;
+	padding: 10px;
+	width: 60%;
+}
+
+.building .section table tbody tr {
+	font-size: 140%;
+}
+
+.building .section table tbody tr th {
+	background: #70c438;
+	border: 1px solid #cdcdcd;
+	border-bottom-color: #ffffff;
+	border-color: #c5e8ae;
+	border-right-color: #ffffff;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.building .section table tbody tr th.w-15 {
+	width: 15%;
+}
+
+.building .section table tbody tr td {
+	background: none;
+	border: 1px solid #cdcdcd;
+	line-height: 1.85em;
+	padding: 10px;
 }
 
 .company__title {
@@ -2918,7 +3064,7 @@ select {
 	content: "04";
 }
 
-.reason .reason-container .contact-btn {
+.reason .reason-container a .contact-btn {
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -2944,17 +3090,17 @@ select {
 	width: 350px;
 }
 
-.reason .reason-container .contact-btn h4 {
+.reason .reason-container a .contact-btn h4 {
 	font-size: 1.6rem !important;
 	margin-bottom: 0 !important;
 	padding-bottom: 0 !important;
 }
 
-.reason .reason-container .contact-btn h4::after {
+.reason .reason-container a .contact-btn h4::after {
 	display: none;
 }
 
-.reason .reason-container .contact-btn:hover {
+.reason .reason-container a .contact-btn:hover {
 	background: #fff20a;
 	border-bottom: 2px solid #ccc100;
 	color: #000;
@@ -3187,7 +3333,7 @@ select {
 }
 
 .service .container .merit {
-	margin-top: 80px;
+	padding-top: 80px;
 }
 
 .service .container .merit__intro h3 {
@@ -4306,6 +4452,10 @@ body {
 	padding: 0;
 }
 
+.privacy .container {
+	width: 100%;
+}
+
 .reason .reason-container h3 {
 	font-size: 2.4rem;
 	margin-bottom: 8vw;
@@ -4337,11 +4487,11 @@ body {
 	width: 100%;
 }
 
-.reason .reason-container .contact-btn {
+.reason .reason-container a .contact-btn {
 	width: 80%;
 }
 
-.reason .reason-container .contact-btn h4 {
+.reason .reason-container a .contact-btn h4 {
 	font-size: 1.4rem !important;
 }
 
@@ -4384,6 +4534,14 @@ body {
 
 .service .container .tokuten .inner .tokuten .item {
 	margin: 20px 0;
+	width: 100%;
+}
+
+.sitemap .container {
+	width: 100%;
+}
+
+.sitemap .container article .inner {
 	width: 100%;
 }
 

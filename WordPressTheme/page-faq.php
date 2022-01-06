@@ -124,9 +124,11 @@
           </dd>
         </section>
     </dl>
+    <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">
     <div class="contact-btn">
       <h3>ご相談フォームはこちら</h3>
     </div>
+    </a>
   </div>
 </main>
 
