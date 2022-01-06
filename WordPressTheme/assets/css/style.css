@@ -2831,6 +2831,11 @@ select {
 	line-height: 1.8;
 }
 
+.reason .reason-container article .reason_box .box_inner .left p .bold {
+	font-size: 16px;
+	font-weight: bold;
+}
+
 .reason .reason-container article .reason_box .box_inner .left ul {
 	list-style: none;
 }
@@ -2839,7 +2844,11 @@ select {
 	font-size: 14px;
 	line-height: 1.8;
 	margin-bottom: 5px;
-	padding-left: 16px;
+}
+
+.reason .reason-container article .reason_box .box_inner .left ul li .bold {
+	font-size: 16px;
+	font-weight: bold;
 }
 
 .reason .reason-container article .reason_box .box_inner .right {
