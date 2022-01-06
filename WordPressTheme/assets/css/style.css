@@ -1416,6 +1416,77 @@ select {
 	width: 70px;
 }
 
+.tokuten {
+	margin: 50px auto 0;
+	width: 1120px;
+}
+
+.tokuten h3 {
+	color: #e45213;
+	font-size: 2rem !important;
+	margin-bottom: 0 !important;
+	padding-bottom: 30px;
+	position: relative;
+	text-align: center;
+}
+
+.tokuten h3::after {
+	background: #e45213;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 3px;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	width: 100px;
+}
+
+.tokuten .inner .intro {
+	margin: 60px auto 90px;
+	width: 90%;
+}
+
+.tokuten .inner .intro p {
+	font-size: 1.4rem;
+	line-height: 1.7;
+}
+
+.tokuten .inner .tokuten {
+	display: flex;
+	justify-content: space-between;
+}
+
+.tokuten .inner .tokuten .item {
+	border: 1px solid #ccc;
+	width: 32%;
+}
+
+.tokuten .inner .tokuten .item .item-inner {
+	width: 100%;
+}
+
+.tokuten .inner .tokuten .item .item-inner figure {
+	margin: 10px 0;
+}
+
+.tokuten .inner .tokuten .item .item-inner figure img {
+	width: 100%;
+}
+
+.tokuten .inner .tokuten .red {
+	background-color: #e45213;
+	color: #FFF;
+	font-size: 16px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.tokuten .inner .tokuten p {
+	font-size: 14px;
+	line-height: 1.7;
+}
+
 .blogs-box {
 	display: flex;
 	justify-content: space-between;
@@ -2719,13 +2790,17 @@ select {
 }
 
 .reason .reason-container article .reason_box .box_inner {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
 	margin: 0 auto;
-	width: 1200px;
+	max-width: 1200px;
 }
 
 .reason .reason-container article .reason_box .box_inner h2.title {
 	font-size: 36px;
 	line-height: 1.4;
+	margin-bottom: 50px;
 	padding-top: 65px;
 	position: relative;
 }
@@ -2756,9 +2831,23 @@ select {
 	line-height: 1.8;
 }
 
+.reason .reason-container article .reason_box .box_inner .left ul {
+	list-style: none;
+}
+
 .reason .reason-container article .reason_box .box_inner .left ul li {
 	font-size: 14px;
 	line-height: 1.8;
+	margin-bottom: 5px;
+	padding-left: 16px;
+}
+
+.reason .reason-container article .reason_box .box_inner .right {
+	width: 48%;
+}
+
+.reason .reason-container article .reason_box .box_inner .right img {
+	width: 100%;
 }
 
 .reason .reason-container article .reason_1 h2.title::after {
@@ -2775,6 +2864,49 @@ select {
 
 .reason .reason-container article .reason_4 h2.title::after {
 	content: "04";
+}
+
+.reason .reason-container .contact-btn {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	background-color: #fff100;
+	border-bottom: 5px solid #ccc100;
+	border-radius: 0.5rem;
+	color: #000;
+	color: #212529;
+	cursor: pointer;
+	display: block;
+	font-size: 1.6rem;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	line-height: 1.5;
+	margin: 60px auto;
+	padding: 1rem 4rem;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s;
+	user-select: none;
+	vertical-align: middle;
+	width: 350px;
+}
+
+.reason .reason-container .contact-btn h4 {
+	font-size: 1.6rem !important;
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.reason .reason-container .contact-btn h4::after {
+	display: none;
+}
+
+.reason .reason-container .contact-btn:hover {
+	background: #fff20a;
+	border-bottom: 2px solid #ccc100;
+	color: #000;
+	margin-top: 63px;
 }
 
 .service p {
@@ -3631,6 +3763,15 @@ body {
 
 .third-box .content .inner {
 	min-width: auto;
+	width: 100%;
+}
+
+.tokuten .inner .tokuten {
+	display: block;
+}
+
+.tokuten .inner .tokuten .item {
+	margin: 20px 0;
 	width: 100%;
 }
 

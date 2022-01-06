@@ -1,0 +1,68 @@
+.tokuten {
+    width: 1120px;
+    margin: 50px auto 0;
+    h3 {
+        font-size: 2rem !important;
+        text-align: center;
+        position: relative;
+        padding-bottom: 30px;
+        color: #e45213;
+        margin-bottom: 0 !important;
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #e45213;
+            height: 3px;
+            width: 100px;
+        }
+    }
+    .inner {
+        .intro {
+            width: 90%;
+            margin: 60px auto 90px;
+            p {
+                font-size: 1.4rem;
+                line-height: 1.7;
+            }
+        }
+        .tokuten {
+            display: flex;
+            justify-content: space-between;
+            @include mobile {
+                display: block;
+            }
+            .item {
+                width: 32%;
+                border: 1px solid #ccc;
+                @include mobile {
+                    width: 100%;
+                    margin: 20px 0;
+                }
+                .item-inner {
+                    width: 100%;
+                    figure {
+                        margin: 10px 0;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .red {
+                background-color: #e45213;
+                color: #FFF;
+                font-size: 16px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+            }
+            p {
+                font-size: 14px;
+                line-height: 1.7;
+            }
+        }
+    }
+}
