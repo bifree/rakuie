@@ -226,3 +226,11 @@ add_filter( 'get_the_archive_title', function ($title) {
     }
     return $title;
 });
+
+function mwform_error_message_custom( $error, $key, $rule ) {
+    if ( $key === '【適用したいname】' && $rule === 'noempty' ) {
+      return '変更後のエラー文言';
+    }
+    return $error;
+  }
+  add_filter( 'mwform_error_message_mw-wp-form-【フォーム識別子のkey番号】', 'mwform_error_message_custom', 10, 3 );

@@ -1177,7 +1177,7 @@ select {
 
 .main-views .swiper-container .swiper-slide img {
 	-o-object-fit: cover;
-	height: 100%;
+	height: auto;
 	object-fit: cover;
 	width: 100%;
 }
@@ -2394,7 +2394,7 @@ select {
 }
 
 .company__message--box {
-	background: url(../img/company_message.jpg) right -60px bottom/450px auto no-repeat;
+	background: url(../img/company_message2.jpg) right -60px bottom/450px auto no-repeat;
 	background-color: #fff;
 	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 	color: #333;
@@ -2740,6 +2740,7 @@ select {
 }
 
 .service .container ul li {
+	margin-bottom: 30px;
 	position: relative;
 	width: calc((100% - 80px) / 3);
 }
@@ -2821,8 +2822,8 @@ select {
 }
 
 .service .container .intro {
-	margin-bottom: 60px;
-	width: 70%;
+	margin: 0 auto 90px;
+	width: 90%;
 }
 
 .service .container .rakuie__service h3 {
@@ -3029,6 +3030,69 @@ select {
 
 .service .container .merit .wrapItems .item:nth-child(2n) {
 	margin-right: 0;
+}
+
+.service .container .tokuten {
+	margin-top: 50px;
+}
+
+.service .container .tokuten h3 {
+	color: #e45213;
+	font-size: 2rem;
+	padding-bottom: 30px;
+	position: relative;
+	text-align: center;
+}
+
+.service .container .tokuten h3::after {
+	background: #e45213;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 3px;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	width: 100px;
+}
+
+.service .container .tokuten .inner .intro {
+	margin: 60px auto 90px;
+	width: 90%;
+}
+
+.service .container .tokuten .inner .tokuten {
+	display: flex;
+	justify-content: space-between;
+}
+
+.service .container .tokuten .inner .tokuten .item {
+	border: 1px solid #ccc;
+	width: 32%;
+}
+
+.service .container .tokuten .inner .tokuten .item .item-inner {
+	width: 100%;
+}
+
+.service .container .tokuten .inner .tokuten .item .item-inner figure {
+	margin: 10px 0;
+}
+
+.service .container .tokuten .inner .tokuten .item .item-inner figure img {
+	width: 100%;
+}
+
+.service .container .tokuten .inner .tokuten .red {
+	background-color: #e45213;
+	color: #FFF;
+	font-size: 16px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.service .container .tokuten .inner .tokuten p {
+	font-size: 14px;
 }
 
 .sitemap .container {
@@ -3288,6 +3352,7 @@ body {
 
 .c-breadcrumb {
 	margin: 3.2vw 0;
+	width: 100%;
 }
 
 .c-breadcrumb ul {
@@ -3393,12 +3458,16 @@ body {
 }
 
 .main-views {
-	height: 200vw;
+	height: auto;
 }
 
 .main-views .swiper-container .swiper-slide {
 	min-width: auto;
 	width: 100% !important;
+}
+
+.main-views .swiper-container .swiper-slide img {
+	height: auto;
 }
 
 .second-box {
@@ -3840,7 +3909,7 @@ body {
 }
 
 .company__message--box {
-	background: url(../img/company_message.jpg) center bottom/69.33333vw auto no-repeat;
+	background: url(../img/company_message1.jpg) center bottom/69.33333vw auto no-repeat;
 	background-color: #fff;
 	box-shadow: 0.8vw 0.8vw 2.66667vw rgba(0, 0, 0, 0.3);
 	margin-top: -16vw;
@@ -3898,6 +3967,60 @@ body {
 
 .company__access--wrap div {
 	font-size: 1.4rem;
+	width: 100%;
+}
+
+.faq-container {
+	width: 100%;
+}
+
+.faq-inner {
+	width: 90%;
+}
+
+.faq-inner h3 span {
+	padding: 0;
+}
+
+.service .container {
+	width: 100%;
+}
+
+.service .container ul {
+	flex-direction: column;
+}
+
+.service .container ul li {
+	width: 100%;
+}
+
+.service .container .rakuie__service .inner {
+	display: block;
+}
+
+.service .container .rakuie__service .inner .promise dl {
+	width: 100%;
+}
+
+.service .container .rakuie__service .inner .promise dl dt {
+	font-size: 1.6rem;
+}
+
+.service .container .rakuie__service .inner .promise-img {
+	width: 90%;
+}
+
+.service .container .merit .wrapItems .item {
+	margin: 20px 0;
+	width: 100%;
+}
+
+.service .container .tokuten .inner .tokuten {
+	display: block;
+}
+
+.service .container .tokuten .inner .tokuten .item {
+	margin: 20px 0;
 	width: 100%;
 }
 

@@ -13,7 +13,7 @@
 			</dl>
 			<ul class="box-right">
 				<li><a href="<?php echo esc_url( home_url( '/service' ) ); ?>">サービス内容</a></li>
-				<li><a href="<?php echo esc_url( home_url( '/reason' ) ); ?>">選ばれる理由</a></li>
+				<!-- <li><a href="<?php echo esc_url( home_url( '/reason' ) ); ?>">選ばれる理由</a></li> -->
 				<li><a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">ご相談・査定依頼フォーム</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/faq' ) ); ?>">よくあるご質問</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/company' ) ); ?>">会社案内</a></li>
