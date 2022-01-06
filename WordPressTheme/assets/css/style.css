@@ -1048,6 +1048,38 @@ select {
 	margin-bottom: 100px;
 }
 
+.covid {
+	padding: 80px 0;
+}
+
+.covid .inner {
+	border: 2px solid #e45213;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 50px;
+	width: 70%;
+}
+
+.covid .inner h4 {
+	font-size: 2.8rem;
+	font-weight: bold;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+.covid .inner .covid_flow {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px auto 0;
+	width: 80%;
+}
+
+.covid .inner p {
+	font-size: 1.6rem;
+	line-height: 1.8;
+	text-align: center;
+}
+
 #homebanner {
 	background-color: #FFF;
 	border: 1px solid #eb5e00;
@@ -3654,6 +3686,39 @@ body {
 	min-width: auto;
 	padding: 0 5.33333vw;
 	width: 100%;
+}
+
+.covid .inner {
+	padding: 20px;
+	width: 90%;
+}
+
+.covid .inner h4 {
+	font-size: 2rem;
+	margin-bottom: 8vw;
+	padding-bottom: 4vw;
+}
+
+.covid .inner .covid_flow {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 50px auto 0;
+	width: 100%;
+}
+
+.covid .inner .covid_flow .flow_item {
+	width: 30%;
+}
+
+.covid .inner .covid_flow .flow_item img {
+	width: 100%;
+}
+
+.covid .inner p {
+	font-size: 1.6rem;
+	line-height: 1.8;
+	text-align: center;
 }
 
 #homebanner {
