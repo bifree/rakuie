@@ -1,6 +1,9 @@
 .tokuten {
     width: 1120px;
     margin: 50px auto 0;
+    @include mobile {
+        width: 100%;
+    }
     h3 {
         font-size: 2rem !important;
         text-align: center;
@@ -39,8 +42,8 @@
                 width: 32%;
                 border: 1px solid #ccc;
                 @include mobile {
-                    width: 100%;
-                    margin: 20px 0;
+                    width: 80%;
+                    margin: 20px auto;
                 }
                 .item-inner {
                     width: 100%;

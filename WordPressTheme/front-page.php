@@ -116,6 +116,33 @@
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/card_sp2.png" alt="" class="is_sp">
 			</div>
 		</div>
+		<div class="covid">
+			<div class="inner">
+				<h4>【新型ウイルス感染防止対策について】</h4>
+				<p>弊社では、お客様に安心してご来店・ご利用いただけるよう、<br>以下の対策を行っております。</p>
+				<div class="covid_flow">
+					<div class="flow_item">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/covid/mask.jpg" alt="">
+					</div>
+					<div class="flow_item">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/covid/frame.jpg" alt="">
+					</div>
+					<div class="flow_item">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/covid/group.jpg" alt="">
+					</div>
+					<div class="flow_item">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/covid/temprature.jpg" alt="">
+					</div>
+					<div class="flow_item">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/covid/pc.jpg" alt="">
+					</div>
+				</div>
+				<div class="online">
+					<p>全国対応！相談無料！簡単操作！<br>
+						遠方の方や〇〇など、ZOOM等でご相談ください！</p>
+				</div>
+			</div>
+		</div>
 		<div class="container">
 			<div class="blogs-box js-inview">
 				<div class="top_blog">
