@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="c-breadcrumb"><?php breadcrumb(); ?></div>
-        <div id="content">
+        <div class="building" id="content">
             <div class="section">
                 <div class="case_info">
                     <div class="case_row">
@@ -17,6 +17,13 @@
                         </dl>
                     </div>
                     <div class="case_row">
+                        <dl class="case_info_sta">
+                            <dt>最寄り駅</dt>
+                            <dd>
+                                <br>
+                                <br>
+                            </dd>
+                        </dl>
                         <dl class="case_info_sta">
                             <dt>最寄り駅</dt>
                             <dd>
@@ -47,35 +54,35 @@
                 <div class="table">
                     <dl>
                         <dt>建物構造</dt>
-                        <dt></dt>
+                        <dd></dd>
                     </dl>
                     <dl>
                         <dt>築年月</dt>
-                        <dt></dt>
+                        <dd></dd>
                     </dl>
                     <dl>
                         <dt>土地権利</dt>
-                        <dt></dt>
+                        <dd></dd>
                     </dl>
                     <dl>
                         <dt>小学校区</dt>
-                        <dt></dt>
+                        <dd></dd>
                     </dl>
                     <dl>
                         <dt>地上階</dt>
-                        <dt></dt>
+                        <dd></dd>
                     </dl>
                     <dl>
                         <dt>棟総戸数</dt>
-                        <dt></dt>
+                        <dd></dd>
                     </dl>
                     <dl>
                         <dt>管理形態</dt>
-                        <dt></dt>
+                        <dd></dd>
                     </dl>
                     <dl>
                         <dt>中学校区</dt>
-                        <dt></dt>
+                        <dd></dd>
                     </dl>
                 </div>
             </div>
@@ -93,6 +100,14 @@
                             <th class="w-15">平米数</th>
                             <th class="w-15">間取り</th>
                             <th class="w-15">売却価格（万円）</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                     </tbody>
                 </table>

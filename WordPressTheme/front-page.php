@@ -150,33 +150,32 @@
 						<p class="ttl">社長ブログ</p>
 					</div>
 					<div class="scroll_box">
-					<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-			$the_query = new WP_Query( array(
-					'post_status' => 'publish',
-					'paged' => $paged,
-					'posts_per_page' => 5, // 表示件数
-					'orderby'     => 'date',
-					'order' => 'DESC'
-			) );
-					if ($the_query->have_posts()) :
-				while ($the_query->have_posts()) : $the_query->the_post(); ?>
+						<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+							$the_query = new WP_Query( array(
+						'post_status' => 'publish',
+						'paged' => $paged,
+						'posts_per_page' => 5, // 表示件数
+						'orderby'     => 'date',
+						'order' => 'DESC'
+							) );
+						if ($the_query->have_posts()) :
+						while ($the_query->have_posts()) : $the_query->the_post(); ?>
 			
-				<div class="news-list__outline">
-				<div class="news-list__box">
-						<div class="news-list__left">
-							<span class="<?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->slug; } ?>" style=""><?php the_category(); ?></span><span class="post-date"><?php echo get_the_date('Y.n.j'); ?></span>
-							<div class="list-title">
-								<a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
+						<div class="news-list__outline">
+							<div class="news-list__box">
+								<div class="news-list__left">
+									<span class="<?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->slug; } ?>" style=""><?php the_category(); ?></span><span class="post-date"><?php echo get_the_date('Y.n.j'); ?></span>
+									<div class="list-title">
+										<a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
+									</div>
+								</div>
+								<div class="news-list__right">
+									<p><?php the_excerpt(); ?></p>
+								</div>
 							</div>
 						</div>
-						<div class="news-list__right">
-							<p><?php the_excerpt(); ?></p>
-						</div>
-					</div>
-				</div>
 			
-
-			<?php endwhile; endif; ?>
+						<?php endwhile; endif; ?>
 						<dl></dl>
 					</div>
 				</div>
@@ -184,8 +183,40 @@
 					<div class="ttl-Box">
 						<p class="ttl">売買事例</p>
 					</div>
-					<div class="scroll_box">
-						<dl></dl>
+					<div class="scroll_box buildings-list">
+						<table>
+							<thead>
+								<tr>
+									<th class="w-40" rowspan="2">
+										マンション名
+									</th>
+									<th colspan="3">売却事例</th>
+								</tr>
+								<tr>
+									<th class="w-10">平米数</th>
+									<th class="w-10">間取り	</th>
+									<th class="w-10">売却価格（万円）</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td rowspan="1">
+										<a href="">ＣＯＮＯＥ谷町四丁目</a>
+									</td>
+									<td>53.81</td>
+									<td>２ＬＤＫ</td>
+									<td>2,820</td>
+								</tr>
+								<tr>
+									<td rowspan="1">
+										<a href="">ＣＯＮＯＥ谷町四丁目</a>
+									</td>
+									<td>53.81</td>
+									<td>２ＬＤＫ</td>
+									<td>2,820</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 				</div>
 			</div>
