@@ -477,6 +477,7 @@ a {
 	font-size: 100%;
 	margin: 0;
 	padding: 0;
+	text-decoration: none;
 	vertical-align: baseline;
 }
 
@@ -864,6 +865,63 @@ select {
 	visibility: hidden;
 }
 
+.buildings-list {
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.buildings-list table {
+	box-sizing: border-box;
+	display: table;
+	width: 100%;
+}
+
+.buildings-list table thead {
+	display: block;
+	width: 235%;
+}
+
+.buildings-list table thead tr:nth-child(1) th:nth-child(1) {
+	border-bottom: 1px solid #e45213;
+	border-left: 1px solid #e45213;
+	border-top: 1px solid #e45213;
+	width: 390px;
+}
+
+.buildings-list table thead tr th {
+	background-color: #e45213;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 140%;
+	font-weight: bold;
+	line-height: 1.4em;
+	text-align: center;
+}
+
+.buildings-list table thead tr:nth-child(2) th {
+	border-bottom: 1px solid #e45213;
+	width: 180px;
+}
+
+.buildings-list table tbody {
+	box-sizing: border-box;
+	height: 267px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	transform: translateZ(0);
+}
+
+.buildings-list table tbody tr:nth-child(1) td:nth-child(1) {
+	width: 380px;
+}
+
+.buildings-list table tbody tr td {
+	border: 1px solid #999;
+	font-size: 140%;
+	line-height: 1.4em;
+	width: 180px;
+}
+
 .c-breadcrumb {
 	margin: 0 auto 60px;
 	padding: 12px 0;
@@ -1029,6 +1087,10 @@ select {
 	user-select: none;
 	vertical-align: middle;
 	width: 350px;
+}
+
+.contact-btn a {
+	text-decoration: none;
 }
 
 .contact-btn:hover {
