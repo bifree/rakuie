@@ -25,5 +25,44 @@
             text-align: center;
             margin-bottom: 60px;
         }
+        .table {
+            table {
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+                tbody {
+                    tr {
+                        border-bottom: 1px solid #ccc;
+                        th {
+                            background: #ffffdf;
+                            font-weight: 700;
+                            text-align: left;
+                            width: 200px;
+                            font-size: 14px;
+                            border-left: 1px solid #ccc;
+                            border-top: 1px solid #ccc;
+                            @media screen and (max-width: 767px) {
+                                display: block;
+                                font-size: 1.6rem;
+                                font-weight: 500;
+                                padding: 2.66667vw 5.33333vw;
+                                text-align: center;
+                                text-align: center;
+                                width: 100%;
+                            }
+                        }
+                        td {
+                            border-left: 1px solid #ccc;
+                            border-right: 1px solid #ccc;
+                            border-top: 1px solid #ccc;
+                            font-size: 1.6rem;
+                            font-weight: 500;
+                            line-height: 1.8;
+                            padding: 20px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

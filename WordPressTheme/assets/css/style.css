@@ -2280,6 +2280,36 @@ select {
 	text-align: center;
 }
 
+.baikai-contract .inner .table table {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.baikai-contract .inner .table table tbody tr {
+	border-bottom: 1px solid #ccc;
+}
+
+.baikai-contract .inner .table table tbody tr th {
+	background: #ffffdf;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: left;
+	width: 200px;
+}
+
+.baikai-contract .inner .table table tbody tr td {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	font-size: 1.6rem;
+	font-weight: 500;
+	line-height: 1.8;
+	padding: 20px;
+}
+
 .building {
 	margin: 0 auto;
 	padding-bottom: 30px;
@@ -4332,6 +4362,16 @@ body {
 
 .rakuie-omakase p strong {
 	font-size: 2rem;
+}
+
+.baikai-contract .inner .table table tbody tr th {
+	display: block;
+	font-size: 1.6rem;
+	font-weight: 500;
+	padding: 2.66667vw 5.33333vw;
+	text-align: center;
+	text-align: center;
+	width: 100%;
 }
 
 .company__title {
