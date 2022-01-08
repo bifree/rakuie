@@ -143,6 +143,162 @@
         </div>
       </div>
 
+      <div class="surpport">
+        <div class="img-center">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/rakuie-4.png" alt="">
+        </div>
+        <div class="anshin-sup">
+          <h2>安心サポート</h2>
+          <div class="list-wrap">
+            <div class="item">
+              <h3>第三者機関による建物診断・建物保証</h3>
+              <p>第三者による建物、設備の「きちんと検査」を実施。検査済み＆保証つきの高付加価値物件として販売できます。</p>
+              <ul>
+                <li>しっかり保証で引き渡し後の契約不適合責任・設備の修復義務を保証でカバー。</li>
+                <li>引っ越し後のトラブルを回避。</li>
+              </ul>
+            </div>
+            <div class="item">
+              <h3>買取オークション</h3>
+              <p>売却活動中に購入希望者が見つからない場合は不動産会社買取保証付きお持ちの不動産に関心のある複数の不動産買取会社の買取価格を一括で比較</p>
+              <p>買取希望の複数の不動産会社から最高値の会社でご契約！</p>
+              <p>買取業者の情報収集源は不動産仲介会社になっている為、一般のお客様に対してはしていないため、一般の方には買取専門会社との接点を持つのは難しいです。</p>
+              <p>そこで、当社は買取業者を１社に限定すると買取が適正な価格にばらつきが出るため、買取業者（最低10社）を集め、オークション型にして買取価格の最大化できるスキームがあります。当社が売主様のエージェントとして取りまとめます。</p>
+            </div>
+            <div class="item">
+              <h3>司法書士・税理士等を無料でご紹介</h3>
+              <p>
+                <span>ご紹介させていただく始業の方々は、相続でご活躍されています！</span>
+              </p>
+              <p>
+                <span>ご相談料無料！ご紹介料無料！ご指定場所まで訪問無料！</span><br>※当社専属媒介契約による特典あり！
+              </p>
+            </div>
+            <div class="item">
+              <h3>不用品買取</h3>
+              <p>すぐに売却して現金化したい、近場に秘密で売却したい。手間をかけたくない。家具・家財など室内に残ったままで売却したい。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="baikai-contract">
+          <div class="inner">
+            <h3>媒介契約とは</h3>
+            <p>３つの媒介契約があります。比較すると次のような内容の契約となります。</p>
+            <div class="table">
+              <table>
+                <tbody>
+                  <tr>
+                    <td></td>
+                    <td>専任媒介</td>
+                    <td>専属専任媒介</td>
+                    <td>一般媒介</td>
+                  </tr>
+                  <tr>
+                    <td>1.複数の不動産会社への依頼</td>
+                    <td>できない</td>
+                    <td>できない</td>
+                    <td>できる</td>
+                  </tr>
+                  <tr>
+                    <td>2.自分で買主を見つけること</td>
+                    <td>できる</td>
+                    <td>できない</td>
+                    <td>できる</td>
+                  </tr>
+                  <tr>
+                    <td>3.媒介契約期間</td>
+                    <td>3ヶ月以内</td>
+                    <td>3ヶ月以内</td>
+                    <td>特に決まりはない</td>
+                  </tr>
+                  <tr>
+                    <td>4.レインズへの登録義務</td>
+                    <td>7日以内</td>
+                    <td>5日以内</td>
+                    <td>特に決まりはない</td>
+                  </tr>
+                  <tr>
+                    <td>5.売主への報告義務</td>
+                    <td>2週間に1回以上</td>
+                    <td>1週間に1回以上</td>
+                    <td>特に決まりはない</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="features">
+          <div class="inner">
+            <h3>専属専任媒介契約の特徴</h3>
+            <table>
+              <tr>
+                <th>メリット</th>
+                <td>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>デメリット</th>
+                <td>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+            <h3>専任媒介契約の特徴</h3>
+            <table>
+              <tr>
+                <th>メリット</th>
+                <td>
+                <ul>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>デメリット</th>
+                <td>
+                <ul>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+            <h3>一般媒介契約の特徴</h3>
+            <table>
+              <tr>
+                <th>メリット</th>
+                <td>
+                <ul>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>デメリット</th>
+                <td>
+                <ul>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
       <div class="tokuten" id="tokuten">
         <h3>ラクイエの特典</h3>
         <div class="inner">
