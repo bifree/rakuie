@@ -1,0 +1,53 @@
+.surpport {
+    margin-top: 80px;
+    .img-center {
+        display: flex;
+        justify-content: center;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .anshin-sup {
+        margin-top: 80px;
+        h2 {
+            font-size: 3.6rem;
+            font-weight: bold;
+            letter-spacing: 0.1em;
+            line-height: 1.4em;
+            margin-bottom: 60px;
+            padding-bottom: 20px;
+            position: relative;
+            text-align: center;
+            &::after {
+                background: #e45213;
+            bottom: 0;
+            content: '';
+            display: block;
+            height: 4px;
+            left: 50%;
+            position: absolute;
+            transform: translateX(-50%);
+            width: 80px;
+            }
+        }
+        .list-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            .item {
+                background: #fff;
+                width: 48%;
+                // box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+                padding: 30px;
+                position: relative;
+                h3 {
+                    border-left: 4px solid #e45213;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    line-height: 24px;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+}

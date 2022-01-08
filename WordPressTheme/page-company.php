@@ -74,7 +74,7 @@
           </div>
         </div>
       </section>
-      <table>
+      <table class="company-info">
         <tr>
           <th>会社名</th>
           <td>株式会社ラクイエ - 楽家 -</td>

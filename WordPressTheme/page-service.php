@@ -10,7 +10,7 @@
     <?php breadcrumb(); ?>
   </div>
   <div class="container">
-    <ul class="js-inview">
+    <ul class="js-inview top-menu">
         <li>
           <a href="#promise" class="scale">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/promise1.jpg" alt="会社概要">
@@ -143,6 +143,49 @@
         </div>
       </div>
 
+      <div class="container">
+			<div class="rakuie-baikyaku">
+				<h2>売却までの流れ</h2>
+				<ol class="js-inview">
+					<li>
+						<span>STEP<em>01</em></span>
+						<dl>
+							<dt>査定のご依頼</dt>
+							<dd>お電話・メールにてご相談ください。物件の立地や、建物の内部など状態を確認して査定いたします。</dd>
+						</dl>
+					</li>
+					<li>
+						<span>STEP<em>02</em></span>
+						<dl>
+							<dt>売却内容のご相談</dt>
+							<dd>査定結果に基づいて、売却価格や契約方法のご説明・ご相談をさせていただきます。</dd>
+						</dl>
+					</li>
+					<li>
+						<span>STEP<em>03</em></span>
+						<dl>
+							<dt>媒介契約</dt>
+							<dd>ご希望の内容で媒介契約を行います。</dd>
+						</dl>
+					</li>
+					<li>
+						<span>STEP<em>04</em></span>
+						<dl>
+							<dt>広告・お客さま対応</dt>
+							<dd>弊社のポータルサイトにて物件を掲載、お客さまからのお問い合わせの対応などをいたします。</dd>
+						</dl>
+					</li>
+					<li>
+						<span>STEP<em>05</em></span>
+						<dl>
+							<dt>売買契約</dt>
+							<dd>購入希望者との間で、売買契約を締結いたします。</dd>
+						</dl>
+					</li>
+				</ol>
+			</div>
+		</div>
+
       <div class="surpport">
         <div class="img-center">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/rakuie-4.png" alt="">
@@ -184,7 +227,7 @@
         <div class="baikai-contract">
           <div class="inner">
             <h3>媒介契約とは</h3>
-            <p>３つの媒介契約があります。比較すると次のような内容の契約となります。</p>
+            <p class="text-center">３つの媒介契約があります。比較すると次のような内容の契約となります。</p>
             <div class="table">
               <table>
                 <tbody>
@@ -237,9 +280,9 @@
               <tr>
                 <th>メリット</th>
                 <td>
-                  <ul>
-                    <li></li>
-                    <li></li>
+                  <ul class="feature-li">
+                    <li>契約を結んだ不動産会社でしか仲介できないため専任よりも広告費用をかけるなど積極的に活動をしてもらいやすい。</li>
+                    <li>不動産会社からの報告頻度が３つの契約の中で最も高く設定されているので、売主が販売状況を把握しやすい。</li>
                   </ul>
                 </td>
               </tr>
@@ -247,8 +290,9 @@
                 <th>デメリット</th>
                 <td>
                   <ul>
-                    <li></li>
-                    <li></li>
+                    <li>1社のみに任せるため、その会社の力量次第で売却の時期や金額が左右される。</li>
+                    <li>自分で買い手を見つけても不動産会社を介さず売ることはできない。</li>
+                    <li>他社との競争がなく、営業が活発でないことがある。</li>
                   </ul>
                 </td>
               </tr>
@@ -259,8 +303,8 @@
                 <th>メリット</th>
                 <td>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li>不動産会社からの報告頻度が高く設定されているので、売主が販売状況を把握しやすい。</li>
+                    <li>広告費用をかけるなど積極的な販売活動を行なってもらいやすい。</li>
                   </ul>
                 </td>
               </tr>
@@ -268,8 +312,8 @@
                 <th>デメリット</th>
                 <td>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li>1社のみに任せるため、その会社の力量次第で売却の時期や金額が左右される。</li>
+                    <li>他社との競争がなく、営業が活発でないことがある。</li>
                   </ul>
                 </td>
               </tr>
@@ -280,8 +324,9 @@
                 <th>メリット</th>
                 <td>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li>複数の会社に仲介を依頼できるので、買い手の幅が広がる。</li>
+                    <li>会社同士の競争意識がはたらき、営業活動が積極的になる。</li>
+                    <li>レインズに登録しなくて良いので、売却物権が公にならない。</li>
                   </ul>
                 </td>
               </tr>
@@ -289,8 +334,9 @@
                 <th>デメリット</th>
                 <td>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li>販売状況の報告義務がないため、不動産会社がどのように活動しているか分かりづらい。</li>
+                    <li>自社で売却できるとは限らないので、積極的な販売活動をしない可能性もある。</li>
+                    <li>レインズに登録しない場合、物件情報が広がらない。</li>
                   </ul>
                 </td>
               </tr>

@@ -2252,6 +2252,34 @@ select {
 	top: calc(50% - 5px);
 }
 
+.baikai-contract .inner h3 {
+	font-size: 3.6rem;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	line-height: 1.4em;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	position: relative;
+	text-align: center;
+}
+
+.baikai-contract .inner h3::after {
+	background: #e45213;
+	bottom: 0;
+	content: '';
+	display: block;
+	height: 4px;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	width: 80px;
+}
+
+.baikai-contract .inner .text-center {
+	margin-bottom: 60px;
+	text-align: center;
+}
+
 .building {
 	margin: 0 auto;
 	padding-bottom: 30px;
@@ -2620,15 +2648,15 @@ select {
 	width: 8px;
 }
 
-.company__about table {
+.company__about table.company-info {
 	border-bottom: 1px solid #ccc;
 	border-right: 1px solid #ccc;
 	table-layout: fixed;
 	width: 100%;
 }
 
-.company__about table th,
-.company__about table td {
+.company__about table.company-info th,
+.company__about table.company-info td {
 	border-left: 1px solid #ccc;
 	border-top: 1px solid #ccc;
 	font-size: 1.6rem;
@@ -2637,28 +2665,28 @@ select {
 	padding: 20px;
 }
 
-.company__about table th {
+.company__about table.company-info th {
 	background: #efefef;
 	font-weight: 700;
 	text-align: left;
 	width: 200px;
 }
 
-.company__about table ul {
+.company__about table.company-info ul {
 	list-style: none;
 }
 
-.company__about table ul li {
+.company__about table.company-info ul li {
 	margin-bottom: 10px;
 	padding-left: 16px;
 	position: relative;
 }
 
-.company__about table ul li:last-child {
+.company__about table.company-info ul li:last-child {
 	margin-bottom: 0;
 }
 
-.company__about table ul li::before {
+.company__about table.company-info ul li::before {
 	background: #e45213;
 	border-radius: 50%;
 	content: '';
@@ -3215,38 +3243,38 @@ select {
 	width: 1120px;
 }
 
-.service .container ul {
+.service .container ul.top-menu {
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
 	padding: 80px 0;
 }
 
-.service .container ul.is-inview li::after {
+.service .container ul.top-menu.is-inview li::after {
 	transform: scaleX(0);
 }
 
-.service .container ul.is-inview li::after a span {
+.service .container ul.top-menu.is-inview li::after a span {
 	transform: scaleX(0);
 }
 
-.service .container ul li {
+.service .container ul.top-menu li {
 	margin-bottom: 30px;
 	position: relative;
 	width: calc((100% - 80px) / 3);
 }
 
-.service .container ul li a {
+.service .container ul.top-menu li a {
 	display: block;
 	position: relative;
 	text-decoration: none;
 }
 
-.service .container ul li a img {
+.service .container ul.top-menu li a img {
 	width: 100%;
 }
 
-.service .container ul li a span {
+.service .container ul.top-menu li a span {
 	background: #e45213;
 	bottom: -10px;
 	color: #fff;
@@ -3259,7 +3287,7 @@ select {
 	width: 80%;
 }
 
-.service .container ul li a span::after {
+.service .container ul.top-menu li a span::after {
 	border-left: 3px solid #fff;
 	border-top: 3px solid #fff;
 	content: '';
@@ -3624,6 +3652,67 @@ select {
 	left: 0;
 	position: absolute;
 	top: 1px;
+}
+
+.surpport {
+	margin-top: 80px;
+}
+
+.surpport .img-center {
+	display: flex;
+	justify-content: center;
+}
+
+.surpport .img-center img {
+	display: block;
+	margin: 0 auto;
+}
+
+.surpport .anshin-sup {
+	margin-top: 80px;
+}
+
+.surpport .anshin-sup h2 {
+	font-size: 3.6rem;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	line-height: 1.4em;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
+	position: relative;
+	text-align: center;
+}
+
+.surpport .anshin-sup h2::after {
+	background: #e45213;
+	bottom: 0;
+	content: '';
+	display: block;
+	height: 4px;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	width: 80px;
+}
+
+.surpport .anshin-sup .list-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.surpport .anshin-sup .list-wrap .item {
+	background: #fff;
+	padding: 30px;
+	position: relative;
+	width: 48%;
+}
+
+.surpport .anshin-sup .list-wrap .item h3 {
+	border-left: 4px solid #e45213;
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 10px;
+	padding-left: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -4378,8 +4467,8 @@ body {
 	width: 8px;
 }
 
-.company__about table th,
-.company__about table td {
+.company__about table.company-info th,
+.company__about table.company-info td {
 	display: block;
 	font-size: 1.6rem;
 	font-weight: 500;
@@ -4387,23 +4476,23 @@ body {
 	text-align: center;
 }
 
-.company__about table th {
+.company__about table.company-info th {
 	text-align: center;
 	width: 100%;
 }
 
-.company__about table ul li {
+.company__about table.company-info ul li {
 	margin-bottom: 10px;
 	padding-left: 16px;
 	position: relative;
 	text-align: left;
 }
 
-.company__about table ul li:last-child {
+.company__about table.company-info ul li:last-child {
 	margin-bottom: 0;
 }
 
-.company__about table ul li::before {
+.company__about table.company-info ul li::before {
 	background: #e45213;
 	border-radius: 50%;
 	content: '';
@@ -4556,11 +4645,11 @@ body {
 	width: 100%;
 }
 
-.service .container ul {
+.service .container ul.top-menu {
 	flex-direction: column;
 }
 
-.service .container ul li {
+.service .container ul.top-menu li {
 	width: 100%;
 }
 

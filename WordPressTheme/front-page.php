@@ -64,51 +64,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container">
-			<div class="rakuie-baikyaku">
-				<h2>売却までの流れ</h2>
-				<ol class="js-inview">
-					<li>
-						<span>STEP<em>01</em></span>
-						<dl>
-							<dt>査定のご依頼</dt>
-							<dd>お電話・メールにてご相談ください。物件の立地や、建物の内部など状態を確認して査定いたします。</dd>
-						</dl>
-					</li>
-					<li>
-						<span>STEP<em>02</em></span>
-						<dl>
-							<dt>売却内容のご相談</dt>
-							<dd>査定結果に基づいて、売却価格や契約方法のご説明・ご相談をさせていただきます。</dd>
-						</dl>
-					</li>
-					<li>
-						<span>STEP<em>03</em></span>
-						<dl>
-							<dt>媒介契約</dt>
-							<dd>ご希望の内容で媒介契約を行います。</dd>
-						</dl>
-					</li>
-					<li>
-						<span>STEP<em>04</em></span>
-						<dl>
-							<dt>広告・お客さま対応</dt>
-							<dd>弊社のポータルサイトにて物件を掲載、お客さまからのお問い合わせの対応などをいたします。</dd>
-						</dl>
-					</li>
-					<li>
-						<span>STEP<em>05</em></span>
-						<dl>
-							<dt>売買契約</dt>
-							<dd>購入希望者との間で、売買契約を締結いたします。</dd>
-						</dl>
-					</li>
-				</ol>
-				<nav class="c-button">
-					<a href="https://www.rakuie.jp/service/">サービス内容</a>
-				</nav>
-			</div>
-		</div>
+
 		<div class="rakuie-ceo js-inview">
 			<div class="inner">
 				<p>『安心・安全な不動産取引』をお約束<br>すべてのご家族に<br class="is_sp">笑顔と幸せをお届けします！</p>
