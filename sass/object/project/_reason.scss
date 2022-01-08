@@ -143,6 +143,16 @@
                     content: "04";
                 }
             }
+            .reason_5{
+                h2.title::after {
+                    content: "05";
+                }
+            }
+            .reason_6{
+                h2.title::after {
+                    content: "06";
+                }
+            }
         }
         a {
             .contact-btn {
