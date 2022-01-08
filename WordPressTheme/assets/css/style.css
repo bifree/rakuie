@@ -3159,6 +3159,14 @@ select {
 	content: "04";
 }
 
+.reason .reason-container article .reason_5 h2.title::after {
+	content: "05";
+}
+
+.reason .reason-container article .reason_6 h2.title::after {
+	content: "06";
+}
+
 .reason .reason-container a .contact-btn {
 	-webkit-user-select: none;
 	-moz-user-select: none;
