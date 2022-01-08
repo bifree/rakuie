@@ -8,8 +8,30 @@
     </div>
 
     <div class="reason-container">
+        <div class="reason-container__top">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/reason_top.png" alt="">
+        </div>
         <h3>ラクイエの強み</h3>
+        <p class="center">ここが他社と違う！</p>
+        <div class="shigyou">
+            <ul>
+                <li>司法書士</li>
+                <li>行政書士</li>
+                <li>弁護士</li>
+                <li>空き家相談士</li>
+            </ul>
+            <ul>
+                <li>税理士</li>
+                <li>測量士</li>
+                <li>建築士</li>
+                <li>不動産鑑定士</li>
+            </ul>
+        </div>
+        <p class="center mt-10">相続不動産の問題解決に必要な各士業との連携でフルサポート！</p>
+        <p class="orange-btn">だからラクイエだけで解決が可能なんです！</p>
         <article>
+            <h2 class="sub-title"><span class="big">株式会社ラクイエ</span>が</h2>
+            <h2 class="sub-title">お<span class="big">客様</span>に<span class="big">選</span>ばれる<span class="big">６</span>つの理由</h2>
             <div class="reason_1 reason_box">
                 <div class="box_inner">
                     <div class="left">
@@ -104,6 +126,62 @@
                 </div>
             </div>
         </article>
+        <div class="second-box parallax">
+			<div class="title">
+				<div class="inner">
+					<h2>ラクイエに依頼する<br class="is_sp">4つのメリット</h2>
+				</div>
+			</div>
+			<div class="content">
+				<div class="inner">
+					<div class="wrapItems js-inview">
+						<dl class="item">
+							<dt>各所への相談がラクイエで完結</dt>
+							<dd>
+								<p class="ttl">
+									多様な専門家との連携により、<br class="is_pc">お客さまがあちこち相談に行く手間と時間が省けます。
+								</p>
+							</dd>
+						</dl>
+						<dl class="item">
+							<dt>ご相談者の立場に立ったご提案</dt>
+							<dd>
+								<p class="ttl">
+									ノルマを撤廃し、<br class="is_pc">お客さまに寄り添ったご提案をさせていただきます。
+								</p>
+							</dd>
+						</dl>
+						<dl class="item">
+							<dt>どんなご相談も可能</dt>
+							<dd>
+								<p class="ttl">
+									相続以外にも、<br class="is_pc">リフォーム依頼・新築一戸建て建築相談等もお任せください。
+								</p>
+							</dd>
+						</dl>
+						<dl class="item">
+							<dt>丁寧に分かりやすくご説明</dt>
+							<dd>
+								<p class="ttl">
+									専門用語を使わず、<br class="is_pc">ご理解・ご納得いただけるまでご対応させていただきます。
+								</p>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="kansai">
+            <div class="inner">
+                <div class="left">
+                    <h2><span class="red">関西</span>でしたらどこでも<br><span class="red">無料相談</span>に伺います。</h2>
+                    <p>不動産の相談に関することは、どんな小さな疑問、質問でもご相談下さい。<br>専門のスタッフが全て解決いたします。また、関西圏でしたら、出張費はいただきません。<br>※関西圏以外の方は一度お問合せください。</p>
+                </div>
+                <div class="right">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/map.png" alt="">
+                </div>
+            </div>
+        </div>
         <div class="tokuten" id="tokuten">
             <h3>ラクイエの特典</h3>
             <div class="inner">
