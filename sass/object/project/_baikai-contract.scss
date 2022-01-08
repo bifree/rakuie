@@ -25,5 +25,145 @@
             text-align: center;
             margin-bottom: 60px;
         }
+        .table {
+            table {
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+                tbody {
+                    tr {
+                        border-bottom: 1px solid #ccc;
+                        th {
+                            background: #ffffdf;
+                            font-weight: 700;
+                            text-align: left;
+                            width: 200px;
+                            font-size: 14px;
+                            border-left: 1px solid #ccc;
+                            border-top: 1px solid #ccc;
+                            @media screen and (max-width: 767px) {
+                                display: block;
+                                font-size: 1.6rem;
+                                font-weight: 500;
+                                padding: 2.66667vw 5.33333vw;
+                                text-align: center;
+                                text-align: center;
+                                width: 100%;
+                            }
+                        }
+                        td {
+                            border-left: 1px solid #ccc;
+                            border-right: 1px solid #ccc;
+                            border-top: 1px solid #ccc;
+                            font-size: 1.6rem;
+                            font-weight: 500;
+                            line-height: 1.8;
+                            padding: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.features {
+    .inner {
+        width: 680px;
+        margin: 0 auto;
+        h3 {
+            background: #70c438;
+            border-left: 6px solid #c5e8ae;
+            color: #fff;
+            font-size: 24px;
+            margin: 60px auto;
+            padding: 13px 20px;
+        }
+        table {
+            width: 680px;
+            margin: 0 auto;
+            tr {
+                border-bottom: 1px solid #ccc;
+                th {                            background: #ffffdf;
+                    font-weight: 700;
+                    text-align: left;
+                    width: 200px;
+                    text-align: center;
+                    font-size: 14px;
+                    border-left: 1px solid #ccc;
+                    border-top: 1px solid #ccc;
+                    @media screen and (max-width: 767px) {
+                        display: block;
+                        font-size: 1.6rem;
+                        font-weight: 500;
+                        padding: 2.66667vw 5.33333vw;
+                        text-align: center;
+                        text-align: center;
+                        width: 100%;
+                    }
+                }
+                td {
+                    border-left: 1px solid #ccc;
+                    border-right: 1px solid #ccc;
+                    border-top: 1px solid #ccc;
+                    font-size: 1.6rem;
+                    font-weight: 500;
+                    line-height: 1.8;
+                    padding: 10px 25px;
+                    ul.feature-li {
+                        li {
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.example {
+    .tax-inner {
+        h3 {
+            background: #70c438;
+            border-left: 6px solid #c5e8ae;
+            color: #fff;
+            font-size: 24px;
+            margin: 60px auto;
+            padding: 13px 20px;
+        }
+    }
+    .inner {
+        h3 {
+            font-size: 24px;
+            text-align: center;
+            margin: 30px auto 50px;
+        }
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            .item {
+                padding: 15px;
+                border: 1px solid #ccc;
+                width: 48%;
+                text-align: justify;
+                h4 {
+                    margin-bottom: 10px;
+                    font-size: 24px;
+                }
+                p {
+
+                }
+            }
+        }
+    }
+    .image-center {
+        width: 680px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        img {
+            display: block;
+            width: 100%;
+        }
     }
 }
