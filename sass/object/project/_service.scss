@@ -155,6 +155,15 @@
 				}
 				
 			}
+			.inner-bottom {
+				.text {
+					p {
+						.bigger {
+							font-weight: bold;
+						}
+					}
+				}
+			}
 			.inner {
 				display: flex;
 				@include mobile {
