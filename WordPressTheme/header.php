@@ -37,9 +37,10 @@
               <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="株式会社ラクイエ"></a>
             </div>
             <ul class="group-button">
-              <li><span>幅広い広告戦略</span></li>
-              <li><span>仲介×買取りMIXプラン</span></li>
-              <li><span>空き家・空き地無料管理</span></li>
+              <li class="red">相続不動産</li>
+              <li class="yellow">仲介・買取り</li>
+              <li class="orange">空地・空家管理</li>
+              <li class="green">税・登記・建築</li>
             </ul>
           </div>
           <div class="box-right">
