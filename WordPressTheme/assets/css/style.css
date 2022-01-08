@@ -3338,6 +3338,10 @@ select {
 	width: 100px;
 }
 
+.service .container .rakuie__service .inner-bottom .text p .bigger {
+	font-weight: bold;
+}
+
 .service .container .rakuie__service .inner {
 	display: flex;
 }

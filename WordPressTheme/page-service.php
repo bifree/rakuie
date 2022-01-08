@@ -14,7 +14,7 @@
         <li>
           <a href="#promise" class="scale">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/promise1.jpg" alt="会社概要">
-            <span>５つの約束</span>
+            <span>５つおの約束</span>
           </a>
         </li>
         <li>
@@ -37,24 +37,25 @@
       </div>
 
       <div class="rakuie__service" id="promise">
-        <h3>ラクイエのお約束</h3>
+        <h3>５つのお約束</h3>
         <div class="inner">
           <div class="promise">
             <dl>
-              <dt><span>01</span>ご相談者の立場にたったご提案をします。</dt>
-              <dd>目の前にいるあなたに最適なアドバイスをいたします。</dd>
+              <dt><span>01</span>ご相談者様の立場にたったご提案をします。</dt>
+              <dd>ご所有者様のご希望をしっかりお聞きし、ご納得・満足いただけるご提案を心がけております。</dd>
             </dl>
             <dl>
               <dt><span>02</span>どんな相談も承ります。</dt>
-              <dd>親族間で揉めていても大丈夫、様々な方面から解決へ導きます。</dd>
+              <dd>ご相談者様の立場に立ち色々な角度から不動産の良さを引き出します！<br>
+            各士業との連携により、土地、借地、一戸建、マンション、収益物件、商業ビルまで幅広くご相談承ります。</dd>
             </dl>
             <dl>
               <dt><span>03</span>丁寧でわかりやすく説明します。</dt>
-              <dd>専門用語を使わず丁寧に分かりやすくご理解・ご納得いただけるまで対応いたします。</dd>
+              <dd>専門用語をわかりやすく、何度もご理解、ご納得いただけるまでご対応いたします。お気軽にご質問や疑問をお話し下さい。</dd>
             </dl>
             <dl>
               <dt><span>04</span>確かな実績でサポートします。</dt>
-              <dd>相続に強く豊富な相談実績と依頼実績があります。</dd>
+              <dd>不動産の売却に強く豊富な相談実績と契約ご依頼の実績があります。<br>不動産売却相場や建築基準法、相続登記、税金までの一括サポートさせていただきます。一般的な登記、税金のご質問は、その場でお答えいたします。</dd>
             </dl>
             <dl>
               <dt><span>05</span>相続不動産に特化しています。</dt>
@@ -64,6 +65,13 @@
           <div class="promise-img">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/promise.jpg" alt="">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/house.jpg" alt="" class="block-img">
+          </div>
+        </div>
+        <div class="inner-bottom">
+          <div class="text">
+            <p>相続不動産のお手続きに関しては必ず不動産会社が関連します。<br>相続された不動産を売却するには、専門的な知識と経験が必要です！</p>
+            <p>相続人との協議（司法書士）や不動産の価格設定（不動産会社）、資産の分配金の配分や税（税理士）のことも考慮した相続手続きその後の不動産売却後もサポートします。※各士業と連携</p>
+            <p>当社では、相続専門の不動産会社として、民法・相続税・相続登記の知識を有しています。又、短期間で高値で売却するノウハウも有しています。<br><span class="bigger">ぜひ、売却に特化した相続売却専門のラクイエにお問合せください！</span></p>
           </div>
         </div>
       </div>
