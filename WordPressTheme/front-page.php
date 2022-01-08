@@ -201,7 +201,7 @@
 							<tbody>
 								<tr>
 									<td rowspan="1">
-										<a href="">ＣＯＮＯＥ谷町四丁目</a>
+										<a href="<?php echo esc_url( home_url( '/building/word/' ) ); ?>">ＣＯＮＯＥ谷町四丁目</a>
 									</td>
 									<td>53.81</td>
 									<td>２ＬＤＫ</td>
