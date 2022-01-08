@@ -19,51 +19,6 @@
 				</nav>
 			</div>
 		</div>
-		<div class="second-box parallax">
-			<div class="title">
-				<div class="inner">
-					<h2>ラクイエに依頼する<br class="is_sp">4つのメリット</h2>
-				</div>
-			</div>
-			<div class="content">
-				<div class="inner">
-					<div class="wrapItems js-inview">
-						<dl class="item">
-							<dt>各所への相談がラクイエで完結</dt>
-							<dd>
-								<p class="ttl">
-									多様な専門家との連携により、<br class="is_pc">お客さまがあちこち相談に行く手間と時間が省けます。
-								</p>
-							</dd>
-						</dl>
-						<dl class="item">
-							<dt>ご相談者の立場に立ったご提案</dt>
-							<dd>
-								<p class="ttl">
-									ノルマを撤廃し、<br class="is_pc">お客さまに寄り添ったご提案をさせていただきます。
-								</p>
-							</dd>
-						</dl>
-						<dl class="item">
-							<dt>どんなご相談も可能</dt>
-							<dd>
-								<p class="ttl">
-									相続以外にも、<br class="is_pc">リフォーム依頼・新築一戸建て建築相談等もお任せください。
-								</p>
-							</dd>
-						</dl>
-						<dl class="item">
-							<dt>丁寧に分かりやすくご説明</dt>
-							<dd>
-								<p class="ttl">
-									専門用語を使わず、<br class="is_pc">ご理解・ご納得いただけるまでご対応させていただきます。
-								</p>
-							</dd>
-						</dl>
-					</div>
-				</div>
-			</div>
-		</div>
 
 		<div class="rakuie-ceo js-inview">
 			<div class="inner">
