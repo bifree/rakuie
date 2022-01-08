@@ -59,28 +59,28 @@
 						line-height: 1.43;
 						letter-spacing: 0.1em;
 						list-style: none;
+						display: flex;
+						flex-wrap: wrap;
+						width: 280px;
 						li {
-							// color: #fff;
-							// color: #e45213;
 							position: relative;
-							padding-left: 18px;
-							&::before {
-								content: '';
-								display: block;
-								width: 8px;
-								height: 8px;
-								background-color: #e45213;
-								border-radius: 50%;
-								position: absolute;
-								top: 50%;
-								left: 0;
-								transform: translateY(-50%);
+							width: 125px;
+							margin: 5px;
+							color: #fff;
+							border: 1px solid #333;
+							padding: 5px;
+							text-align: center;
+							&.red {
+								background-color: red;
 							}
-							span {
-								background: linear-gradient(transparent 50%, #ffff01 50%);
+							&.orange {
+								background-color: orange;
 							}
-							&:last-child {
-								margin-bottom: 0;
+							&.yellow {
+								background-color: rgb(255, 238, 0);
+							}
+							&.green {
+								background-color: green;
 							}
 						}
 					}
@@ -126,6 +126,8 @@
 							span {
 								line-height: 1em;
 								font-size: 1rem;
+								display: block;
+								text-align: center;
 							}
 						}
 						.mail {
@@ -136,7 +138,7 @@
 								display: flex;
 								justify-content: center;
 								align-items: center;
-								padding: 10px 40px;
+								padding: 10px 40px 10px 30px;
 								font-size: 1.6rem;
 								font-weight: bold;
 								line-height: 1.4em;
