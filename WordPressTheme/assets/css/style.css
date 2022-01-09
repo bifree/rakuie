@@ -3150,7 +3150,7 @@ select {
 }
 
 .reason .reason-container h3 {
-	font-size: 3.6rem;
+	font-size: 3.8rem;
 	font-weight: bold;
 	letter-spacing: 0.1em;
 	line-height: 1.4em;
@@ -3159,22 +3159,24 @@ select {
 }
 
 .reason .reason-container .center {
-	font-size: 14px;
+	font-size: 1.6rem;
+	margin-top: 10px;
 	text-align: center;
 }
 
-.reason .reason-container .center.mt-10 {
-	margin-top: 10px;
+.reason .reason-container .mt-10 {
+	font-size: 2.2rem;
+	text-align: center;
 }
 
 .reason .reason-container .orange-btn {
 	background-color: orange;
-	border-radius: 5px;
+	border-radius: 20px;
 	color: #FFF;
-	font-size: 16px;
+	font-size: 2.8rem;
 	font-weight: bold;
 	margin: 30px auto;
-	padding: 10px 20px;
+	padding: 20px 40px;
 	text-align: center;
 	width: -webkit-fit-content;
 	width: -moz-fit-content;
@@ -3183,48 +3185,76 @@ select {
 
 .reason .reason-container .shigyou {
 	margin: 50px auto 0;
-	width: 70%;
+	width: 800px;
 }
 
 .reason .reason-container .shigyou ul {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	list-style: none;
 	margin: 0 auto 30px;
-	width: 50%;
 }
 
 .reason .reason-container .shigyou ul li {
-	background-image: -webkit-radial-gradient(#ddd, #ffbf00);
-	background-image: radial-gradient(#ddd, #ffbf00);
-	border: 1px solid #333;
-	border-radius: 3px;
-	font-size: 14px;
+	background: linear-gradient(0deg, #ffbf00 0%, white 50%, #ffbf00 100%);
+	border: 1px dotted #333;
+	border-radius: 20px;
+	font-size: 2.4rem;
 	font-weight: bold;
-	padding: 10px;
-}
-
-.reason .reason-container .shigyou ul:nth-child(2) {
-	margin-bottom: 0;
+	margin: 0 30px;
+	padding: 20px 15px;
 }
 
 .reason .reason-container article .sub-title {
-	background-color: blue;
-	color: #FFF;
-	font-size: 24px;
-	line-height: 36px;
-	margin-top: 100px;
-	padding: 10px 0;
+	background-color: #20558D;
+	margin: 100px auto 0;
+	max-width: 600px;
+	padding: 30px 50px;
 	text-align: center;
 }
 
-.reason .reason-container article .sub-title:nth-child(2) {
-	margin-top: 0;
+.reason .reason-container article .sub-title .sub-title__gosic {
+	color: #fff;
+	font-size: 3.6rem;
 }
 
-.reason .reason-container article .sub-title .big {
-	color: #FFF;
-	font-size: 32px;
+.reason .reason-container article .sub-title .sub-title__mincho {
+	display: flex;
+	margin: 20px auto 0;
+	text-align: center;
+	vertical-align: bottom !important;
+}
+
+.reason .reason-container article .sub-title .sub-title__mincho h2 {
+	color: #fff;
+	display: inline;
+	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+	font-size: 3.4rem;
+	justify-content: center;
+	text-align: center;
+	vertical-align: bottom !important;
+}
+
+.reason .reason-container article .sub-title .sub-title__mincho h2 .big {
+	color: #fff;
+	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+	font-size: 3.8rem;
+}
+
+.reason .reason-container article .sub-title .sub-title__mincho h2 .roku {
+	color: #fff;
+	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+	font-size: 4.6rem;
+}
+
+.reason .reason-container article .sub-title .sub-title__mincho .dot {
+	border-bottom: 2px dotted #fff;
+	color: #fff;
+	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+}
+
+.reason .reason-container article .mincho {
+	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
 }
 
 .reason .reason-container article .green_bg {
@@ -3345,6 +3375,7 @@ select {
 }
 
 .reason .reason-container .kansai .inner {
+	align-items: center;
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;

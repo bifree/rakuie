@@ -2,7 +2,7 @@
     .reason-container {
         padding-top: 80px;
         h3 {
-            font-size: 3.6rem;
+            font-size: 3.8rem;
             font-weight: bold;
             letter-spacing: 0.1em;
             line-height: 1.4em;
@@ -16,62 +16,89 @@
             }
         }
         .center {
-            font-size: 14px;
+            font-size:1.6rem;
             text-align: center;
-            &.mt-10 {
-                margin-top: 10px;
-            }
+            margin-top: 10px;
+
+        }
+        .mt-10{
+            font-size:2.2rem;
+            text-align:center;
         }
         .orange-btn {
-            padding: 10px 20px;
+            padding:20px 40px;
             background-color: orange;
             color: #FFF;
-            border-radius: 5px;
-            font-size: 16px;
+            border-radius:20px;
+            font-size: 2.8rem;
             font-weight: bold;
             text-align: center;
             width: fit-content;
             margin: 30px auto;
         }
         .shigyou {
-            width: 70%;
+            width:800px;
             margin: 50px auto 0;
             ul {
                 list-style: none;
                 display: flex;
-                width: 50%;
                 margin: 0 auto 30px;
-                justify-content: space-around;
-                li {
-                    font-size: 14px;
-                    padding: 10px;
-                    background-image: -webkit-radial-gradient(#ddd, rgba(255,191,0,1));
+                justify-content:center;
+                li{
+                    font-size:2.4rem;
+                    padding:20px 15px;
+                    margin:0 30px;
+                    background: linear-gradient(0deg, rgba(255,191,0,1) 0%, rgba(255,255,255,1) 50%, rgba(255,191,0,1) 100%); 
                     font-weight: bold;
-                    background-image: radial-gradient(#ddd, rgba(255,191,0,1));
-                    border-radius: 3px;
-                    border: 1px solid #333;
+                    border-radius:20px;
+                    border: 1px dotted #333;
                 }
-                &:nth-child(2) {
-                    margin-bottom: 0;
-                }
-            }
+            }  
         }
         article {
             .sub-title {
-                color: #FFF;
-                padding: 10px 0;
-                background-color: blue;
-                margin-top: 100px;
+                max-width:600px;
+                margin:100px auto 0;
+                padding:30px 50px;
+                background-color:#20558D;
                 text-align: center;
-                font-size: 24px;
-                line-height: 36px;
-                &:nth-child(2) {
-                    margin-top: 0;
+                .sub-title__gosic{
+                    font-size:3.6rem;
+                    color:#fff;
                 }
-                .big {
-                    color: #FFF;
-                    font-size: 32px;
+                .sub-title__mincho{
+                    display:flex;
+                    margin:20px auto 0;
+                    text-align:center; 
+                    vertical-align:bottom !important;
+                    h2{
+                        font-family:'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+                        font-size:3.4rem;
+                        color:#fff;
+                        vertical-align:bottom !important;
+                        display:inline;
+                        justify-content:center;
+                        text-align:center;
+                        .big {
+                            font-family:'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+                            font-size:3.8rem;
+                            color:#fff;
+                        }
+                        .roku{
+                            font-family:'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+                            font-size:4.6rem;
+                            color:#fff;
+                        }
+                    }
+                    .dot{
+                        font-family:'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+                        color:#fff;
+                        border-bottom:2px dotted #fff;
+                    }
                 }
+            }
+            .mincho{
+                font-family:'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
             }
             .green_bg {
                 background: #ffffdf;
@@ -205,6 +232,7 @@
                 margin: 0 auto;
                 display: flex;
                 justify-content: space-between;
+                align-items:center;
                 .left {
                     width: 45%;
                     padding: 30px;

@@ -11,7 +11,7 @@
         <div class="reason-container__top">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/reason_top.png" alt="">
         </div>
-        <h3>ラクイエの強み</h3>
+        <h3>ラクイエが選ばれる理由</h3>
         <p class="center">ここが他社と違う！</p>
         <div class="shigyou">
             <ul>
@@ -27,11 +27,16 @@
                 <li>不動産鑑定士</li>
             </ul>
         </div>
-        <p class="center mt-10">相続不動産の問題解決に必要な各士業との連携でフルサポート！</p>
-        <p class="orange-btn">だからラクイエだけで解決が可能なんです！</p>
+        <p class="mt-10">相続不動産の問題解決に必要な各士業との連携でフルサポート！</p>
+        <p class="orange-btn">だから、ラクイエだけで解決が可能なんです！</p>
         <article>
-            <h2 class="sub-title"><span class="big">株式会社ラクイエ</span>が</h2>
-            <h2 class="sub-title">お<span class="big">客様</span>に<span class="big">選</span>ばれる<span class="big">６</span>つの理由</h2>
+            <div class="sub-title">
+                <h2 class="sub-title__gosic">株式会社ラクイエが</h2>
+                <div class="sub-title__mincho">
+                    <h2>お<span class="big">客様</span>に<span class="big">選</span>ばれる</h2>
+                    <h2 class="dot"><span class="roku">６</span>つの<span class="big">理由</span></h2>
+                </div>
+            </div>
             <div class="reason_1 reason_box">
                 <div class="box_inner">
                     <div class="left">
@@ -107,7 +112,7 @@
                         <span class="bold">買取では、最短1週間で現金化することもできます。</span></p>
                     </div>
                     <div class="right js-inview">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/priority.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/speed.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -117,11 +122,11 @@
                         <h2 class="title">
                             <span>契約不適合責任なし</span>
                         </h2>
-                        <p>不動産を仲介で売却する場合、売主様に「契約不適合責任」が発生します。そのため、売買時に外部から発見が困難な建物の傾きや雨漏りなどのについては売却後も売主様が責任を持つ必要があります。<br>
+                        <p>不動産を仲介で売却する場合、売主様に「契約不適合責任」が発生します。そのため、売買時に外部から発見が困難な建物の傾きや雨漏りなどの瑕疵については売却後も売主様が責任を持つ必要があります。<br>
                         <span class="bold">買取の場合は、「契約不適合責任」は発生しませんので、安心して売却できます。特に築年数が20年以上や相続によりお住まいされていなかった相続人様などは買取方式を選択されると安心です。</span></p>
                     </div>
                     <div class="right js-inview">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/touki.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/relief.jpg" alt="">
                     </div>
                 </div>
             </div>
