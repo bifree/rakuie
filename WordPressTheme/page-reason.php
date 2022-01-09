@@ -19,16 +19,14 @@
                 <li>行政書士</li>
                 <li>弁護士</li>
                 <li>空き家相談士</li>
-            </ul>
-            <ul>
                 <li>税理士</li>
                 <li>測量士</li>
                 <li>建築士</li>
                 <li>不動産鑑定士</li>
             </ul>
         </div>
-        <p class="mt-10">相続不動産の問題解決に必要な各士業との連携でフルサポート！</p>
-        <p class="orange-btn">だから、ラクイエだけで解決が可能なんです！</p>
+        <p class="mt-10">相続不動産の問題解決に必要な<br class="sp-br">各士業との連携でフルサポート！</p>
+        <p class="orange-btn">だから、ラクイエだけで<br class="sp-br">解決が可能なんです！</p>
         <article>
             <div class="sub-title">
                 <h2 class="sub-title__gosic">株式会社ラクイエが</h2>

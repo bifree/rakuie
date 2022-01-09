@@ -1,4 +1,7 @@
 .reason {
+    .sp-br{
+        display:none;
+    }
     .reason-container {
         padding-top: 80px;
         h3 {
@@ -8,12 +11,6 @@
             line-height: 1.4em;
             position: relative;
             text-align: center;
-            @include mobile {
-                font-size: 2.4rem;
-                margin-bottom: 8vw;
-                padding-bottom: 4vw;
-            
-            }
         }
         .center {
             font-size:1.6rem;
@@ -24,6 +21,7 @@
         .mt-10{
             font-size:2.2rem;
             text-align:center;
+            margin-top:20px;
         }
         .orange-btn {
             padding:20px 40px;
@@ -37,17 +35,17 @@
             margin: 30px auto;
         }
         .shigyou {
-            width:800px;
+            max-width:800px;
             margin: 50px auto 0;
             ul {
                 list-style: none;
                 display: flex;
-                margin: 0 auto 30px;
+                flex-wrap:wrap;
                 justify-content:center;
                 li{
                     font-size:2.4rem;
                     padding:20px 15px;
-                    margin:0 30px;
+                    margin:10px 30px;
                     background: linear-gradient(0deg, rgba(255,191,0,1) 0%, rgba(255,255,255,1) 50%, rgba(255,191,0,1) 100%); 
                     font-weight: bold;
                     border-radius:20px;
@@ -305,6 +303,309 @@
             justify-content: center;
             img {
                 display: block;
+            }
+        }
+    }
+
+
+
+    @media screen and (max-width: 767px){
+        .sp-br{
+            display:block;
+        }
+        .reason-container {
+            padding-top:40px;
+            .reason-container__top{
+                width:300px;
+                margin:0 auto;
+                img{
+                    max-width:100%;
+                }
+            }
+            h3 {
+                font-size: 2.4rem;
+                margin-bottom:10px;
+            }
+            .center {
+                font-size:1.6rem;
+            }
+            .mt-10{
+                font-size:2rem;
+                line-height:1.2;
+            }
+            .orange-btn {
+                padding:20px 40px;
+                line-height:1.2;
+                font-size: 2.2rem;
+                font-weight: bold;
+                text-align: center;
+                width: fit-content;
+                margin: 30px auto;
+            }
+            .shigyou {
+                ul {
+                    li{
+                        font-size:1.6rem;
+                        padding:15px 10px;
+                        margin:10px 10px;
+                        background: linear-gradient(0deg, rgba(255,191,0,1) 0%, rgba(255,255,255,1) 50%, rgba(255,191,0,1) 100%); 
+                        font-weight: bold;
+                        border-radius:20px;
+                        border: 1px dotted #333;
+                    }
+                }  
+            }
+            article {
+                .sub-title {
+                    max-width:600px;
+                    margin:100px auto 0;
+                    padding:30px 50px;
+                    background-color:#20558D;
+                    text-align: center;
+                    .sub-title__gosic{
+                        font-size:3.6rem;
+                        color:#fff;
+                    }
+                    .sub-title__mincho{
+                        display:flex;
+                        margin:20px auto 0;
+                        text-align:center; 
+                        vertical-align:bottom !important;
+                        h2{
+                            font-family:'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+                            font-size:3.4rem;
+                            color:#fff;
+                            vertical-align:bottom !important;
+                            display:inline;
+                            justify-content:center;
+                            text-align:center;
+                            .big {
+                                font-family:'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+                                font-size:3.8rem;
+                                color:#fff;
+                            }
+                            .roku{
+                                font-family:'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+                                font-size:4.6rem;
+                                color:#fff;
+                            }
+                        }
+                        .dot{
+                            font-family:'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+                            color:#fff;
+                            border-bottom:2px dotted #fff;
+                        }
+                    }
+                }
+                .mincho{
+                    font-family:'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+                }
+                .green_bg {
+                    background: #ffffdf;
+                }
+                .reason_box {
+                    padding: 100px 50px;
+                    @include mobile {
+                        padding: 50px 0;
+                    }
+                    .box_inner {
+                        max-width: 1200px;
+                        box-sizing: border-box;
+                        margin: 0 auto;
+                        display: flex;
+                        justify-content: space-between;
+                        @include mobile {
+                            max-width: none;
+                            width: 80%;
+                            display: block;
+                        }
+                        h2.title {
+                            font-size: 36px;
+                            line-height: 1.4;
+                            position: relative;
+                            padding-top: 65px;
+                            margin-bottom: 50px;
+                            @include mobile {
+                                font-size: 2.4rem;
+                                margin-bottom: 8vw;
+                                padding-bottom: 4vw;
+                            }
+                            &::after {
+                                color: #ffd165;
+                                display: block;
+                                font-size: 100px;
+                                font-style: italic;
+                                font-weight: bold;
+                                position: absolute;
+                                top: 0px;
+                                left: 0;
+                                z-index: 0;
+                            }
+                            span {
+                                position: relative;
+                                z-index: 1;
+                            }
+                        }
+                        .left {
+                            width: 48%;
+                            @include mobile {
+                                width: 100%;
+                                margin-bottom: 20px;
+                            }
+                            p {
+                                font-size: 14px;
+                                line-height: 1.8;
+                                .bold {
+                                    font-weight: bold;
+                                    font-size: 16px;
+                                }
+                            }
+                            ul {
+                                list-style: none;
+                                li {
+                                    font-size: 14px;
+                                    line-height: 1.8;
+                                    margin-bottom: 5px;
+                                    .bold {
+                                        font-weight: bold;
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+                        }
+                        .right {
+                            width: 48%;
+                            opacity: 0;
+                            transform: translateX(-50px);
+                            transition: 3s ease;
+                            visibility: hidden;
+                            z-index: 1;
+                            @include mobile {
+                                width: 100%;
+                            }
+                            img {
+                                width: 100%;
+                            }
+                            &.is-inview {
+                                opacity: 1;
+                                transform: translateX(0);
+                                visibility: visible;
+                            }
+                        }
+                    }
+                }
+                .reason_1 {
+                    h2.title::after {
+                        content: "01";
+                    }
+                }
+                .reason_2{
+                    h2.title::after {
+                        content: "02";
+                    }
+                }
+                .reason_3{
+                    h2.title::after {
+                        content: "03";
+                    }
+                }
+                .reason_4{
+                    h2.title::after {
+                        content: "04";
+                    }
+                }
+                .reason_5{
+                    h2.title::after {
+                        content: "05";
+                    }
+                }
+                .reason_6{
+                    h2.title::after {
+                        content: "06";
+                    }
+                }
+            }
+            .kansai {
+                margin-top: 30px;
+                .inner {
+                    width: 75%;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items:center;
+                    .left {
+                        width: 45%;
+                        padding: 30px;
+                        height: fit-content;
+                        background-color: #ffee00;
+                        h2 {
+                            font-size: 24px;
+                            line-height: 30px;
+                            margin-bottom: 30px;
+                            .red {
+                                color: #e45213;
+                            }
+                        }
+                        p {
+                            font-size: 14px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+            a {
+                .contact-btn {
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    background-color: #fff100;
+                    border-bottom: 5px solid #ccc100;
+                    border-radius: 0.5rem;
+                    color: #000;
+                    color: #212529;
+                    cursor: pointer;
+                    display: block;
+                    font-size: 1.6rem;
+                    font-weight: 700;
+                    letter-spacing: 0.1em;
+                    line-height: 1.5;
+                    margin: 60px auto;
+                    padding: 1rem 4rem;
+                    position: relative;
+                    text-align: center;
+                    text-decoration: none;
+                    transition: all 0.3s;
+                    user-select: none;
+                    vertical-align: middle;
+                    width: 350px;
+                    @include mobile {
+                        width: 80%;
+                    }
+                    h4 {
+                        font-size: 1.6rem !important;
+                        margin-bottom: 0 !important;
+                        padding-bottom: 0 !important;
+                        @include mobile {
+                            font-size: 1.4rem !important;
+                        }
+                        &::after {
+                            display: none;
+                        }
+                    }
+                    &:hover {
+                        background: #fff20a;
+                        border-bottom: 2px solid #ccc100;
+                        color: #000;
+                        margin-top: 63px;
+                    }
+                }
+            }
+            .reason-container__top {
+                display: flex;
+                justify-content: center;
+                img {
+                    display: block;
+                }
             }
         }
     }
