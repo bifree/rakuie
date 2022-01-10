@@ -6,6 +6,12 @@
         font-size: 32px;
         line-height: 48px;
         margin-bottom: 30px;
+        @media screen and (max-width:767px) {
+            font-size: 2rem;
+            padding: 0 4vw;
+            top: -7.2vw;
+            line-height: 1.4;
+        }
     }
     .inner {
         display: flex;
@@ -29,52 +35,34 @@
 }
 
 .top-covid {
-    .pc-covid {
-        background-color: yellowgreen;
-        width: 60%;
-        padding: 10px;
+    .pc {
+        width: 1060px;
         margin: 0 auto;
-        .top-flex {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            .circle {
-                display: flex;
-                height: fit-content;
-                background-color: yellow;
-                color: green;
-                font-size: 16px;
-                line-height: 24px;
-                text-align: center;
-                width: fit-content;
-                padding: 30px 20px;
-                border-radius: 50%;
+        a {
+            &:hover {
+                opacity: 1 !important;
             }
-            .title {
-                box-sizing: border-box;
-                background-color: #FFF;
-                h3 {
-                    padding: 10px;
-                    font-size: 32px;
-                    line-height: 48px;
-                    text-align: center;
+            img {
+                cursor: pointer;
+                width: 100%;
+            }
+        }
+        @media screen and (max-width:767px) {
+            display: none;
+        }
+    }
+    .sp {
+        display: none;
+        @media screen and (max-width:767px) {
+            cursor: pointer;
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            a {
+                img {
+                    width: 100%;
                 }
             }
-        }
-        .center-flex {
-            margin: 10px auto;
-            display: flex;
-            justify-content: space-between;
-            .item {
-                width: 30%;
-                padding: 10px;
-                font-size: 16px;
-                background-color: #FFF;
-            }
-        }
-        .bottom {
-            font-size: 16px;
-            line-height: 28px;
         }
     }
 }
@@ -83,6 +71,20 @@
     h2 {
         text-align: center;
         font-size: 32px;
+        margin-bottom: 15px;
         font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+        @media screen and (max-width:767px) {
+            font-size: 2rem;
+            padding: 0 4vw;
+            top: -7.2vw;
+        }
+    }
+    p {
+        text-align: center;
+        font-size: 16px;
+        .num {
+            color: orange;
+            font-weight: bold;
+        }
     }
 }

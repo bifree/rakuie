@@ -61,43 +61,25 @@
 		</div>
 
 		<div class="top-covid">
-			<div class="pc-covid">
-				<div class="top-flex">
-					<div class="circle">
-						無料登録<br>受付中！
-					</div>
-					<div class="title">
-						<h3>コロナ対策特別プラン<br>オンラインでラクラク相談！</h3>
-					</div>
-					<div class="online">
-						オンライン無料相談はこちら
-					</div>
-				</div>
-				<div class="center-flex">
-					<div class="item">
-						ご相談時に査定価格のご提示
-					</div>
-					<div class="item">
-						査定書無料進呈
-					</div>
-					<div class="item">
-						リアルタイムでその時に解決
-					</div>
-				</div>
-				<div class="bottom">
-					<p>少しでもご売却をお考えのお客様はぜひラクイエの「楽々オンラインサービス」</p>
-					<p>お気軽にご活用ください！(WEBを利用して全国どこからでも相談できるサービスです)</p>
-					<p class="small">パソコン・無料のビデオアプリ「ZOOM・LINE・FaceTime」や携帯タブレットでの無料ビデオ通話のご相談が可能です。日時のご指定があれば24時間いつでもご相談可能です。</p>
-				</div>
-				<img src="" alt="">
+			<div class="pc">
+				<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top-c01.jpg" alt="">
+				</a>
 			</div>
-			<div class="sp-covid">
-				<img src="" alt="">
+			<div class="sp">
+				<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top-c02.jpg" alt="">
+				</a>
 			</div>
 		</div>
 
 		<div class="free-contact">
-			<img src="" alt="">
+			<div class="pc">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/free-dial.jpg" alt="">
+			</div>
+			<div class="sp">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/freedial-sp.jpg" alt="">
+			</div>
 		</div>
 
 		<div class="rakuie-ceo js-inview">
@@ -112,21 +94,10 @@
 				<h4>【新型ウイルス感染防止対策について】</h4>
 				<p>弊社では、お客様に安心してご来店・ご利用いただけるよう、<br>以下の対策を行っております。</p>
 				<div class="covid_flow">
-					<div class="flow_item">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/covid/mask.jpg" alt="">
-					</div>
-					<div class="flow_item">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/covid/frame.jpg" alt="">
-					</div>
-					<div class="flow_item">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/covid/group.jpg" alt="">
-					</div>
-					<div class="flow_item">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/covid/temprature.jpg" alt="">
-					</div>
-					<div class="flow_item">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/covid/pc.jpg" alt="">
-					</div>
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/taisaku.png" alt="">
+				</div>
+				<div class="covid_flow-sp">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/taisaku02.png" alt="">
 				</div>
 				<div class="online">
 					<p>全国対応！相談無料！簡単操作！<br>
@@ -136,6 +107,7 @@
 		</div>
 		<div class="muryo-satei">
 			<h2>お気軽に無料査定をお申し込みください</h2>
+			<p>フリーダイアル <span class="num">0120-071-778</span></p>
 		</div>
 		<div class="container">
 			<div class="blogs-box js-inview">
@@ -180,11 +152,12 @@
 			</div> -->
 		</div>
 		<div class="rakuie-map">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420125.9754026142!2d135.24020243281248!3d34.64878830000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f0.2!3m3!1m2!1s0x6000ddb7145b1b6d%3A0x8d0ec4ee45879a2a!2z5qCq5byP5Lya56S-44Op44Kv44Kk44Ko!5e0!3m2!1sja!2sjp!4v1639232120303!5m2!1sja!2sjp" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420125.9754026142!2d135.24020243281248!3d34.64878830000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f0.2!3m3!1m2!1s0x6000ddb7145b1b6d%3A0x8d0ec4ee45879a2a!2z5qCq5byP5Lya56S-44Op44Kv44Kk44Ko!5e0!3m2!1sja!2sjp!4v1639232120303!5m2!1sja!2sjp" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 		</div>
 		<p id="homebanner">
 			<span class="text_wide">
-				今すぐ無料査定
+				下記いずれかでお気軽にお問合せください<br>
+			今すぐ無料査定
 			</span>
 			<span class="img_wide">
 				<a href="">

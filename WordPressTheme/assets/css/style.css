@@ -1141,10 +1141,37 @@ select {
 	width: 80%;
 }
 
+.covid .inner .covid_flow img {
+	width: 100%;
+}
+
 .covid .inner p {
 	font-size: 1.6rem;
 	line-height: 1.8;
 	text-align: center;
+}
+
+.free-contact .pc {
+	margin: 80px auto 120px;
+	width: 1060px;
+}
+
+.free-contact .pc img {
+	width: 100%;
+}
+
+.free-contact .sp {
+	display: none !important;
+}
+
+.covid_flow {
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.covid_flow-sp {
+	display: none;
 }
 
 #homebanner {
@@ -1170,6 +1197,7 @@ select {
 	color: #FFF;
 	font-size: 1.4rem;
 	font-weight: 700;
+	line-height: 1.5;
 	margin-bottom: 1px;
 	padding: 5px 0 6px;
 	position: relative;
@@ -1684,70 +1712,39 @@ select {
 	width: fit-content;
 }
 
-.top-covid .pc-covid {
-	background-color: yellowgreen;
+.top-covid .pc {
 	margin: 0 auto;
-	padding: 10px;
-	width: 60%;
+	width: 1060px;
 }
 
-.top-covid .pc-covid .top-flex {
-	align-items: center;
-	display: flex;
-	justify-content: space-around;
+.top-covid .pc a:hover {
+	opacity: 1 !important;
 }
 
-.top-covid .pc-covid .top-flex .circle {
-	background-color: yellow;
-	border-radius: 50%;
-	color: green;
-	display: flex;
-	font-size: 16px;
-	height: -webkit-fit-content;
-	height: -moz-fit-content;
-	height: fit-content;
-	line-height: 24px;
-	padding: 30px 20px;
-	text-align: center;
-	width: -webkit-fit-content;
-	width: -moz-fit-content;
-	width: fit-content;
+.top-covid .pc a img {
+	cursor: pointer;
+	width: 100%;
 }
 
-.top-covid .pc-covid .top-flex .title {
-	background-color: #FFF;
-	box-sizing: border-box;
-}
-
-.top-covid .pc-covid .top-flex .title h3 {
-	font-size: 32px;
-	line-height: 48px;
-	padding: 10px;
-	text-align: center;
-}
-
-.top-covid .pc-covid .center-flex {
-	display: flex;
-	justify-content: space-between;
-	margin: 10px auto;
-}
-
-.top-covid .pc-covid .center-flex .item {
-	background-color: #FFF;
-	font-size: 16px;
-	padding: 10px;
-	width: 30%;
-}
-
-.top-covid .pc-covid .bottom {
-	font-size: 16px;
-	line-height: 28px;
+.top-covid .sp {
+	display: none;
 }
 
 .muryo-satei h2 {
 	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
 	font-size: 32px;
+	margin-bottom: 15px;
 	text-align: center;
+}
+
+.muryo-satei p {
+	font-size: 16px;
+	text-align: center;
+}
+
+.muryo-satei p .num {
+	color: orange;
+	font-weight: bold;
 }
 
 .blogs-box {
@@ -1770,8 +1767,9 @@ select {
 .blogs-box .top_blog {
 	background-color: #fff;
 	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+	margin: 0 auto;
 	padding: 30px;
-	width: calc((100% - 40px) / 2);
+	width: 80%;
 }
 
 .blogs-box .top_blog .ttl-Box .ttl {
@@ -2563,151 +2561,6 @@ select {
 .example .image-center img {
 	display: block;
 	width: 100%;
-}
-
-.building {
-	margin: 0 auto;
-	padding-bottom: 30px;
-	padding-top: 20px;
-	width: 820px;
-}
-
-.building .section {
-	padding: 0 0 40px 0;
-}
-
-.building .section .case_info {
-	background: #f9f9f9;
-	box-sizing: border-box;
-	padding: 25px;
-	width: 100%;
-}
-
-.building .section .case_info .case_row {
-	align-items: flex-end;
-	border-bottom: 1px #ddd solid;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	padding: 10px 0;
-	width: 100%;
-}
-
-.building .section .case_info .case_row .info_name {
-	flex-direction: column;
-}
-
-.building .section .case_info dl {
-	box-sizing: border-box;
-	display: flex;
-	padding: 0 10px;
-	width: 48%;
-}
-
-.building .section .imagePost {
-	background: #ddd;
-	height: 400px;
-	text-align: center;
-	width: 100%;
-}
-
-.building .section .imagePost img {
-	max-height: 100%;
-	max-width: 100%;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-.building .section .listThumbs {
-	display: flex;
-	flex-wrap: wrap;
-	margin-left: -5px;
-	margin-right: -5px;
-}
-
-.building .section .listThumbs li {
-	background-position: center center;
-	background-size: cover;
-	box-sizing: border-box;
-	cursor: pointer;
-	height: 140px;
-	margin: 5px;
-	position: relative;
-	transition: all 0.2s;
-	width: calc((100% - 50px) / 5);
-	z-index: 1;
-}
-
-.building h4 {
-	background: #70c438;
-	border-left: 6px solid #c5e8ae;
-	color: #fff;
-	font-size: 24px;
-	margin-bottom: 25px;
-	padding: 13px 20px;
-}
-
-.building .table {
-	display: flex;
-	flex-wrap: wrap;
-	font-size: 140%;
-}
-
-.building .table dl {
-	box-sizing: border-box;
-	display: flex;
-	flex-wrap: wrap;
-	margin: -1px -2px 0 0px;
-	width: 50%;
-}
-
-.building .table dl dt {
-	background: #70c438;
-	border: solid 1px #fff;
-	box-sizing: border-box;
-	color: #ffffff;
-	font-size: 140%;
-	font-weight: bold;
-	line-height: 1.85em;
-	padding: 10px;
-	width: 40%;
-}
-
-.building .table dl dd {
-	background: #fff;
-	border: solid 1px #efefef;
-	box-sizing: border-box;
-	font-size: 140%;
-	margin: 0px -1px;
-	padding: 10px;
-	width: 60%;
-}
-
-.building .section table tbody tr {
-	font-size: 140%;
-}
-
-.building .section table tbody tr th {
-	background: #70c438;
-	border: 1px solid #cdcdcd;
-	border-bottom-color: #ffffff;
-	border-color: #c5e8ae;
-	border-right-color: #ffffff;
-	color: #ffffff;
-	font-weight: bold;
-	padding: 10px;
-}
-
-.building .section table tbody tr th.w-15 {
-	width: 15%;
-}
-
-.building .section table tbody tr td {
-	background: none;
-	border: 1px solid #cdcdcd;
-	line-height: 1.85em;
-	padding: 10px;
 }
 
 .company__title {
@@ -4152,6 +4005,18 @@ a.scale img:hover {
 
 }
 
+@media screen and (max-width: 1080px) {
+
+.free-contact .pc {
+	width: 90%;
+}
+
+.free-contact .pc img {
+	width: 100%;
+}
+
+}
+
 @media screen and (max-width: 767px) {
 
 body {
@@ -4419,18 +4284,27 @@ body {
 	width: 100%;
 }
 
-.covid .inner .covid_flow .flow_item {
-	width: 30%;
-}
-
-.covid .inner .covid_flow .flow_item img {
+.covid .inner .covid_flow img {
 	width: 100%;
 }
 
-.covid .inner p {
+.covid p {
 	font-size: 1.6rem;
 	line-height: 1.8;
 	text-align: center;
+}
+
+.covid_flow {
+	display: none !important;
+}
+
+.covid_flow-sp {
+	display: block;
+}
+
+.covid_flow-sp img {
+	display: block;
+	margin: 0 auto;
 }
 
 #homebanner {
@@ -4638,6 +4512,34 @@ body {
 .tokuten .inner .tokuten .item {
 	margin: 20px auto;
 	width: 80%;
+}
+
+.top-onayami h3 {
+	font-size: 2rem;
+	line-height: 1.4;
+	padding: 0 4vw;
+	top: -7.2vw;
+}
+
+.top-covid .pc {
+	display: none;
+}
+
+.top-covid .sp {
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.top-covid .sp a img {
+	width: 100%;
+}
+
+.muryo-satei h2 {
+	font-size: 2rem;
+	padding: 0 4vw;
+	top: -7.2vw;
 }
 
 .blogs-box {
@@ -5313,6 +5215,14 @@ body {
 
 .sitemap .container article .inner {
 	width: 100%;
+}
+
+}
+
+@media screen and (max-width: 425px) {
+
+.free-contact .sp {
+	display: block;
 }
 
 }

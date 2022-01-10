@@ -18,8 +18,9 @@
 .blogs-box .top_blog {
 	background-color: #fff;
 	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+	margin: 0 auto;
 	padding: 30px;
-	width: calc((100% - 40px) / 2);
+	width: 80%;
 }
 
 .blogs-box .top_blog .ttl-Box .ttl {
