@@ -34,6 +34,7 @@
                     tr {
                         border-bottom: 1px solid #ccc;
                         th {
+                            padding-left: 5px;
                             background: #ffffdf;
                             font-weight: 700;
                             text-align: left;
@@ -142,16 +143,15 @@
             display: flex;
             justify-content: space-between;
             .item {
-                padding: 15px;
+                padding: 25px;
                 border: 1px solid #ccc;
                 width: 48%;
                 text-align: justify;
                 h4 {
                     margin-bottom: 10px;
                     font-size: 24px;
-                }
-                p {
-
+                    padding-left: 10px;
+                    border-left: 4px solid #e45213;
                 }
             }
         }

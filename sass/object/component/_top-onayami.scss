@@ -21,6 +21,13 @@
             img {
                 width: 100%;
             }
+            p {
+                font-size: 1.4rem;
+                line-height: 1.4em;
+                @media screen and (max-width: 425px) {
+                    font-size: 0.8rem;
+                }
+            }
         }
     }
     .orange {
@@ -31,6 +38,12 @@
         text-align: center;
         width: fit-content;
         margin: 40px auto 60px;
+        @media screen and (max-width:767px) {
+            font-size: 2rem;
+            padding: 0 4vw;
+            top: -7.2vw;
+            line-height: 1.4;
+        }
     }
 }
 
