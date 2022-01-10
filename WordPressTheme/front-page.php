@@ -97,7 +97,12 @@
 		</div>
 
 		<div class="free-contact">
-			<img src="" alt="">
+			<div class="pc">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/free-dial.jpg" alt="">
+			</div>
+			<div class="sp">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/freedial-sp.jpg" alt="">
+			</div>
 		</div>
 
 		<div class="rakuie-ceo js-inview">
@@ -112,21 +117,10 @@
 				<h4>【新型ウイルス感染防止対策について】</h4>
 				<p>弊社では、お客様に安心してご来店・ご利用いただけるよう、<br>以下の対策を行っております。</p>
 				<div class="covid_flow">
-					<div class="flow_item">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/covid/mask.jpg" alt="">
-					</div>
-					<div class="flow_item">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/covid/frame.jpg" alt="">
-					</div>
-					<div class="flow_item">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/covid/group.jpg" alt="">
-					</div>
-					<div class="flow_item">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/covid/temprature.jpg" alt="">
-					</div>
-					<div class="flow_item">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/covid/pc.jpg" alt="">
-					</div>
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/taisaku.png" alt="">
+				</div>
+				<div class="covid_flow-sp">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/taisaku02.png" alt="">
 				</div>
 				<div class="online">
 					<p>全国対応！相談無料！簡単操作！<br>
@@ -136,6 +130,7 @@
 		</div>
 		<div class="muryo-satei">
 			<h2>お気軽に無料査定をお申し込みください</h2>
+			<p>フリーダイアル <span class="num">0120-071-778</span></p>
 		</div>
 		<div class="container">
 			<div class="blogs-box js-inview">
@@ -184,7 +179,8 @@
 		</div>
 		<p id="homebanner">
 			<span class="text_wide">
-				今すぐ無料査定
+				下記いずれかでお気軽にお問合せください<br>
+			今すぐ無料査定
 			</span>
 			<span class="img_wide">
 				<a href="">

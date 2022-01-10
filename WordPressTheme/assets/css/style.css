@@ -1141,10 +1141,37 @@ select {
 	width: 80%;
 }
 
+.covid .inner .covid_flow img {
+	width: 100%;
+}
+
 .covid .inner p {
 	font-size: 1.6rem;
 	line-height: 1.8;
 	text-align: center;
+}
+
+.free-contact .pc {
+	margin: 80px auto 120px;
+	width: 1060px;
+}
+
+.free-contact .pc img {
+	width: 100%;
+}
+
+.free-contact .sp {
+	display: none !important;
+}
+
+.covid_flow {
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.covid_flow-sp {
+	display: none;
 }
 
 #homebanner {
@@ -1170,6 +1197,7 @@ select {
 	color: #FFF;
 	font-size: 1.4rem;
 	font-weight: 700;
+	line-height: 1.5;
 	margin-bottom: 1px;
 	padding: 5px 0 6px;
 	position: relative;
@@ -1747,7 +1775,18 @@ select {
 .muryo-satei h2 {
 	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
 	font-size: 32px;
+	margin-bottom: 15px;
 	text-align: center;
+}
+
+.muryo-satei p {
+	font-size: 16px;
+	text-align: center;
+}
+
+.muryo-satei p .num {
+	color: orange;
+	font-weight: bold;
 }
 
 .blogs-box {
@@ -4008,6 +4047,18 @@ a.scale img:hover {
 
 }
 
+@media screen and (max-width: 1080px) {
+
+.free-contact .pc {
+	width: 90%;
+}
+
+.free-contact .pc img {
+	width: 100%;
+}
+
+}
+
 @media screen and (max-width: 767px) {
 
 body {
@@ -4275,18 +4326,27 @@ body {
 	width: 100%;
 }
 
-.covid .inner .covid_flow .flow_item {
-	width: 30%;
-}
-
-.covid .inner .covid_flow .flow_item img {
+.covid .inner .covid_flow img {
 	width: 100%;
 }
 
-.covid .inner p {
+.covid p {
 	font-size: 1.6rem;
 	line-height: 1.8;
 	text-align: center;
+}
+
+.covid_flow {
+	display: none !important;
+}
+
+.covid_flow-sp {
+	display: block;
+}
+
+.covid_flow-sp img {
+	display: block;
+	margin: 0 auto;
 }
 
 #homebanner {
@@ -4494,6 +4554,10 @@ body {
 .tokuten .inner .tokuten .item {
 	margin: 20px auto;
 	width: 80%;
+}
+
+.top-covid .pc-covid {
+	display: none;
 }
 
 .blogs-box {
@@ -5169,6 +5233,14 @@ body {
 
 .sitemap .container article .inner {
 	width: 100%;
+}
+
+}
+
+@media screen and (max-width: 425px) {
+
+.free-contact .sp {
+	display: block;
 }
 
 }
