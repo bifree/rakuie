@@ -61,38 +61,15 @@
 		</div>
 
 		<div class="top-covid">
-			<div class="pc-covid">
-				<div class="top-flex">
-					<div class="circle">
-						無料登録<br>受付中！
-					</div>
-					<div class="title">
-						<h3>コロナ対策特別プラン<br>オンラインでラクラク相談！</h3>
-					</div>
-					<div class="online">
-						オンライン無料相談はこちら
-					</div>
-				</div>
-				<div class="center-flex">
-					<div class="item">
-						ご相談時に査定価格のご提示
-					</div>
-					<div class="item">
-						査定書無料進呈
-					</div>
-					<div class="item">
-						リアルタイムでその時に解決
-					</div>
-				</div>
-				<div class="bottom">
-					<p>少しでもご売却をお考えのお客様はぜひラクイエの「楽々オンラインサービス」</p>
-					<p>お気軽にご活用ください！(WEBを利用して全国どこからでも相談できるサービスです)</p>
-					<p class="small">パソコン・無料のビデオアプリ「ZOOM・LINE・FaceTime」や携帯タブレットでの無料ビデオ通話のご相談が可能です。日時のご指定があれば24時間いつでもご相談可能です。</p>
-				</div>
-				<img src="" alt="">
+			<div class="pc">
+				<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top-c01.jpg" alt="">
+				</a>
 			</div>
-			<div class="sp-covid">
-				<img src="" alt="">
+			<div class="sp">
+				<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top-c02.jpg" alt="">
+				</a>
 			</div>
 		</div>
 
