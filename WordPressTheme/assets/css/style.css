@@ -717,7 +717,6 @@ select {
 }
 
 .l-header .header-wrapper .containerMiddle .inner .box-left .group-button li {
-	border: 1px solid #333;
 	color: #fff;
 	margin: 5px;
 	padding: 5px;
@@ -868,6 +867,113 @@ select {
 	height: 0;
 	opacity: 0;
 	visibility: hidden;
+}
+
+.baikyaku .inner .trouble p {
+	font-size: 1.6rem;
+	font-weight: 500;
+	line-height: 1.8;
+	text-align: center;
+}
+
+.baikyaku .inner .trouble .trouble-inner h2 {
+	font-size: 32px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.baikyaku .inner .trouble .trouble-inner .inner {
+	display: flex;
+}
+
+.baikyaku .inner .trouble .trouble-inner .inner .left {
+	padding-top: 40px;
+	text-align: center;
+	width: 60%;
+}
+
+.baikyaku .inner .trouble .trouble-inner .inner .left .yellow {
+	background: linear-gradient(transparent 50%, #ffff01 50%);
+	font-size: 2rem;
+	margin: 0 auto 10px;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.baikyaku .inner .trouble .trouble-inner .inner .right {
+	display: flex;
+	width: 40%;
+}
+
+.baikyaku .inner .trouble .trouble-inner .inner .right img {
+	width: 50%;
+}
+
+.baikyaku .inner .trouble .arrow-down {
+	background-color: blue;
+	margin: 60px auto 60px;
+	padding: 30px;
+	width: 50%;
+}
+
+.baikyaku .inner .trouble .arrow-down p.bigger {
+	color: #FFF;
+	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+	font-size: 22px;
+	text-align: center;
+}
+
+.baikyaku .inner .trouble .arrow-down p.bigger .under {
+	border-bottom: 1px solid #FFF;
+	color: #FFF;
+	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+}
+
+.baikyaku .inner .trouble .arrow-down .headline {
+	background-color: white;
+	border-radius: 24px;
+	color: blue;
+	margin: 0 auto 20px;
+	padding: 0 20px;
+	text-align: center;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.baikyaku .inner .trouble .fudousan p {
+	line-height: 2;
+	text-align: initial;
+}
+
+.baikyaku .inner .trouble .fudousan p .yellow {
+	background-color: transparent 50%, #ffff01 50%;
+}
+
+.baikyaku .inner .trouble .image {
+	margin: 30px auto 120px;
+	width: 50%;
+}
+
+.baikyaku .inner .trouble .image img {
+	width: 100%;
+}
+
+.baikyaku .inner .trouble .about-rakuie {
+	padding-bottom: 60px;
+}
+
+.baikyaku .inner .trouble .about-rakuie h3 {
+	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+	font-size: 24px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.baikyaku .inner .trouble .about-rakuie p {
+	line-height: 2;
+	text-align: initial;
 }
 
 .buildings-list {
@@ -1610,10 +1716,12 @@ select {
 }
 
 .tokuten h3 {
-	color: #e45213;
-	font-size: 2rem !important;
-	margin-bottom: 0 !important;
-	padding-bottom: 30px;
+	font-size: 3.6rem;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	line-height: 1.4em;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
 	position: relative;
 	text-align: center;
 }
@@ -1700,6 +1808,11 @@ select {
 	width: 100%;
 }
 
+.top-onayami .inner .image p {
+	font-size: 1.4rem;
+	line-height: 1.4em;
+}
+
 .top-onayami .orange {
 	background-color: orange;
 	color: #FFF;
@@ -1745,6 +1858,42 @@ select {
 .muryo-satei p .num {
 	color: orange;
 	font-weight: bold;
+}
+
+.want-wrap .inner .wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.want-wrap .inner .wrap .item {
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+	margin: 0 20px 20px 0;
+	padding: 39px 30px;
+	width: calc((100% - 60px) / 3);
+}
+
+.want-wrap .inner .wrap .item p.title {
+	border-bottom: solid 1px #dedede;
+	color: #eb5e00;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.4em;
+	margin-bottom: 14px;
+	padding-bottom: 14px;
+	text-align: center;
+}
+
+.want-wrap .inner .wrap .item h3 {
+	font: 62.5% Meiryo, arial, clean, verdana, 'Hiragino Kaku Gothic Pro', "ＭＳ Ｐゴシック", Osaka, sans-serif;
+	font-size: 16px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.want-wrap .inner .wrap .item p {
+	font-family: initial;
+	line-height: 1.9em;
+	text-align: left;
 }
 
 .blogs-box {
@@ -2461,6 +2610,7 @@ select {
 	border-top: 1px solid #ccc;
 	font-size: 14px;
 	font-weight: 700;
+	padding-left: 5px;
 	text-align: left;
 	width: 200px;
 }
@@ -2541,14 +2691,16 @@ select {
 
 .example .inner .wrapper .item {
 	border: 1px solid #ccc;
-	padding: 15px;
+	padding: 25px;
 	text-align: justify;
 	width: 48%;
 }
 
 .example .inner .wrapper .item h4 {
+	border-left: 4px solid #e45213;
 	font-size: 24px;
 	margin-bottom: 10px;
+	padding-left: 10px;
 }
 
 .example .image-center {
@@ -3480,7 +3632,7 @@ select {
 }
 
 .service p {
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	line-height: 1.7;
 }
 
@@ -3542,6 +3694,7 @@ select {
 }
 
 .service .container ul.top-menu li a {
+	cursor: pointer;
 	display: block;
 	position: relative;
 	text-decoration: none;
@@ -3556,25 +3709,12 @@ select {
 	bottom: -10px;
 	color: #fff;
 	display: block;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-weight: 700;
 	left: -10px;
 	padding: 12px 18px 14px;
 	position: absolute;
 	width: 80%;
-}
-
-.service .container ul.top-menu li a span::after {
-	border-left: 3px solid #fff;
-	border-top: 3px solid #fff;
-	content: '';
-	display: block;
-	height: 8px;
-	position: absolute;
-	right: 20px;
-	top: calc(50% - 4px);
-	transform: translateY(-50%) rotate(-135deg);
-	width: 8px;
 }
 
 .service .container h3.subtitle {
@@ -3609,10 +3749,12 @@ select {
 }
 
 .service .container .rakuie__service h3 {
-	color: #e45213;
-	font-size: 2rem;
-	margin-bottom: 80px;
-	padding-bottom: 30px;
+	font-size: 3.6rem;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	line-height: 1.4em;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
 	position: relative;
 	text-align: center;
 }
@@ -3677,21 +3819,8 @@ select {
 }
 
 .service .container .rakuie__service .inner .promise dl dd {
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	line-height: 1.7;
-}
-
-.service .container .rakuie__service .inner .promise-img {
-	width: 45%;
-}
-
-.service .container .rakuie__service .inner .promise-img img {
-	width: 100%;
-}
-
-.service .container .rakuie__service .inner .promise-img .block-img {
-	display: block;
-	margin-top: 30px;
 }
 
 .service .container .merit {
@@ -3699,9 +3828,12 @@ select {
 }
 
 .service .container .merit__intro h3 {
-	color: #e45213;
-	font-size: 2rem;
-	padding-bottom: 30px;
+	font-size: 3.6rem;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	line-height: 1.4em;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
 	position: relative;
 	text-align: center;
 }
@@ -3819,9 +3951,12 @@ select {
 }
 
 .service .container .tokuten h3 {
-	color: #e45213;
-	font-size: 2rem;
-	padding-bottom: 30px;
+	font-size: 3.6rem;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	line-height: 1.4em;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
 	position: relative;
 	text-align: center;
 }
@@ -3986,6 +4121,15 @@ select {
 	line-height: 24px;
 	margin-bottom: 10px;
 	padding-left: 10px;
+}
+
+.surpport .anshin-sup .list-wrap .item ul {
+	padding-left: 30px;
+}
+
+.surpport .anshin-sup .list-wrap .item ul li {
+	font-size: 1.6rem;
+	line-height: 1.8;
 }
 
 @media screen and (min-width: 768px) {
@@ -4515,6 +4659,13 @@ body {
 }
 
 .top-onayami h3 {
+	font-size: 2rem;
+	line-height: 1.4;
+	padding: 0 4vw;
+	top: -7.2vw;
+}
+
+.top-onayami .orange {
 	font-size: 2rem;
 	line-height: 1.4;
 	padding: 0 4vw;
@@ -5191,10 +5342,6 @@ body {
 	font-size: 1.6rem;
 }
 
-.service .container .rakuie__service .inner .promise-img {
-	width: 90%;
-}
-
 .service .container .merit .wrapItems .item {
 	margin: 20px 0;
 	width: 100%;
@@ -5223,6 +5370,10 @@ body {
 
 .free-contact .sp {
 	display: block;
+}
+
+.top-onayami .inner .image p {
+	font-size: 0.8rem;
 }
 
 }

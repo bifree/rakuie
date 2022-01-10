@@ -47,12 +47,15 @@
 			<div class="inner">
 				<div class="image">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/onayami01.jpg" alt="">
+					<p>何をしていいかわからない</p>
 				</div>
 				<div class="image">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/onayami02.jpg" alt="">
+					<p>早く家を売りたい</p>
 				</div>
 				<div class="image">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/onayami03.jpg" alt="">
+					<p>入所中のため帰れない</p>
 				</div>
 			</div>
 			<p class="orange">

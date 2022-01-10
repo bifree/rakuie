@@ -1,0 +1,95 @@
+.baikyaku {
+    .inner {
+        .trouble {
+            p {
+                font-size: 1.6rem;
+                font-weight: 500;
+                line-height: 1.8;
+                text-align: center;
+            }
+            .trouble-inner {
+                h2 {
+                    text-align: center;
+                    font-size: 32px;
+                    margin-bottom: 50px;
+                }
+                .inner {
+                    display: flex;
+                    .left {
+                        width: 60%;
+                        padding-top: 40px;
+                        text-align: center;
+                        .yellow {
+                            margin: 0 auto 10px;
+                            width: fit-content;
+                            background: linear-gradient(transparent 50%, #ffff01 50%);
+                            font-size: 2rem;
+                        }
+                    }
+                    .right {
+                        width: 40%;
+                        display: flex;
+                        img {
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+            .arrow-down {
+                background-color: blue;
+                width: 50%;
+                padding: 30px;
+                margin: 60px auto 60px;
+                p.bigger {
+                    color: #FFF;
+                    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+                    font-size: 22px;
+                    text-align: center;
+                    .under {
+                        color: #FFF;
+                        border-bottom: 1px solid #FFF;
+                        font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+                    }
+                }
+                .headline {
+                    padding: 0 20px;
+                    width: fit-content;
+                    text-align: center;
+                    border-radius: 24px;
+                    background-color: white;
+                    color: blue;
+                    margin: 0 auto 20px;
+                }
+            }
+            .fudousan {
+                p {
+                    text-align: initial;
+                    line-height: 2;
+                    .yellow {
+                        background-color: (transparent 50%, #ffff01 50%);
+                    }
+                }
+            }
+            .image {
+                width: 50%;
+                margin: 30px auto 120px;
+                img {
+                    width: 100%;
+                }
+            }
+            .about-rakuie {
+                padding-bottom: 60px;
+                h3 {
+                    font-size: 24px;
+                    text-align: center;
+                    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+                    margin-bottom: 40px;
+                }
+                p {
+                    text-align: initial;
+                    line-height: 2;
+                }
+            }
+        }
+    }
+}

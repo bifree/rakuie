@@ -20,13 +20,13 @@
         <li>
           <a href="#merit" class="scale">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/house3.jpg" alt="会社概要">
-            <span>売却のメリット</span>
+            <span>相続・売却について</span>
           </a>
         </li>
         <li>
           <a href="#tokuten" class="scale">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/tokuten.jpg" alt="会社概要">
-            <span>特典</span>
+            <span>サポート・媒介契約・税について</span>
           </a>
         </li>
       </ul>
@@ -62,10 +62,10 @@
               <dd>不動産仲介会社は仲介が得意、新築販売会社は新築が得意というふうに不動産業界の中でも得意分野があるように、弊社　ラクイエは不動産相続に強い不動産会社です。</dd>
             </dl>
           </div>
-          <div class="promise-img">
+          <!-- <div class="promise-img">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/promise.jpg" alt="">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/house.jpg" alt="" class="block-img">
-          </div>
+          </div> -->
         </div>
         <div class="inner-bottom">
           <div class="text">
@@ -191,17 +191,25 @@
           <div class="trouble">
             <div class="trouble-inner">
               <h2>相続した不動産お困りではありませんか？</h2>
-              <p>「相続したけど誰も住まない家がある…」</p>
-              <p>「介護施設に入居するので家を処分したい」</p>
-              <p>空き家のまま放置している家の固定資産税がかかって困る</p>
+              <div class="inner">
+                <div class="left">
+                  <p class="yellow">「相続したけど誰も住まない家がある…」</p>
+                  <p class="yellow">「介護施設に入居するので家を処分したい」</p>
+                  <p class="yellow">「空き家のまま放置している家の固定資産税がかかって困る」</p>
+                </div>
+                <div class="right">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/man.jpg" alt="">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/women.jpg" alt="">
+                </div>
+              </div>
             </div>
             <div class="arrow-down">
-              <p>他店の査定価格に納得できない方</p>
-              <p class="bigger">相続した不動産効果売却<br>面倒な手続きや交渉もお任せください</p>
+              <p class="headline">他店の査定価格に納得できない方</p>
+              <p class="bigger"><span class="under">相続</span>した<span class="under">不動産効果売却</span><br>面倒な<span class="under">手続き</span>や<span class="under">交渉</span>もお任せください</p>
             </div>
 
             <div class="fudousan">
-              <p>日本の財産の過半数を不動産が住めていると言われています。<br>相続に関わる職業には税理士・弁護士・司法書士・不動産鑑定士・行政書士・保険会社・建設会社・測量会社など多岐にわたります。</p>
+              <p>日本の財産の過半数を不動産が住めていると言われています。<br>相続に関わる職業には<span class="yellow">税理士・弁護士・司法書士・不動産鑑定士・行政書士・保険会社・建設会社・測量会社</span>など多岐にわたります。</p>
               <p>また私たち不動産会社も当然ながら相続に関わります。不動産のことを誰よりも理解しているのは私たちになります。</p>
               <p>相続不動産はしっかりと計画を立てて取り扱わないとその結果は大きな金額の差となり表れます。相続不動産を意識してしっかりと対策を立てるべきであると考え、不動産事業から相続活動に力を注いでおります。</p>
             </div>
@@ -226,12 +234,12 @@
             <div class="item">
               <p class="title">高く売りたい</p>
               <h3>仲介売却</h3>
-              <p>大事なご資産をしっかりと査定<br>少しでも高く売るために全力でお手伝い<br>幅広い広告戦略</p>
+              <p>大事なご資産をしっかりと査定!!<br>少しでも高く売るために全力でお手伝い。<br>幅広い広告戦略。</p>
             </div>
             <div class="item">
               <p class="title">早く売りたい</p>
               <h3>不動産買取</h3>
-              <p>しっかり評価高額買取・即現金化<br>買取専門会社へのオークション高額買取システム</p>
+              <p>しっかり評価高額買取・即現金化!!<br>買取専門会社へのオークション高額買取システム。</p>
             </div>
             <div class="item">
               <p class="title">家具の処分・ごみの片付け</p>
@@ -246,12 +254,12 @@
             <div class="item">
               <p class="title">資産運用・相続対策</p>
               <h3>収益投資</h3>
-              <p>リノベーションしての資産運用<br>更地にして駐車場運用<br>アパート建築して２次相続対策</p>
+              <p>リノベーションしての資産運用。<br>更地にして駐車場運用。<br>アパート建築して２次相続対策!!</p>
             </div>
             <div class="item">
               <p class="title">相続のお悩みについて</p>
               <h3>相続税・相続登記</h3>
-              <p>当社提携の各士業のプロと無料相談<br>税理士・司法書士・行政書士など<br>ご相談は何回でも無料です！</p>
+              <p>当社提携の各士業のプロと無料相談。<br>税理士・司法書士・行政書士など<br>ご相談は何回でも無料です！</p>
             </div>
           </div>
         </div>
