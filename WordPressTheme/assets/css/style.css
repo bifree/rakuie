@@ -1157,7 +1157,7 @@ select {
 }
 
 .c-lowpage__mv {
-	background: url(../img/lowpage-mv2.jpg) center/cover no-repeat;
+	background: url("http://bifree222.com/demo/1/wp-content/uploads/2022/01/lowpage-mv2-scaled.jpg") center/cover no-repeat;
 	height: 200px;
 	position: relative;
 }
@@ -4395,7 +4395,7 @@ body {
 }
 
 .c-lowpage__mv {
-	background: url(../img/lowpage-mv2.jpg) left center/112vw auto no-repeat;
+	background: url("http://bifree222.com/demo/1/wp-content/uploads/2022/01/lowpage-mv2-scaled.jpg") left center/112vw auto no-repeat;
 	height: 32vw;
 }
 
