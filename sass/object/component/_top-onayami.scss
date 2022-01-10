@@ -1,0 +1,88 @@
+.top-onayami {
+    width: 75%;
+    margin: 0 auto;
+    h3 {
+        text-align: center;
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 30px;
+    }
+    .inner {
+        display: flex;
+        justify-content: space-around;
+        .image {
+            width: 32%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .orange {
+        background-color: orange;
+        color: #FFF;
+        padding: 5px;
+        font-size: 28px;
+        text-align: center;
+        width: fit-content;
+        margin: 40px auto 60px;
+    }
+}
+
+.top-covid {
+    .pc-covid {
+        background-color: yellowgreen;
+        width: 60%;
+        padding: 10px;
+        margin: 0 auto;
+        .top-flex {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .circle {
+                display: flex;
+                height: fit-content;
+                background-color: yellow;
+                color: green;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                width: fit-content;
+                padding: 30px 20px;
+                border-radius: 50%;
+            }
+            .title {
+                box-sizing: border-box;
+                background-color: #FFF;
+                h3 {
+                    padding: 10px;
+                    font-size: 32px;
+                    line-height: 48px;
+                    text-align: center;
+                }
+            }
+        }
+        .center-flex {
+            margin: 10px auto;
+            display: flex;
+            justify-content: space-between;
+            .item {
+                width: 30%;
+                padding: 10px;
+                font-size: 16px;
+                background-color: #FFF;
+            }
+        }
+        .bottom {
+            font-size: 16px;
+            line-height: 28px;
+        }
+    }
+}
+
+.muryo-satei {
+    h2 {
+        text-align: center;
+        font-size: 32px;
+        font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+    }
+}
