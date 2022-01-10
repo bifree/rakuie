@@ -1428,6 +1428,66 @@ select {
 	margin-right: 0;
 }
 
+.shigyou-box .inner h2.shigyo-title {
+	background-color: #70c438;
+	color: #FFF;
+	font-size: 24px;
+	margin: 0 auto;
+	padding: 5px;
+	text-align: center;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.shigyou-box .inner h2.shigyo-title .yellow {
+	color: yellow;
+}
+
+.shigyou-box .inner .flex {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 80px;
+	margin-top: 40px;
+}
+
+.shigyou-box .inner .flex .left {
+	width: 60%;
+}
+
+.shigyou-box .inner .flex .left h3 {
+	font-size: 32px;
+	line-height: 48px;
+}
+
+.shigyou-box .inner .flex .left h3 .orange {
+	color: orange;
+}
+
+.shigyou-box .inner .flex .left .left-inner {
+	display: flex;
+}
+
+.shigyou-box .inner .flex .left .left-inner .img {
+	width: 45%;
+}
+
+.shigyou-box .inner .flex .left .left-inner .img img {
+	width: 100%;
+}
+
+.shigyou-box .inner .flex .left .left-inner .text .small {
+	font-size: 20px;
+}
+
+.shigyou-box .inner .flex .right {
+	width: 30%;
+}
+
+.shigyou-box .inner .flex .right img {
+	width: 100%;
+}
+
 .third-box {
 	background: url("../img/mv1.jpg") center bottom/cover no-repeat;
 	background-blend-mode: lighten;
@@ -1585,6 +1645,109 @@ select {
 .tokuten .inner .tokuten p {
 	font-size: 14px;
 	line-height: 1.7;
+}
+
+.top-onayami {
+	margin: 0 auto;
+	width: 75%;
+}
+
+.top-onayami h3 {
+	font-size: 32px;
+	line-height: 48px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.top-onayami .inner {
+	display: flex;
+	justify-content: space-around;
+}
+
+.top-onayami .inner .image {
+	width: 32%;
+}
+
+.top-onayami .inner .image img {
+	width: 100%;
+}
+
+.top-onayami .orange {
+	background-color: orange;
+	color: #FFF;
+	font-size: 28px;
+	margin: 40px auto 60px;
+	padding: 5px;
+	text-align: center;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.top-covid .pc-covid {
+	background-color: yellowgreen;
+	margin: 0 auto;
+	padding: 10px;
+	width: 60%;
+}
+
+.top-covid .pc-covid .top-flex {
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.top-covid .pc-covid .top-flex .circle {
+	background-color: yellow;
+	border-radius: 50%;
+	color: green;
+	display: flex;
+	font-size: 16px;
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
+	height: fit-content;
+	line-height: 24px;
+	padding: 30px 20px;
+	text-align: center;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.top-covid .pc-covid .top-flex .title {
+	background-color: #FFF;
+	box-sizing: border-box;
+}
+
+.top-covid .pc-covid .top-flex .title h3 {
+	font-size: 32px;
+	line-height: 48px;
+	padding: 10px;
+	text-align: center;
+}
+
+.top-covid .pc-covid .center-flex {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px auto;
+}
+
+.top-covid .pc-covid .center-flex .item {
+	background-color: #FFF;
+	font-size: 16px;
+	padding: 10px;
+	width: 30%;
+}
+
+.top-covid .pc-covid .bottom {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.muryo-satei h2 {
+	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+	font-size: 32px;
+	text-align: center;
 }
 
 .blogs-box {
@@ -2157,7 +2320,7 @@ select {
 	visibility: visible;
 }
 
-.rakuie-omakase h2 {
+.rakuie-omakase h2.omakase-title {
 	background: #fff;
 	color: #e45213;
 	display: inline-block;
@@ -2190,6 +2353,10 @@ select {
 	font-size: 3.6rem;
 	font-weight: 700;
 	margin: 0 0.3em;
+}
+
+.rakuie-omakase p .orange {
+	color: orange;
 }
 
 .article__container {
@@ -4391,6 +4558,70 @@ body {
 	margin-bottom: 0;
 }
 
+.shigyou-box .sp-none {
+	display: none;
+}
+
+.shigyou-box .inner h2.shigyo-title {
+	font-size: 2rem;
+	line-height: 1.2;
+	padding: 1.33333vw 4vw;
+	top: -7.2vw;
+}
+
+.shigyou-box .inner .flex {
+	flex-direction: column-reverse;
+	margin-bottom: 40px;
+}
+
+.shigyou-box .inner .flex .left {
+	width: 100%;
+}
+
+.shigyou-box .inner .flex .left h3 {
+	font-size: 1.6rem;
+	text-align: center;
+}
+
+.shigyou-box .inner .flex .left .left-inner {
+	display: block;
+}
+
+.shigyou-box .inner .flex .left .left-inner .img {
+	margin: 0 auto;
+}
+
+.shigyou-box .inner .flex .left .left-inner .img img {
+	width: 100%;
+}
+
+.shigyou-box .inner .flex .left .left-inner .text p {
+	font-size: 2rem;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.shigyou-box .inner .flex .left .left-inner .text p .small {
+	font-size: 1.4rem;
+	line-height: 1.6em;
+}
+
+.shigyou-box .inner .flex .right {
+	margin: 0 auto;
+	width: 60%;
+}
+
+.shigyou-box p {
+	font-size: 1.4rem;
+	font-weight: bold;
+	line-height: 1.6em;
+	text-align: justify;
+}
+
+.shigyou-box p strong {
+	font-size: 2rem;
+}
+
 .third-box .content .inner {
 	min-width: auto;
 	width: 100%;
@@ -4569,7 +4800,7 @@ body {
 	padding: 13.33333vw 5.33333vw 5.33333vw;
 }
 
-.rakuie-omakase h2 {
+.rakuie-omakase h2.omakase-title {
 	font-size: 2rem;
 	padding: 0 4vw;
 	top: -7.2vw;

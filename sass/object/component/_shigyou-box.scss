@@ -1,0 +1,109 @@
+.shigyou-box {
+    .inner {
+        h2.shigyo-title {
+            background-color: #70c438;
+            padding: 5px;
+            color: #FFF;
+            font-size: 24px;
+            width: fit-content;
+            text-align: center;
+            margin: 0 auto;
+            .yellow {
+                color: yellow;
+            }
+        }
+        .flex {
+            margin-top: 40px;
+            display: flex;
+            margin-bottom: 80px;
+            justify-content: space-around;
+            .left {
+                width: 60%;
+                h3 {
+                    font-size: 32px;
+                    line-height: 48px;
+                    .orange {
+                        color: orange;
+                    }
+                }
+                .left-inner {
+                    display: flex;
+                    .img {
+                        width: 45%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .text {
+                        .small {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+            .right {
+                width: 30%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    @include mobile {
+        .sp-none {
+            display: none;
+        }
+        .inner {
+            h2.shigyo-title {
+                top: vw(-27);
+                font-size: 2rem;
+                line-height: 1.2;
+                padding: vw(5) vw(15);
+            }
+            .flex {
+                margin-bottom: 40px;
+                flex-direction: column-reverse;
+                .left {
+                    width: 100%;
+                    h3 {
+                        font-size: 1.6rem;
+                        text-align: center;
+                    }
+                    .left-inner {
+                        display: block;
+                        .img {
+                            margin: 0 auto;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        .text {
+                            p {
+                                text-align: center;
+                                margin-bottom: 0;
+                                font-size: 2rem;
+                                .small {
+                                    font-size: 1.4rem;
+                                    line-height: 1.6em;
+                                }
+                            }
+                        }
+                    }
+                }
+                .right {
+                    width: 60%;
+                    margin: 0 auto;
+                }
+            }
+        }
+		p {
+			text-align: justify;
+			font-size: 1.4rem;
+			line-height: 1.6em;
+			font-weight: bold;
+			strong {
+				font-size: 2rem;
+			}
+		}
+	}
+}

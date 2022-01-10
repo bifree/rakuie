@@ -16,7 +16,7 @@
 	visibility: visible;
 }
 
-.rakuie-omakase h2 {
+.rakuie-omakase h2.omakase-title {
 	background: #fff;
 	color: #e45213;
 	display: inline-block;
@@ -51,6 +51,10 @@
 	margin: 0 0.3em;
 }
 
+.rakuie-omakase p .orange {
+	color: orange;
+}
+
 @media screen and (max-width: 767px) {
 
 .rakuie-omakase {
@@ -58,7 +62,7 @@
 	padding: 13.33333vw 5.33333vw 5.33333vw;
 }
 
-.rakuie-omakase h2 {
+.rakuie-omakase h2.omakase-title {
 	font-size: 2rem;
 	padding: 0 4vw;
 	top: -7.2vw;

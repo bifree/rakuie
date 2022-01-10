@@ -8,16 +8,96 @@
 	<main id="main">
 		<div class="container">
 			<div class="rakuie-omakase js-inview">
-				<h2>相続不動産の売却は<br>ラクイエにお任せください</h2>
+				<h2 class="omakase-title">相続不動産の売却は<br>ラクイエにお任せください</h2>
+				<div class="shigyou-box">
+					<div class="inner">
+						<h2 class="shigyo-title"><span class="yellow">司法書士・税理士・行政書士</span>など各士業との<span class="yellow">連携</span>でサポート</h2>
+						<div class="flex">
+							<div class="left">
+								<h3><span class="orange">ラクイエ</span>なら<br class="sp-none">すべて対応可能</h3>
+								<div class="left-inner">
+									<div class="img">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/shigyo.jpg" alt="">
+									</div>
+									<div class="text">
+										<p><span class="small">いろいろなところで相談する</span><br><span class="small">手間が省けて</span>ラクラク</p>
+									</div>
+								</div>
+							</div>
+							<div class="right">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/shigous.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
 				<p>『司法書士・行政書士・宅地建物取引士・相続診断士』の<br class="is_pc"><strong>専門資格の連携</strong>で<br class="is_pc">多様な相続不動産のケースにご対応が可能です。</p>
 				<p>相続には時として、さまざまな専門家の力が必要になります。<br>
 					相続に関する専門家の取りまとめ、窓口役となり<br class="is_pc">
 					事務手続きや提携士業との連携で<br class="is_pc">
 					<strong>相続問題をワンストップで</strong><br>ラクイエが解決いたします。</p>
+					<p><span class="orange">ご売却・ご相談</span>は<span class="orange">不動産相続専門</span>の<span class="orange">ラクイエ</span>にお任せ下さい！</p>
 				<nav class="c-button">
 					<a href="https://www.rakuie.jp/service/">選ばれる理由</a>
 				</nav>
 			</div>
+		</div>
+
+		<div class="top-onayami">
+			<h3>相続でこんなことで<br>お困りではありませんか？</h3>
+			<div class="inner">
+				<div class="image">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/onayami01.jpg" alt="">
+				</div>
+				<div class="image">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/onayami02.jpg" alt="">
+				</div>
+				<div class="image">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/onayami03.jpg" alt="">
+				</div>
+			</div>
+			<p class="orange">
+				ラクイエが全て親身になって解決いたします！
+			</p>
+		</div>
+
+		<div class="top-covid">
+			<div class="pc-covid">
+				<div class="top-flex">
+					<div class="circle">
+						無料登録<br>受付中！
+					</div>
+					<div class="title">
+						<h3>コロナ対策特別プラン<br>オンラインでラクラク相談！</h3>
+					</div>
+					<div class="online">
+						オンライン無料相談はこちら
+					</div>
+				</div>
+				<div class="center-flex">
+					<div class="item">
+						ご相談時に査定価格のご提示
+					</div>
+					<div class="item">
+						査定書無料進呈
+					</div>
+					<div class="item">
+						リアルタイムでその時に解決
+					</div>
+				</div>
+				<div class="bottom">
+					<p>少しでもご売却をお考えのお客様はぜひラクイエの「楽々オンラインサービス」</p>
+					<p>お気軽にご活用ください！(WEBを利用して全国どこからでも相談できるサービスです)</p>
+					<p class="small">パソコン・無料のビデオアプリ「ZOOM・LINE・FaceTime」や携帯タブレットでの無料ビデオ通話のご相談が可能です。日時のご指定があれば24時間いつでもご相談可能です。</p>
+				</div>
+				<img src="" alt="">
+			</div>
+			<div class="sp-covid">
+				<img src="" alt="">
+			</div>
+		</div>
+
+		<div class="free-contact">
+			<img src="" alt="">
 		</div>
 
 		<div class="rakuie-ceo js-inview">
@@ -53,6 +133,9 @@
 						遠方の方や〇〇など、ZOOM等でご相談ください！</p>
 				</div>
 			</div>
+		</div>
+		<div class="muryo-satei">
+			<h2>お気軽に無料査定をお申し込みください</h2>
 		</div>
 		<div class="container">
 			<div class="blogs-box js-inview">
@@ -90,46 +173,7 @@
 						<dl></dl>
 					</div>
 				</div>
-				<div class="top_blog">
-					<div class="ttl-Box">
-						<p class="ttl">売買事例</p>
-					</div>
-					<div class="scroll_box buildings-list">
-						<table>
-							<thead>
-								<tr>
-									<th class="w-40" rowspan="2">
-										マンション名
-									</th>
-									<th colspan="3">売却事例</th>
-								</tr>
-								<tr>
-									<th class="w-10">平米数</th>
-									<th class="w-10">間取り	</th>
-									<th class="w-10">売却価格（万円）</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td rowspan="1">
-										<a href="<?php echo esc_url( home_url( '/building/word/' ) ); ?>">ＣＯＮＯＥ谷町四丁目</a>
-									</td>
-									<td>53.81</td>
-									<td>２ＬＤＫ</td>
-									<td>2,820</td>
-								</tr>
-								<tr>
-									<td rowspan="1">
-										<a href="">ＣＯＮＯＥ谷町四丁目</a>
-									</td>
-									<td>53.81</td>
-									<td>２ＬＤＫ</td>
-									<td>2,820</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>
+
 			</div>
 			<!-- <div class="suggestion">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/contact.png" alt="">

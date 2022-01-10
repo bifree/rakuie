@@ -15,7 +15,7 @@
 		visibility: visible;
 		transform: translateY(0);
 	}
-	h2 {
+	h2.omakase-title {
 		position: absolute;
 		top: -55px;
 		left: 50%;
@@ -44,12 +44,15 @@
 			margin: 0 0.3em;
 			background: linear-gradient(transparent 50%, #ffff01 50%);
 		}
+		.orange {
+			color: orange;
+		}
 	}
 
 	@include mobile {
 		margin: vw(60) 0 vw(40);
 		padding: vw(50) vw(20) vw(20);
-		h2 {
+		h2.omakase-title {
 			top: vw(-27);
 			font-size: 2rem;
 			padding: 0 vw(15);
