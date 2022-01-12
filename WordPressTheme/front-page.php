@@ -11,7 +11,7 @@
 				<h2 class="omakase-title">相続不動産の売却は<br>ラクイエにお任せください</h2>
 				<div class="shigyou-box">
 					<div class="inner">
-						<h2 class="shigyo-title"><span class="yellow">司法書士・税理士・行政書士</span>など各士業との<span class="yellow">連携</span>でサポート</h2>
+						<h2 class="shigyo-title"><span class="yellow">司法書士・税理士・行政書士</span>など<br class="sp-block">各士業との<span class="yellow">連携</span>でサポート</h2>
 						<div class="flex">
 							<div class="left">
 								<h3><span class="orange">ラクイエ</span>なら<br class="sp-none">すべて対応可能</h3>
@@ -30,11 +30,11 @@
 						</div>
 					</div>
 				</div>
-				<p>『司法書士・行政書士・宅地建物取引士・相続診断士』の<br class="is_pc"><strong>専門資格の連携</strong>で<br class="is_pc">多様な相続不動産のケースにご対応が可能です。</p>
+				<p>『司法書士・行政書士・宅地建物取引士・相続診断士』の<br class="is_pc"><strong>専門資格の連携</strong>で<br class="is_pc">多様な相続不動産のケースに対応が可能です。</p>
 				<p>相続には時として、さまざまな専門家の力が必要になります。<br>
 					相続に関する専門家の取りまとめ、窓口役となり<br class="is_pc">
-					事務手続きや提携士業との連携で<br class="is_pc">
-					<strong>相続問題をワンストップで</strong><br>ラクイエが解決いたします。</p>
+					事務手続きや提携士業と連携し<br class="is_pc">
+					<strong>相続問題をワンストップで</strong><br>解決いたします。</p>
 					<p><span class="orange">ご売却・ご相談</span>は<span class="orange">不動産相続専門</span>の<span class="orange">ラクイエ</span>にお任せ下さい！</p>
 				<nav class="c-button">
 					<a href="https://www.rakuie.jp/service/">選ばれる理由</a>
@@ -87,6 +87,7 @@
 
 		<div class="rakuie-ceo js-inview">
 			<div class="inner">
+				<p class="strong">不動産業界歴20年以上の豊富な知識と経験で</p>
 				<p>『安心・安全な不動産取引』をお約束<br>すべてのご家族に<br class="is_sp">笑顔と幸せをお届けします！</p>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/card.jpg" alt="" class="is_pc">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/card_sp2.png" alt="" class="is_sp">
@@ -104,13 +105,13 @@
 				</div>
 				<div class="online">
 					<p>全国対応！相談無料！簡単操作！<br>
-						遠方の方や〇〇など、ZOOM等でご相談ください！</p>
+						ZOOM等でご相談ください！</p>
 				</div>
 			</div>
 		</div>
 		<div class="muryo-satei">
-			<h2>お気軽に無料査定をお申し込みください</h2>
-			<p>フリーダイアル <span class="num">0120-071-778</span></p>
+			<h2>お気軽にお問合せください。</h2>
+			<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/dial.jpg" alt=""> <span class="num">0120-071-778</span></p>
 		</div>
 		<div class="container">
 			<div class="blogs-box js-inview">

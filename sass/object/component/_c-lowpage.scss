@@ -4,7 +4,7 @@
 	&__mv {
 		height: 200px;
 		position:relative;
-		background: url(../img/lowpage-mv2.jpg) center / cover no-repeat;
+		background: url('http://bifree222.com/demo/1/wp-content/uploads/2022/01/lowpage-mv2-scaled.jpg') center / cover no-repeat;
 	
 		h2{
 			font-size: 4.2rem;
@@ -19,7 +19,7 @@
 		}
 		@include mobile {
 			height: vw(120);
-			background: url(../img/lowpage-mv2.jpg) left center / vw(420) auto no-repeat;
+			background: url('http://bifree222.com/demo/1/wp-content/uploads/2022/01/lowpage-mv2-scaled.jpg') left center / vw(420) auto no-repeat;
 		
 			h2{
 				font-size: 2rem;
