@@ -841,7 +841,7 @@ select {
 	color: #fff;
 	display: block;
 	font-size: 22px;
-	font-weight: bold;
+	font-weight: normal;
 	height: 60px;
 	line-height: 30px;
 	text-align: center;
@@ -1516,6 +1516,7 @@ select {
 }
 
 .second-box .content .inner .wrapItems dl dd p.ttl {
+	font-size: 16px;
 	font-weight: 500;
 	line-height: 1.5;
 }
@@ -1759,8 +1760,9 @@ select {
 }
 
 .tokuten .inner .intro p {
-	font-size: 1.4rem;
+	font-size: 16px;
 	line-height: 1.7;
+	text-align: center;
 }
 
 .tokuten .inner .tokuten {
@@ -1794,7 +1796,7 @@ select {
 }
 
 .tokuten .inner .tokuten p {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.7;
 }
 
@@ -3514,7 +3516,7 @@ select {
 }
 
 .reason .reason-container article .reason_box .box_inner .left p {
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 1.8;
 }
 
@@ -3528,7 +3530,7 @@ select {
 }
 
 .reason .reason-container article .reason_box .box_inner .left ul li {
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 1.8;
 	margin-bottom: 5px;
 }
@@ -3588,7 +3590,7 @@ select {
 .reason .reason-container .kansai .inner {
 	align-items: center;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	margin: 0 auto;
 	width: 75%;
 }
@@ -3613,7 +3615,7 @@ select {
 }
 
 .reason .reason-container .kansai .inner .left p {
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 24px;
 }
 
