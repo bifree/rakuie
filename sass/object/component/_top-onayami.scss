@@ -93,11 +93,20 @@
         }
     }
     p {
+        font-size: 32px;
         text-align: center;
-        font-size: 16px;
+        line-height: 80px;
+        align-items: center;
+        display: flex;
+        width: fit-content;
+        margin: 0 auto;
         .num {
             color: orange;
             font-weight: bold;
+            line-height: 80px;
+        }
+        img {
+            height: 80px;
         }
     }
 }

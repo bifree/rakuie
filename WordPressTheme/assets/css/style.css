@@ -1234,9 +1234,9 @@ select {
 }
 
 .covid .inner h4 {
-	font-size: 2.8rem;
+	font-size: 28px;
 	font-weight: bold;
-	line-height: 1.5em;
+	line-height: 32px;
 	text-align: center;
 }
 
@@ -1252,7 +1252,7 @@ select {
 }
 
 .covid .inner p {
-	font-size: 1.6rem;
+	font-size: 18px;
 	line-height: 1.8;
 	text-align: center;
 }
@@ -1562,6 +1562,10 @@ select {
 	margin-right: 0;
 }
 
+.shigyou-box .sp-block {
+	display: none;
+}
+
 .shigyou-box .inner h2.shigyo-title {
 	background-color: #70c438;
 	color: #FFF;
@@ -1586,24 +1590,21 @@ select {
 }
 
 .shigyou-box .inner .flex .left {
-	width: 60%;
+	width: 45%;
 }
 
 .shigyou-box .inner .flex .left h3 {
 	font-size: 32px;
 	line-height: 48px;
+	text-align: center;
 }
 
 .shigyou-box .inner .flex .left h3 .orange {
 	color: orange;
 }
 
-.shigyou-box .inner .flex .left .left-inner {
-	display: flex;
-}
-
 .shigyou-box .inner .flex .left .left-inner .img {
-	width: 45%;
+	width: 100%;
 }
 
 .shigyou-box .inner .flex .left .left-inner .img img {
@@ -1611,11 +1612,11 @@ select {
 }
 
 .shigyou-box .inner .flex .left .left-inner .text .small {
-	font-size: 20px;
+	font-size: 24px;
 }
 
 .shigyou-box .inner .flex .right {
-	width: 30%;
+	width: 45%;
 }
 
 .shigyou-box .inner .flex .right img {
@@ -1851,13 +1852,25 @@ select {
 }
 
 .muryo-satei p {
-	font-size: 16px;
+	align-items: center;
+	display: flex;
+	font-size: 32px;
+	line-height: 80px;
+	margin: 0 auto;
 	text-align: center;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
 }
 
 .muryo-satei p .num {
 	color: orange;
 	font-weight: bold;
+	line-height: 80px;
+}
+
+.muryo-satei p img {
+	height: 80px;
 }
 
 .want-wrap .inner .wrap {
@@ -2404,7 +2417,7 @@ select {
 
 .rakuie-ceo .inner p {
 	display: inline-block;
-	font-size: 2.8rem;
+	font-size: 28px;
 	font-weight: bold;
 	line-height: 1.5em;
 	margin-bottom: 40px;
@@ -2437,6 +2450,17 @@ select {
 .rakuie-ceo .inner p::after {
 	right: 0;
 	transform: rotate(20deg);
+}
+
+.rakuie-ceo .inner p.strong {
+	color: red;
+	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+	margin-bottom: 20px;
+}
+
+.rakuie-ceo .inner p.strong::before,
+.rakuie-ceo .inner p.strong::after {
+	display: none;
 }
 
 .rakuie-ceo .inner img {
@@ -2487,7 +2511,7 @@ select {
 }
 
 .rakuie-omakase p {
-	font-size: 2.4rem;
+	font-size: 28px;
 	font-weight: 500;
 	letter-spacing: 0.1em;
 	line-height: 2em;
@@ -4576,6 +4600,10 @@ body {
 	margin-bottom: 0;
 }
 
+.shigyou-box .sp-block {
+	display: block;
+}
+
 .shigyou-box .sp-none {
 	display: none;
 }
@@ -4607,6 +4635,7 @@ body {
 
 .shigyou-box .inner .flex .left .left-inner .img {
 	margin: 0 auto;
+	width: 80%;
 }
 
 .shigyou-box .inner .flex .left .left-inner .img img {
@@ -4620,8 +4649,8 @@ body {
 }
 
 .shigyou-box .inner .flex .left .left-inner .text p .small {
-	font-size: 1.4rem;
-	line-height: 1.6em;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 .shigyou-box .inner .flex .right {
@@ -4860,9 +4889,9 @@ body {
 }
 
 .rakuie-omakase p {
-	font-size: 1.4rem;
+	font-size: 16px;
 	font-weight: bold;
-	line-height: 1.6em;
+	line-height: 24px;
 	margin-bottom: 5.33333vw;
 	text-align: justify;
 }
