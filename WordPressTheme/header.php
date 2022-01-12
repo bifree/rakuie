@@ -64,11 +64,13 @@
       </div>
       <div id="header-nav">
         <nav>
-          <?php 
-            wp_nav_menu( array( 
-            'theme_location' => 'header-nav', 
-            'container' => 'nav'
-          ) ); ?>
+          <ul>
+            <li><a href="<?php echo esc_url( home_url( '/service' ) ); ?>">売却について</a></li>
+            <li><a href="<?php echo esc_url( home_url( '/reason' ) ); ?>">ラクイエが<br>選ばれる理由</a></li>
+            <li><a href="<?php echo esc_url( home_url( '/faq' ) ); ?>">よくある質問</a></li>
+            <li><a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">ご相談・査定依頼<br>フォーム</a></li>
+            <li><a href="<?php echo esc_url( home_url( '/company' ) ); ?>">会社概要</a></li>
+          </ul>
         </nav>
       </div>
     </div>

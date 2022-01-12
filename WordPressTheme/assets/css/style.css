@@ -840,14 +840,21 @@ select {
 .l-header .header-wrapper #header-nav nav ul li a {
 	color: #fff;
 	display: block;
-	font-size: 1.4rem;
+	font-size: 22px;
 	font-weight: bold;
 	height: 60px;
-	line-height: 60px;
+	line-height: 30px;
 	text-align: center;
 	text-decoration: none;
 	transition: 0.5s ease;
 	width: 100%;
+}
+
+.l-header .header-wrapper #header-nav nav ul li:nth-child(1) a,
+.l-header .header-wrapper #header-nav nav ul li:nth-child(5) a,
+.l-header .header-wrapper #header-nav nav ul li:nth-child(3) a {
+	height: 50px;
+	line-height: 60px;
 }
 
 .is-scroll .l-header {
@@ -859,6 +866,13 @@ select {
 }
 
 .is-scroll .l-header .header-wrapper #header-nav nav ul li a {
+	height: 50px;
+	line-height: 24px;
+}
+
+.is-scroll .l-header .header-wrapper #header-nav nav ul li:nth-child(1) a,
+.is-scroll .l-header .header-wrapper #header-nav nav ul li:nth-child(5) a,
+.is-scroll .l-header .header-wrapper #header-nav nav ul li:nth-child(3) a {
 	height: 50px;
 	line-height: 50px;
 }
