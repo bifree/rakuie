@@ -290,12 +290,15 @@
       .sign {
         margin-top: 20px;
         font-weight: 700;
-        font-size: 2.8rem;
+        text-align: right;
+        font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+        font-size: 28px !important;
         letter-spacing: 0.1em;
         small {
+          font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
           display: inline-block;
           margin-right: 20px;
-          font-size: 1.8rem;
+          font-size: 18px;
         }
       }
       .message {
@@ -349,6 +352,7 @@
         font-size: 1.6rem;
         font-weight: 500;
         line-height: 1.8;
+        font-size: 18px;
       }
     }
   }
