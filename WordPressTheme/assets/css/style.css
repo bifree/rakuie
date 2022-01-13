@@ -3082,15 +3082,18 @@ select {
 }
 
 .company__message--box .sign {
-	font-size: 2.8rem;
+	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+	font-size: 28px !important;
 	font-weight: 700;
 	letter-spacing: 0.1em;
 	margin-top: 20px;
+	text-align: right;
 }
 
 .company__message--box .sign small {
 	display: inline-block;
-	font-size: 1.8rem;
+	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+	font-size: 18px;
 	margin-right: 20px;
 }
 
@@ -3151,6 +3154,7 @@ select {
 
 .company__access--wrap div {
 	font-size: 1.6rem;
+	font-size: 18px;
 	font-weight: 500;
 	line-height: 1.8;
 	width: calc((100% - 40px) / 2);
