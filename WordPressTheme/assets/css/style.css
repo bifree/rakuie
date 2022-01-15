@@ -883,8 +883,12 @@ select {
 	visibility: hidden;
 }
 
+.baikyaku .inner .trouble {
+	margin-top: 120px;
+}
+
 .baikyaku .inner .trouble p {
-	font-size: 1.6rem;
+	font-size: 18px;
 	font-weight: 500;
 	line-height: 1.8;
 	text-align: center;
@@ -980,7 +984,7 @@ select {
 
 .baikyaku .inner .trouble .about-rakuie h3 {
 	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
-	font-size: 24px;
+	font-size: 28px;
 	margin-bottom: 40px;
 	text-align: center;
 }
@@ -1732,26 +1736,19 @@ select {
 }
 
 .tokuten h3 {
+	background: linear-gradient(transparent 50%, #ffff01 50%);
 	font-size: 3.6rem;
 	font-weight: bold;
 	letter-spacing: 0.1em;
-	line-height: 1.4em;
-	margin-bottom: 60px;
-	padding-bottom: 20px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
 	position: relative;
 	text-align: center;
-}
-
-.tokuten h3::after {
-	background: #e45213;
-	bottom: 0;
-	content: "";
-	display: block;
-	height: 3px;
-	left: 50%;
-	position: absolute;
-	transform: translateX(-50%);
-	width: 100px;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
 }
 
 .tokuten .inner .intro {
@@ -2607,26 +2604,19 @@ select {
 }
 
 .baikai-contract .inner h3 {
+	background: linear-gradient(transparent 50%, #ffff01 50%);
 	font-size: 3.6rem;
 	font-weight: bold;
 	letter-spacing: 0.1em;
-	line-height: 1.4em;
+	margin: 0 auto;
 	margin-bottom: 30px;
-	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	position: relative;
 	text-align: center;
-}
-
-.baikai-contract .inner h3::after {
-	background: #e45213;
-	bottom: 0;
-	content: '';
-	display: block;
-	height: 4px;
-	left: 50%;
-	position: absolute;
-	transform: translateX(-50%);
-	width: 80px;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
 }
 
 .baikai-contract .inner .text-center {
@@ -2667,7 +2657,7 @@ select {
 
 .features .inner {
 	margin: 0 auto;
-	width: 680px;
+	width: 730px;
 }
 
 .features .inner h3 {
@@ -2681,7 +2671,7 @@ select {
 
 .features .inner table {
 	margin: 0 auto;
-	width: 680px;
+	width: 730px;
 }
 
 .features .inner table tr {
@@ -2706,7 +2696,7 @@ select {
 	font-size: 1.6rem;
 	font-weight: 500;
 	line-height: 1.8;
-	padding: 10px 25px;
+	padding: 10px 5px 10px 25px;
 }
 
 .example .tax-inner h3 {
@@ -2731,7 +2721,7 @@ select {
 
 .example .inner .wrapper .item {
 	border: 1px solid #ccc;
-	padding: 25px;
+	padding: 15px;
 	text-align: justify;
 	width: 48%;
 }
@@ -3770,7 +3760,7 @@ select {
 }
 
 .service p {
-	font-size: 1.6rem;
+	font-size: 18px;
 	line-height: 1.7;
 }
 
@@ -3957,7 +3947,7 @@ select {
 }
 
 .service .container .rakuie__service .inner .promise dl dd {
-	font-size: 1.6rem;
+	font-size: 18px;
 	line-height: 1.7;
 }
 
@@ -4089,26 +4079,19 @@ select {
 }
 
 .service .container .tokuten h3 {
+	background: linear-gradient(transparent 50%, #ffff01 50%);
 	font-size: 3.6rem;
 	font-weight: bold;
 	letter-spacing: 0.1em;
-	line-height: 1.4em;
-	margin-bottom: 60px;
-	padding-bottom: 20px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
 	position: relative;
 	text-align: center;
-}
-
-.service .container .tokuten h3::after {
-	background: #e45213;
-	bottom: 0;
-	content: "";
-	display: block;
-	height: 3px;
-	left: 50%;
-	position: absolute;
-	transform: translateX(-50%);
-	width: 100px;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
 }
 
 .service .container .tokuten .inner .intro {
@@ -4144,10 +4127,11 @@ select {
 	font-size: 16px;
 	padding-bottom: 10px;
 	padding-top: 10px;
+	text-align: center;
 }
 
 .service .container .tokuten .inner .tokuten p {
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .sitemap .container {
@@ -4244,13 +4228,15 @@ select {
 .surpport .anshin-sup .list-wrap {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .surpport .anshin-sup .list-wrap .item {
 	background: #fff;
 	padding: 30px;
 	position: relative;
-	width: 48%;
+	text-align: justify;
+	width: 49%;
 }
 
 .surpport .anshin-sup .list-wrap .item h3 {
