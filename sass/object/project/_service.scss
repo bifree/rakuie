@@ -1,6 +1,6 @@
 .service {
 	p {
-		font-size: 1.6rem;
+		font-size: 18px;
 		line-height: 1.7;
 	}
 	.service__top {
@@ -190,7 +190,7 @@
 							background: #e45213;
 						}
 						dd {
-							font-size: 1.6rem;
+							font-size: 18px;
 							line-height: 1.7;
 						}
 					}
@@ -328,25 +328,19 @@
 		}
 		.tokuten {
 			h3 {
+				background: linear-gradient(transparent 50%, #ffff01 50%);
 				font-size: 3.6rem;
 				font-weight: bold;
 				letter-spacing: 0.1em;
-				line-height: 1.4em;
-				margin-bottom: 60px;
-				padding-bottom: 20px;
+				margin: 0 auto;
+				margin-bottom: 30px;
+				padding-left: 20px;
+				padding-right: 20px;
 				position: relative;
 				text-align: center;
-				&::after {
-					content: "";
-					display: block;
-					position: absolute;
-					bottom: 0;
-					left: 50%;
-					transform: translateX(-50%);
-					background: #e45213;
-					height: 3px;
-					width: 100px;
-				}
+				width: -webkit-fit-content;
+				width: -moz-fit-content;
+				width: fit-content;
 			}
 			.inner {
 				.intro {
@@ -377,6 +371,7 @@
 						}
 					}
 					.red {
+						text-align: center;
 						background-color: #e45213;
 						color: #FFF;
 						font-size: 16px;
@@ -384,7 +379,7 @@
 						padding-top: 10px;
 					}
 					p {
-						font-size: 14px;
+						font-size: 16px;
 					}
 				}
 			}

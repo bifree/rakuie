@@ -4,22 +4,14 @@
             font-size: 3.6rem;
             font-weight: bold;
             letter-spacing: 0.1em;
-            line-height: 1.4em;
-            margin-bottom: 30px;
-            padding-bottom: 20px;
             position: relative;
+            width: fit-content;
+            margin: 0 auto;
+            padding-left: 20px;
+            padding-right: 20px;
             text-align: center;
-            &::after {
-                background: #e45213;
-            bottom: 0;
-            content: '';
-            display: block;
-            height: 4px;
-            left: 50%;
-            position: absolute;
-            transform: translateX(-50%);
-            width: 80px;
-            }
+            margin-bottom: 30px;
+            background: linear-gradient(transparent 50%, #ffff01 50%);
         }
         .text-center {
             text-align: center;
@@ -70,7 +62,7 @@
 
 .features {
     .inner {
-        width: 680px;
+        width: 730px;
         margin: 0 auto;
         h3 {
             background: #70c438;
@@ -81,7 +73,7 @@
             padding: 13px 20px;
         }
         table {
-            width: 680px;
+            width: 730px;
             margin: 0 auto;
             tr {
                 border-bottom: 1px solid #ccc;
@@ -110,7 +102,7 @@
                     font-size: 1.6rem;
                     font-weight: 500;
                     line-height: 1.8;
-                    padding: 10px 25px;
+                    padding: 10px 5px 10px 25px;
                     ul.feature-li {
                         li {
 
@@ -143,7 +135,7 @@
             display: flex;
             justify-content: space-between;
             .item {
-                padding: 25px;
+                padding: 15px;
                 border: 1px solid #ccc;
                 width: 48%;
                 text-align: justify;
