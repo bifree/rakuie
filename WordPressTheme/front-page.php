@@ -66,7 +66,7 @@
 		<div class="top-covid">
 			<div class="pc">
 				<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top-c01.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/taisaku.jpg" alt="">
 				</a>
 			</div>
 			<div class="sp">
