@@ -65,6 +65,47 @@
             <p>各士業の相続の専門家が集まり知識と経験を結集して、ワンストップで強力にサポートするという志しを表しています。</p>
           </div>
         </div>
+        <div class="item-center">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/shigous.png" alt="">
+        </div>
+      </section>
+      <section>
+        <h3>SDGsへの取り組み</h3>
+        <div class="company__about--wrap">
+          <div>
+            <p>「楽しく明るい地球の未来」のために持続可能な社会の実現を目指します。<br>SDGsに共感し、経済の発展や、住環境保全に対して真摯に向き合い、事業活動を通じてSDGsが掲げるゴールを目指し、志しをもって、貢献して参ります。</p>
+          </div>
+        </div>
+        <div class="images">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/rakuie.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sec1.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sec3.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sec7.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sec11.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sec12.png" alt="">
+        </div>
+        <div class="goals">
+          <div class="red goal-d">
+            <div class="action">action1</div>
+            <div class="content">住宅ローン返済困難者を任売却により貧困脱却を支援しています</div>
+          </div>
+          <div class="green-g goal-d">
+            <div class="action">action3</div>
+            <div class="content">高気密・高性能住宅で健康的な室内環境を確保し長寿命を創る</div>
+          </div>
+          <div class="yellow-g goal-d">
+          <div class="action">action7</div>
+            <div class="content">ZEH基準を満たす省エネ性能住宅、LCCM住宅の建築普及促進</div>
+          </div>
+          <div class="orange-g goal-d">
+          <div class="action">action11</div>
+            <div class="content">相続を通じて、空地・空家を不動産活用し住環境を守ります</div>
+          </div>
+          <div class="brawn-g goal-d">
+          <div class="action">action12</div>
+            <div class="content">定期的なメンテナンスで、長く安心して暮らせる住まいをお届けします</div>
+          </div>
+        </div>
       </section>
       <table class="company-info">
         <tr>
@@ -141,8 +182,8 @@
             <p>弊社ホームページに起こし頂きありがとうございます。<br>株式会社ラクイエ『不動産相続の窓口』代表の前田隆志と申します。</p>
             <p>私が相続専門の不動産会社を立ち上げたのは、自身の経験からです。<br>今後、ますます高齢化社会になり人口の減少が続きます。
               相続問題・空き家問題・地域の過疎化・未登記による所有者不明物件の増加等多くの問題が山積しています。弊社のような相続に特化した不動産会社が、不動産のプロとして何処よりも正確に情報を発信し、安心、安全に相続をワンストップでサポートさせていただく事で顧客満足、社会貢献、<br>地域活性につながる志しある会社でありたいと考えております。相続不動産を通して、<br>過疎化や空き家問題を解決し、セーフティネットの底上げを使命と考えます。</p>
-            <p>昨今の相続問題が増加する中で、相続についてのスキーム確立し、士業との連携及び<br>相続不動産売却専門の不動産会社として、大阪府大阪市天王寺区でスタートしました。<br>
-              私自身、建築学部を卒業し、建築施工管理、設計・リフォーム業・不動産仲介業・新築<br>一戸建販売業・建築請負業・個人不動産投資家として、20年間『衣・食・住』の住環境に<br>携わって参りました。どのようなご相談・ご質問でも、丁寧に分かり易くを心がけて、ご対応致します。お気軽にお問い合わせください。(当社は、しつこい営業は一切致しません)</p>
+            <p class="width-long">昨今の相続問題が増加する中で、相続についてのスキーム確立し、士業との連携及び<br>相続不動産売却専門の不動産会社として、大阪府大阪市天王寺区でスタートしました。<br>
+              私自身、建築学部を卒業し、建築施工管理、設計・リフォーム業・不動産仲介業・新築<br>一戸建販売業・建築請負業・個人不動産投資家として、20年間『衣・食・住』の住環境に<br>携わって参りました。どのようなご相談・ご質問でも、丁寧に分かり易くを心がけて、ご対応<br>致します。お気軽にお問い合わせください。(当社は、しつこい営業は一切致しません)</p>
             <p>弊社では士業ネットワークが確立されたことで、日本の相続問題の解決とセーフティーネットの底上げを使命と考え、不動産事業を通じて、地域の発展に携わり社会貢献致します。<br>
               不動産のプロとして最良のご提案をする事をお約束します。<br>
               </p>

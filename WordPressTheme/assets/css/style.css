@@ -2816,7 +2816,7 @@ select {
 }
 
 .company__lead p {
-	font-size: 2.4rem;
+	font-size: 28px;
 	font-weight: 500;
 	letter-spacing: 0.1em;
 	line-height: 2;
@@ -2824,7 +2824,7 @@ select {
 }
 
 .company__lead p strong {
-	font-size: 2.8rem;
+	font-size: 32px;
 	font-weight: 700;
 }
 
@@ -2925,6 +2925,96 @@ select {
 	padding: 12px 20px 14px;
 }
 
+.company__about section .item-center {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.company__about section .item-center img {
+	display: block;
+}
+
+.company__about section .images {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	width: 1060px;
+}
+
+.company__about section .images img {
+	width: calc((100% - 100px) / 6);
+}
+
+.company__about section .goals {
+	margin-top: 40px;
+}
+
+.company__about section .goals .goal-d {
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	box-sizing: border-box;
+	display: flex;
+	margin-bottom: 30px;
+	width: 800px;
+}
+
+.company__about section .goals .goal-d .action {
+	color: #FFF;
+	font-size: 18px;
+	margin-right: 3px;
+	padding: 0 10px;
+	text-align: center;
+	width: 100px;
+}
+
+.company__about section .goals .goal-d .content {
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	font-size: 18px;
+	padding: 3px 3px 3px 0;
+}
+
+.company__about section .goals .red {
+	border: 2px solid #E23132;
+}
+
+.company__about section .goals .red .action {
+	background: #E23132;
+}
+
+.company__about section .goals .green-g {
+	border: 2px solid #408E3C;
+}
+
+.company__about section .goals .green-g .action {
+	background: #408E3C;
+}
+
+.company__about section .goals .yellow-g {
+	border: 2px solid #F8AF29;
+}
+
+.company__about section .goals .yellow-g .action {
+	background: #F8AF29;
+}
+
+.company__about section .goals .orange-g {
+	border: 2px solid #F39632;
+}
+
+.company__about section .goals .orange-g .action {
+	background: #F39632;
+}
+
+.company__about section .goals .brawn-g {
+	border: 2px solid #C98630;
+}
+
+.company__about section .goals .brawn-g .action {
+	background: #C98630;
+}
+
 .company__about--wrap {
 	align-items: center;
 	display: flex;
@@ -2937,7 +3027,7 @@ select {
 }
 
 .company__about--wrap p {
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	font-weight: 500;
 	line-height: 1.8;
 }
@@ -3125,7 +3215,11 @@ select {
 .company__message .content .inner {
 	margin: 0 auto;
 	padding: 0 30px 40px;
-	width: 1120px;
+	width: 1140px;
+}
+
+.company__message .content .inner .width-long {
+	width: 110%;
 }
 
 .company__access {
@@ -3154,7 +3248,7 @@ select {
 
 .company__access--wrap div {
 	font-size: 1.6rem;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: 500;
 	line-height: 1.8;
 	width: calc((100% - 40px) / 2);
@@ -5411,6 +5505,10 @@ body {
 
 .sitemap .container article .inner {
 	width: 100%;
+}
+
+.sp-none {
+	display: none;
 }
 
 }

@@ -54,13 +54,13 @@
       width: max-content;
     }
     p {
-      font-size: 2.4rem;
+      font-size: 28px;
       font-weight: 500;
       line-height: 2;
       letter-spacing: 0.1em;
       text-align: center;
       strong {
-        font-size: 2.8rem;
+        font-size: 32px;
         font-weight: 700;
         em {
           font-style: normal;
@@ -148,6 +148,78 @@
         margin-bottom:25px;
         font-weight:700;
       }
+      .item-center {
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+        img {
+          display: block;
+        }
+      }
+      .images {
+        margin-top: 40px;
+        width: 1060px;
+        justify-content: space-between;
+        display: flex;
+        img {
+          width: calc((100% - 100px) / 6);
+        }
+      }
+      .goals {
+        margin-top: 40px;
+        .goal-d {
+          margin-bottom: 30px;
+          display: flex;
+          box-sizing: border-box;
+          border-bottom-right-radius: 5px;
+          width: 800px;
+          border-top-right-radius: 5px;
+          .action {
+            color: #FFF;
+            margin-right: 3px;
+            font-size: 18px;
+            width: 100px;
+            text-align: center;
+            padding: 0 10px;
+          }
+          .content {
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+            font-size: 18px;
+            padding: 3px 3px 3px 0;
+          }
+        }
+        .red {
+          border: 2px solid #E23132;
+          .action {
+            background: #E23132;
+          }
+        }
+        .green-g {
+          border: 2px solid #408E3C;
+          .action {
+            background: #408E3C;
+          }
+        }
+        .yellow-g {
+          border: 2px solid #F8AF29;
+          .action {
+            background: #F8AF29;
+          }
+        }
+        .orange-g {
+          border: 2px solid #F39632;
+          .action {
+            background: #F39632;
+          }
+        }
+        .brawn-g {
+          border: 2px solid #C98630;
+          .action {
+            background: #C98630;
+          }
+        }
+      }
     }
     &--wrap {
       display: flex;
@@ -158,7 +230,7 @@
         margin-right: 40px;
       }
       p {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         font-weight: 500;
         line-height: 1.8;
       }
@@ -323,9 +395,12 @@
     .content {
       font-size: 1.6rem;
       .inner {
-        width: 1120px;
+        width: 1140px;
         margin: 0 auto;
         padding: 0 30px 40px;
+        .width-long {
+          width: 110%;
+        }
       }
     }
   }
@@ -352,7 +427,7 @@
         font-size: 1.6rem;
         font-weight: 500;
         line-height: 1.8;
-        font-size: 18px;
+        font-size: 22px;
       }
     }
   }
