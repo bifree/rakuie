@@ -16,6 +16,19 @@
                 }
                 .inner {
                     display: flex;
+                    @include mobile {
+                        display: block;
+                        .left {
+                            width: 100%;
+                        }
+                        .right {
+                            width: 100%;
+                            img {
+                                display: block;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
                     .left {
                         width: 60%;
                         padding-top: 40px;
@@ -39,12 +52,15 @@
             .arrow-down {
                 background-color: blue;
                 width: 50%;
-                padding: 30px;
+                padding: 20px;
                 margin: 60px auto 60px;
+                @include mobile {
+                    width: 100%;
+                }
                 p.bigger {
                     color: #FFF;
                     font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
-                    font-size: 22px;
+                    font-size: 24px;
                     text-align: center;
                     .under {
                         color: #FFF;
@@ -63,12 +79,16 @@
                 }
             }
             .fudousan {
+                width: 1080px;
                 p {
                     text-align: initial;
                     line-height: 2;
                     .yellow {
                         background-color: (transparent 50%, #ffff01 50%);
                     }
+                }
+                @include mobile {
+                    width: 100%;
                 }
             }
             .image {

@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-	<div class="sp-none">
+	<div class="">
 		<?php get_template_part('template/main-views');?>
 	</div>
 	<!-- <div class="pc-none"> -->

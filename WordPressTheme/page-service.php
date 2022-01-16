@@ -13,7 +13,7 @@
     <ul class="js-inview top-menu">
         <li>
           <a href="#promise" class="scale">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/promise1.jpg" alt="会社概要">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company_nav02.jpg" alt="会社概要">
             <span>５つおの約束</span>
           </a>
         </li>
@@ -89,7 +89,6 @@
                 </div>
                 <div class="right">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/img/man.jpg" alt="">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/women.jpg" alt="">
                 </div>
               </div>
             </div>

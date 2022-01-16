@@ -112,26 +112,19 @@
 		}
 		.rakuie__service {
 			h3 {
+				background: linear-gradient(transparent 50%, #ffff01 50%);
 				font-size: 3.6rem;
 				font-weight: bold;
 				letter-spacing: 0.1em;
-				line-height: 1.4em;
-				margin-bottom: 60px;
-				padding-bottom: 20px;
+				margin: 0 auto;
+				margin-bottom: 30px;
+				padding-left: 20px;
+				padding-right: 20px;
 				position: relative;
 				text-align: center;
-				&::after {
-					content: "";
-					display: block;
-					position: absolute;
-					bottom: 0;
-					left: 50%;
-					transform: translateX(-50%);
-					background: #e45213;
-					height: 3px;
-					width: 100px;
-				}
-				
+				width: -webkit-fit-content;
+				width: -moz-fit-content;
+				width: fit-content;
 			}
 			.inner-bottom {
 				.text {
@@ -167,7 +160,6 @@
 							}
 							span {
 								font-size: 40px;
-								font-size: 4rem;
 								position: absolute;
 								z-index: 1;
 								top: 0;
@@ -176,6 +168,13 @@
 								padding-top: 3px;
 								padding-left: 16px;
 								color: #fff;
+								@media screen and (max-width:425px) {
+									-webkit-transform: rotate(0);
+									transform: rotate(0);
+									font-size: 10vw;
+									padding: 0;
+									text-align: center;
+								}
 							}
 						}
 						dt:before {
@@ -188,6 +187,10 @@
 							-webkit-transform: rotate(25deg);
 							transform: rotate(25deg);
 							background: #e45213;
+							@media screen and (max-width:425px) {
+								-webkit-transform: rotate(0);
+								transform: rotate(0);
+							}
 						}
 						dd {
 							font-size: 18px;
@@ -374,7 +377,7 @@
 						text-align: center;
 						background-color: #e45213;
 						color: #FFF;
-						font-size: 16px;
+						font-size: 18px;
 						padding-bottom: 10px;
 						padding-top: 10px;
 					}

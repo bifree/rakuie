@@ -155,6 +155,11 @@
         img {
           display: block;
         }
+        @include mobile {
+          img {
+            width: 100%;
+          }
+        }
       }
       .images {
         margin-top: 40px;
@@ -163,6 +168,15 @@
         display: flex;
         img {
           width: calc((100% - 100px) / 6);
+        }
+        @include mobile {
+          width: 100%;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          img {
+            width: calc((100% - 100px) / 2);
+            margin-bottom: 10px;
+          }
         }
       }
       .goals {
@@ -174,6 +188,10 @@
           border-bottom-right-radius: 5px;
           width: 800px;
           border-top-right-radius: 5px;
+          @include mobile {
+            width: 100%;
+            line-height: 1.5;
+          }
           .action {
             color: #FFF;
             margin-right: 3px;
@@ -400,6 +418,9 @@
         padding: 0 30px 40px;
         .width-long {
           width: 110%;
+          @include mobile {
+            width: 100%;
+          }
         }
       }
     }
@@ -500,6 +521,13 @@
           border-left: solid vw(6) #c5e8ae;
           padding: vw(10) vw(16) vw(12);
           margin-bottom: vw(20);
+        }
+        .goals {
+          .goal-d {
+            .content {
+              font-size: 16px;
+            }
+          }
         }
       }
       &--wrap {
@@ -646,7 +674,7 @@
         }
         div {
           width: 100%;
-          font-size: 1.4rem;
+          font-size: 1.6rem;
         }
       }
     }
