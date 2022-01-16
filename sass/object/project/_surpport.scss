@@ -11,7 +11,7 @@
         }
     }
     .anshin-sup {
-        margin-top: 120px;
+        padding-top: 120px;
         h2 {
             background: linear-gradient(transparent 50%, #ffff01 50%);
             font-size: 3.6rem;
@@ -36,6 +36,7 @@
                 display: block;
                 width: 100%;
                 .item {
+                    margin-bottom: 40px;
                     padding: 0;
                     width: 100%;
                 }

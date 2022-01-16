@@ -164,7 +164,7 @@
 			今すぐ無料査定
 			</span>
 			<span class="img_wide">
-				<a href="">
+				<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">
 					<span>無料査定</span>
 				</a>
 			</span>
