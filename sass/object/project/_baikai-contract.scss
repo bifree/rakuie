@@ -18,13 +18,24 @@
             margin-bottom: 60px;
         }
         .table {
+            overflow-x: scroll;
             table {
-                display: flex;
+                width: 730px;
                 justify-content: center;
                 margin: 0 auto;
                 tbody {
                     tr {
                         border-bottom: 1px solid #ccc;
+                        .bg-td {
+                            background: #ffffdf;
+                            font-weight: 700;
+                            text-align: left;
+                            width: 230px;
+                            text-align: center;
+                            font-size: 14px;
+                            border-left: 1px solid #ccc;
+                            border-top: 1px solid #ccc;
+                        }
                         th {
                             padding-left: 5px;
                             background: #ffffdf;
@@ -84,6 +95,21 @@
         table {
             width: 730px;
             margin: 0 auto;
+            @media screen and (max-width: 767px) {
+                tr {
+                    margin-bottom: 20px;
+                    th {
+                        border-right: 1px solid #ccc;
+                        display: block;
+                        font-size: 1.6rem;
+                        font-weight: 500;
+                        padding: 2.66667vw 5.33333vw;
+                        text-align: center;
+                        text-align: center;
+                        width: 100%;
+                    }
+                }
+            }
             tr {
                 border-bottom: 1px solid #ccc;
                 th {                            
@@ -95,15 +121,6 @@
                     font-size: 14px;
                     border-left: 1px solid #ccc;
                     border-top: 1px solid #ccc;
-                    @media screen and (max-width: 767px) {
-                        display: block;
-                        font-size: 1.6rem;
-                        font-weight: 500;
-                        padding: 2.66667vw 5.33333vw;
-                        text-align: center;
-                        text-align: center;
-                        width: 100%;
-                    }
                 }
                 td {
                     border-left: 1px solid #ccc;

@@ -925,7 +925,7 @@ select {
 }
 
 .baikyaku .inner .trouble .trouble-inner .inner .right img {
-	width: 50%;
+	width: 100%;
 }
 
 .baikyaku .inner .trouble .arrow-down {
@@ -1306,18 +1306,18 @@ select {
 #homebanner {
 	background-color: #FFF;
 	border: 1px solid #eb5e00;
-	bottom: 20px;
+	bottom: calc(20%);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	left: calc(50% - 300px);
 	margin-bottom: 0;
 	opacity: 0;
 	padding: 5px;
 	position: fixed;
+	right: 0;
 	transition: all 0.5s;
 	visibility: hidden;
-	width: 600px;
+	width: 350px;
 	z-index: 999;
 }
 
@@ -1337,7 +1337,7 @@ select {
 #homebanner .img_wide {
 	display: block;
 	margin: 0;
-	width: calc(50% - 0.5px);
+	width: 100%;
 }
 
 #homebanner .img_wide:nth-child(2) a {
@@ -2630,14 +2630,29 @@ select {
 	text-align: center;
 }
 
+.baikai-contract .inner .table {
+	overflow-x: scroll;
+}
+
 .baikai-contract .inner .table table {
-	display: flex;
 	justify-content: center;
 	margin: 0 auto;
+	width: 730px;
 }
 
 .baikai-contract .inner .table table tbody tr {
 	border-bottom: 1px solid #ccc;
+}
+
+.baikai-contract .inner .table table tbody tr .bg-td {
+	background: #ffffdf;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: left;
+	text-align: center;
+	width: 230px;
 }
 
 .baikai-contract .inner .table table tbody tr th {
@@ -4204,7 +4219,7 @@ select {
 }
 
 .surpport .anshin-sup {
-	margin-top: 120px;
+	padding-top: 120px;
 }
 
 .surpport .anshin-sup h2 {
@@ -4496,11 +4511,19 @@ body {
 	margin: 0 auto;
 }
 
+.baikyaku .inner .trouble .trouble-inner .inner .left .yellow {
+	background: #ffff01;
+}
+
 .baikyaku .inner .trouble .arrow-down {
 	width: 100%;
 }
 
 .baikyaku .inner .trouble .fudousan {
+	width: 100%;
+}
+
+.baikyaku .inner .trouble .image {
 	width: 100%;
 }
 
@@ -4604,6 +4627,10 @@ body {
 .covid_flow-sp img {
 	display: block;
 	margin: 0 auto;
+}
+
+#homebanner .img_wide {
+	width: 50%;
 }
 
 #homebanner {
@@ -5032,6 +5059,10 @@ body {
 	width: 2px;
 }
 
+.rakuie-ceo .inner p.strong {
+	font-size: 5.5vw;
+}
+
 .rakuie-omakase {
 	margin: 16vw 0 10.66667vw;
 	padding: 13.33333vw 5.33333vw 5.33333vw;
@@ -5077,7 +5108,12 @@ body {
 	display: block;
 }
 
+.features .inner table tr {
+	margin-bottom: 20px;
+}
+
 .features .inner table tr th {
+	border-right: 1px solid #ccc;
 	display: block;
 	font-size: 1.6rem;
 	font-weight: 500;
@@ -5607,6 +5643,7 @@ body {
 }
 
 .surpport .anshin-sup .list-wrap .item {
+	margin-bottom: 40px;
 	padding: 0;
 	width: 100%;
 }

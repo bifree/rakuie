@@ -30,13 +30,13 @@
           </a>
         </li>
       </ul>
-    <div class="service-inner">
+    <div class="service-inner" id="promise">
       <h3 class="subtitle">相続不動産売却ならラクイエ</h3>
       <div class="intro">
         <p>想いが詰まったご自身のマンション――どうせ売却するのであれば、できるだけ高く売りたいと考えるのは当たり前です。この際に利用したいのが仲介売却という方法。ラクイエが、マンション売却における仲介売却の特徴やポイントについてご紹介します。</p>
       </div>
 
-      <div class="rakuie__service" id="promise">
+      <div class="rakuie__service">
         <h3>５つのお約束</h3>
         <div class="inner">
           <div class="promise">
@@ -71,7 +71,7 @@
           <div class="text">
             <p>相続不動産のお手続きに関しては必ず不動産会社が関連します。<br>相続された不動産を売却するには、専門的な知識と経験が必要です！</p>
             <p>相続人との協議（司法書士）や不動産の価格設定（不動産会社）、資産の分配金の配分や税（税理士）のことも<br>考慮した相続手続きその後の不動産売却後もサポートします。※各士業と連携</p>
-            <p>当社では、相続専門の不動産会社として、民法・相続税・相続登記の知識を有しています。<br>又、短期間で高値で売却するノウハウも有しています。<br><span class="bigger">ぜひ、売却に特化した相続売却専門のラクイエにお問合せください！</span></p>
+            <p>当社では、相続専門の不動産会社として、民法・相続税・相続登記の知識を有しています。<br>又、短期間で高値で売却するノウハウも有しています。<br><span class="bigger" id="merit">ぜひ、売却に特化した相続売却専門のラクイエにお問合せください！</span></p>
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@
                   <p class="yellow">「空き家のまま放置している家の固定資産税がかかって困る」</p>
                 </div>
                 <div class="right">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/man.jpg" alt="">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/onayami01.jpg" alt="">
                 </div>
               </div>
             </div>
@@ -158,7 +158,7 @@
         <div class="img-center">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/rakuie-4.png" alt="">
         </div>
-        <div class="anshin-sup">
+        <div class="anshin-sup" id="tokuten">
           <h2>安心サポート</h2>
           <div class="list-wrap">
             <div class="item">
@@ -249,31 +249,31 @@
                     <td>一般媒介</td>
                   </tr>
                   <tr>
-                    <th>1.複数の不動産会社への依頼</th>
+                    <td class="bg-td">1.複数の不動産会社への依頼</td>
                     <td>できない</td>
                     <td>できない</td>
                     <td>できる</td>
                   </tr>
                   <tr>
-                    <th>2.自分で買主を見つけること</th>
+                    <td class="bg-td">2.自分で買主を見つけること</td>
                     <td>できる</td>
                     <td>できない</td>
                     <td>できる</td>
                   </tr>
                   <tr>
-                    <th>3.媒介契約期間</th>
+                    <td class="bg-td">3.媒介契約期間</td>
                     <td>3ヶ月以内</td>
                     <td>3ヶ月以内</td>
                     <td>特に決まりはない</td>
                   </tr>
                   <tr>
-                    <th>4.レインズへの登録義務</th>
+                    <td class="bg-td">4.レインズへの登録義務</td>
                     <td>7日以内</td>
                     <td>5日以内</td>
                     <td>特に決まりはない</td>
                   </tr>
                   <tr>
-                    <th>5.売主への報告義務</th>
+                    <td class="bg-td">5.売主への報告義務</td>
                     <td>2週間に1回以上</td>
                     <td>1週間に1回以上</td>
                     <td>特に決まりはない</td>
@@ -381,7 +381,7 @@
         </div>
       </div>
 
-      <div class="tokuten" id="tokuten">
+      <div class="tokuten">
         <h3>ラクイエの特典</h3>
         <div class="inner">
           <div class="intro">
