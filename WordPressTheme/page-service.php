@@ -88,7 +88,7 @@
                   <p class="yellow">「空き家のまま放置している家の固定資産税がかかって困る」</p>
                 </div>
                 <div class="right">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/man.jpg" alt="">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/onayami01.jpg" alt="">
                 </div>
               </div>
             </div>
