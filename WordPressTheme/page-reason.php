@@ -72,7 +72,7 @@
                                 <li>相続にはときとして、さまざまな専門家の力が必要に。<br>相続に関する専門家のとりまとめ、窓口役となり事務手続きや提携士業との連携で相続問題をワンストップでラクイエが解決!!</li>
                             </ul>
                             <p>売主様の立場に立ち、第三者の公平な立場で一般的な情報をまずはしっかりと説明。<br>
-                            ノルマがあると…結論を急いで求めてくる、商売につながる偏った説明に</p>
+                            <span class="small">ノルマがあると…結論を急いで求めてくる、商売につながる偏った説明に</span></p>
                         </div>
                     </div>
                     <div class="right js-inview">
@@ -195,7 +195,7 @@
             </div>
             <div class="tokuten">
                 <div class="item">
-                <h3 class="red">司法書士によるサポート</h3>
+                <h4 class="red">司法書士によるサポート</h4>
                 <div class="item-inner">
                     <figure>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fudousan.jpg" alt="">
@@ -204,7 +204,7 @@
                 </div>
                 </div>
                 <div class="item">
-                <h3 class="red">税理士によるサポート</h3>
+                <h4 class="red">税理士によるサポート</h4>
                 <div class="item-inner">
                     <figure>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/zeiri.jpg" alt="">
@@ -213,7 +213,7 @@
                 </div>
                 </div>
                 <div class="item">
-                <h3 class="red">宅地建物取引士によるサポート</h3>
+                <h4 class="red">宅地建物取引士によるサポート</h4>
                 <div class="item-inner">
                     <figure>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/takuchi.jpg" alt="">

@@ -3,37 +3,34 @@
     .img-center {
         display: flex;
         justify-content: center;
+        width: 100%;
         img {
+            width: 100%;
             display: block;
             margin: 0 auto;
         }
     }
     .anshin-sup {
-        margin-top: 80px;
+        margin-top: 120px;
         h2 {
+            background: linear-gradient(transparent 50%, #ffff01 50%);
             font-size: 3.6rem;
             font-weight: bold;
             letter-spacing: 0.1em;
-            line-height: 1.4em;
-            margin-bottom: 60px;
-            padding-bottom: 20px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
             position: relative;
             text-align: center;
-            &::after {
-                background: #e45213;
-            bottom: 0;
-            content: '';
-            display: block;
-            height: 4px;
-            left: 50%;
-            position: absolute;
-            transform: translateX(-50%);
-            width: 80px;
-            }
+            width: -webkit-fit-content;
+            width: -moz-fit-content;
+            width: fit-content;
         }
         .list-wrap {
             display: flex;
             flex-wrap: wrap;
+            width: 1080px;
             justify-content: space-between;
             .item {
                 background: #fff;

@@ -39,12 +39,12 @@
             .arrow-down {
                 background-color: blue;
                 width: 50%;
-                padding: 30px;
+                padding: 20px;
                 margin: 60px auto 60px;
                 p.bigger {
                     color: #FFF;
                     font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
-                    font-size: 22px;
+                    font-size: 24px;
                     text-align: center;
                     .under {
                         color: #FFF;
@@ -63,6 +63,7 @@
                 }
             }
             .fudousan {
+                width: 1080px;
                 p {
                     text-align: initial;
                     line-height: 2;

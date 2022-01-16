@@ -931,14 +931,14 @@ select {
 .baikyaku .inner .trouble .arrow-down {
 	background-color: blue;
 	margin: 60px auto 60px;
-	padding: 30px;
+	padding: 20px;
 	width: 50%;
 }
 
 .baikyaku .inner .trouble .arrow-down p.bigger {
 	color: #FFF;
 	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
-	font-size: 22px;
+	font-size: 24px;
 	text-align: center;
 }
 
@@ -958,6 +958,10 @@ select {
 	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
+}
+
+.baikyaku .inner .trouble .fudousan {
+	width: 1080px;
 }
 
 .baikyaku .inner .trouble .fudousan p {
@@ -1064,6 +1068,7 @@ select {
 }
 
 .c-breadcrumb ul li {
+	font-size: 16px;
 	padding-left: 10px;
 }
 
@@ -1262,7 +1267,7 @@ select {
 	display: flex;
 	justify-content: space-between;
 	margin: 50px auto 0;
-	width: 80%;
+	width: 90% !important;
 }
 
 .covid .inner .covid_flow img {
@@ -1787,9 +1792,10 @@ select {
 .tokuten .inner .tokuten .red {
 	background-color: #e45213;
 	color: #FFF;
-	font-size: 16px;
+	font-size: 18px;
 	padding-bottom: 10px;
 	padding-top: 10px;
+	text-align: center;
 }
 
 .tokuten .inner .tokuten p {
@@ -1823,7 +1829,7 @@ select {
 }
 
 .top-onayami .inner .image p {
-	font-size: 1.4rem;
+	font-size: 18px;
 	line-height: 1.4em;
 }
 
@@ -3613,6 +3619,10 @@ select {
 	font-weight: bold;
 }
 
+.reason .reason-container article .reason_box .box_inner .left p .small {
+	font-size: 16px;
+}
+
 .reason .reason-container article .reason_box .box_inner .left ul {
 	list-style: none;
 }
@@ -3877,26 +3887,19 @@ select {
 }
 
 .service .container .rakuie__service h3 {
+	background: linear-gradient(transparent 50%, #ffff01 50%);
 	font-size: 3.6rem;
 	font-weight: bold;
 	letter-spacing: 0.1em;
-	line-height: 1.4em;
-	margin-bottom: 60px;
-	padding-bottom: 20px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
 	position: relative;
 	text-align: center;
-}
-
-.service .container .rakuie__service h3::after {
-	background: #e45213;
-	bottom: 0;
-	content: "";
-	display: block;
-	height: 3px;
-	left: 50%;
-	position: absolute;
-	transform: translateX(-50%);
-	width: 100px;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
 }
 
 .service .container .rakuie__service .inner-bottom .text p .bigger {
@@ -4124,7 +4127,7 @@ select {
 .service .container .tokuten .inner .tokuten .red {
 	background-color: #e45213;
 	color: #FFF;
-	font-size: 16px;
+	font-size: 18px;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	text-align: center;
@@ -4191,44 +4194,40 @@ select {
 .surpport .img-center {
 	display: flex;
 	justify-content: center;
+	width: 100%;
 }
 
 .surpport .img-center img {
 	display: block;
 	margin: 0 auto;
+	width: 100%;
 }
 
 .surpport .anshin-sup {
-	margin-top: 80px;
+	margin-top: 120px;
 }
 
 .surpport .anshin-sup h2 {
+	background: linear-gradient(transparent 50%, #ffff01 50%);
 	font-size: 3.6rem;
 	font-weight: bold;
 	letter-spacing: 0.1em;
-	line-height: 1.4em;
-	margin-bottom: 60px;
-	padding-bottom: 20px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
 	position: relative;
 	text-align: center;
-}
-
-.surpport .anshin-sup h2::after {
-	background: #e45213;
-	bottom: 0;
-	content: '';
-	display: block;
-	height: 4px;
-	left: 50%;
-	position: absolute;
-	transform: translateX(-50%);
-	width: 80px;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
 }
 
 .surpport .anshin-sup .list-wrap {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	width: 1080px;
 }
 
 .surpport .anshin-sup .list-wrap .item {
