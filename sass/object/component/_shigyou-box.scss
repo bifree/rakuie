@@ -100,6 +100,12 @@
                 .right {
                     width: 60%;
                     margin: 0 auto;
+                    img {
+                        width: 100%;
+                    }
+                    @media screen and (max-width: 425px) {
+                        width: 100%;
+                    }
                 }
             }
         }

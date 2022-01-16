@@ -3344,6 +3344,7 @@ select {
 .faq-inner .question .question_outer .ques {
 	box-sizing: border-box;
 	font-size: 2rem;
+	line-height: 1.5;
 	margin: 10px 0;
 	padding: 5px 5px;
 }
@@ -3929,7 +3930,6 @@ select {
 	color: #fff;
 	display: block;
 	font-size: 40px;
-	font-size: 4rem;
 	left: 0;
 	padding-left: 16px;
 	padding-top: 3px;
@@ -4463,6 +4463,13 @@ body {
 	visibility: visible;
 }
 
+.l-header .header-wrapper #header-nav nav ul li:nth-child(1) a,
+.l-header .header-wrapper #header-nav nav ul li:nth-child(5) a,
+.l-header .header-wrapper #header-nav nav ul li:nth-child(3) a {
+	height: 13.33333vw;
+	line-height: 13.33333vw;
+}
+
 .is-scroll .l-header .header-wrapper .containerMiddle {
 	padding: 2.66667vw;
 }
@@ -4470,6 +4477,31 @@ body {
 .is-scroll .l-header .header-wrapper #header-nav nav ul li a {
 	height: 13.33333vw;
 	line-height: 13.33333vw;
+}
+
+.baikyaku .inner .trouble .trouble-inner .inner {
+	display: block;
+}
+
+.baikyaku .inner .trouble .trouble-inner .inner .left {
+	width: 100%;
+}
+
+.baikyaku .inner .trouble .trouble-inner .inner .right {
+	width: 100%;
+}
+
+.baikyaku .inner .trouble .trouble-inner .inner .right img {
+	display: block;
+	margin: 0 auto;
+}
+
+.baikyaku .inner .trouble .arrow-down {
+	width: 100%;
+}
+
+.baikyaku .inner .trouble .fudousan {
+	width: 100%;
 }
 
 .c-breadcrumb {
@@ -4626,6 +4658,9 @@ body {
 }
 
 .main-views .swiper-container .swiper-slide {
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
+	height: fit-content;
 	min-width: auto;
 	width: 100% !important;
 }
@@ -4757,6 +4792,10 @@ body {
 	width: 60%;
 }
 
+.shigyou-box .inner .flex .right img {
+	width: 100%;
+}
+
 .shigyou-box p {
 	font-size: 1.4rem;
 	font-weight: bold;
@@ -4793,6 +4832,15 @@ body {
 	top: -7.2vw;
 }
 
+.top-onayami .inner {
+	display: block;
+}
+
+.top-onayami .inner .image {
+	margin-bottom: 30px;
+	width: 100%;
+}
+
 .top-onayami .orange {
 	font-size: 2rem;
 	line-height: 1.4;
@@ -4819,6 +4867,14 @@ body {
 	font-size: 2rem;
 	padding: 0 4vw;
 	top: -7.2vw;
+}
+
+.want-wrap .inner .wrap {
+	display: block;
+}
+
+.want-wrap .inner .wrap .item {
+	width: 100%;
 }
 
 .blogs-box {
@@ -5009,6 +5065,18 @@ body {
 	width: 100%;
 }
 
+.features .inner {
+	width: 100%;
+}
+
+.features .inner table {
+	width: 100%;
+}
+
+.features .inner table tr {
+	display: block;
+}
+
 .features .inner table tr th {
 	display: block;
 	font-size: 1.6rem;
@@ -5016,6 +5084,43 @@ body {
 	padding: 2.66667vw 5.33333vw;
 	text-align: center;
 	text-align: center;
+	width: 100%;
+}
+
+.example .inner .wrapper {
+	display: block;
+}
+
+.example .inner .wrapper .item {
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+.example .image-center {
+	width: 100%;
+}
+
+.company__about section .item-center img {
+	width: 100%;
+}
+
+.company__about section .images {
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.company__about section .images img {
+	margin-bottom: 10px;
+	width: calc((100% - 100px) / 2);
+}
+
+.company__about section .goals .goal-d {
+	line-height: 1.5;
+	width: 100%;
+}
+
+.company__message .content .inner .width-long {
 	width: 100%;
 }
 
@@ -5100,6 +5205,10 @@ body {
 	font-size: 1.8rem;
 	margin-bottom: 5.33333vw;
 	padding: 2.66667vw 4.26667vw 3.2vw;
+}
+
+.company__about section .goals .goal-d .content {
+	font-size: 16px;
 }
 
 .company__about--wrap {
@@ -5267,7 +5376,7 @@ body {
 }
 
 .company__access--wrap div {
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	width: 100%;
 }
 
@@ -5492,8 +5601,26 @@ body {
 	width: 100%;
 }
 
+.surpport .anshin-sup .list-wrap {
+	display: block;
+	width: 100%;
+}
+
+.surpport .anshin-sup .list-wrap .item {
+	padding: 0;
+	width: 100%;
+}
+
 .sp-none {
 	display: none;
+}
+
+}
+
+@media screen and (max-width: 767px) and (max-width: 425px) {
+
+.shigyou-box .inner .flex .right {
+	width: 100%;
 }
 
 }
@@ -5505,7 +5632,22 @@ body {
 }
 
 .top-onayami .inner .image p {
-	font-size: 0.8rem;
+	font-size: 4vw;
+}
+
+.top-covid .sp {
+	width: 90%;
+}
+
+.service .container .rakuie__service .inner .promise dl dt span {
+	font-size: 10vw;
+	padding: 0;
+	text-align: center;
+	transform: rotate(0);
+}
+
+.service .container .rakuie__service .inner .promise dl dt:before {
+	transform: rotate(0);
 }
 
 }

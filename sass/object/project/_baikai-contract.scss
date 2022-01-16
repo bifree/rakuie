@@ -64,6 +64,15 @@
     .inner {
         width: 730px;
         margin: 0 auto;
+        @include mobile {
+            width: 100%;
+            table {
+                width: 100%;
+                tr {
+                    display: block;
+                }
+            }
+        }
         h3 {
             background: #70c438;
             border-left: 6px solid #c5e8ae;
@@ -77,7 +86,8 @@
             margin: 0 auto;
             tr {
                 border-bottom: 1px solid #ccc;
-                th {                            background: #ffffdf;
+                th {                            
+                    background: #ffffdf;
                     font-weight: 700;
                     text-align: left;
                     width: 200px;
@@ -146,6 +156,13 @@
                     border-left: 4px solid #e45213;
                 }
             }
+            @include mobile {
+                display: block;
+                .item {
+                    width: 100%;
+                    margin-bottom: 40px;
+                }
+            }
         }
     }
     .image-center {
@@ -155,6 +172,9 @@
         justify-content: center;
         img {
             display: block;
+            width: 100%;
+        }
+        @include mobile {
             width: 100%;
         }
     }

@@ -3,6 +3,12 @@
         .wrap {
             display: flex;
             flex-wrap: wrap;
+            @include mobile {
+                display: block;
+                .item {
+                    width: 100%;
+                }
+            }
             .item {
                 padding: 39px 30px;
                 margin: 0 20px 20px 0;

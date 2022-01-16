@@ -257,6 +257,12 @@
 					visibility: visible;
 				}
 			}
+			#header-nav nav ul li:nth-child(1) a,
+			#header-nav nav ul li:nth-child(5) a,
+			#header-nav nav ul li:nth-child(3) a {
+				height: vw(50);
+				line-height: vw(50);
+			}
 		}
 	}
 }

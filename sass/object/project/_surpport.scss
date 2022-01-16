@@ -32,6 +32,14 @@
             flex-wrap: wrap;
             width: 1080px;
             justify-content: space-between;
+            @include mobile {
+                display: block;
+                width: 100%;
+                .item {
+                    padding: 0;
+                    width: 100%;
+                }
+            }
             .item {
                 background: #fff;
                 width: 49%;

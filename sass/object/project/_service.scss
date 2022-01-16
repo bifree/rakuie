@@ -160,7 +160,6 @@
 							}
 							span {
 								font-size: 40px;
-								font-size: 4rem;
 								position: absolute;
 								z-index: 1;
 								top: 0;
@@ -169,6 +168,13 @@
 								padding-top: 3px;
 								padding-left: 16px;
 								color: #fff;
+								@media screen and (max-width:425px) {
+									-webkit-transform: rotate(0);
+									transform: rotate(0);
+									font-size: 10vw;
+									padding: 0;
+									text-align: center;
+								}
 							}
 						}
 						dt:before {
@@ -181,6 +187,10 @@
 							-webkit-transform: rotate(25deg);
 							transform: rotate(25deg);
 							background: #e45213;
+							@media screen and (max-width:425px) {
+								-webkit-transform: rotate(0);
+								transform: rotate(0);
+							}
 						}
 						dd {
 							font-size: 18px;
