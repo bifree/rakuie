@@ -18,7 +18,9 @@
             margin-bottom: 60px;
         }
         .table {
-            overflow-x: scroll;
+            @include mobile {
+                overflow-x: scroll;
+            }
             table {
                 width: 730px;
                 justify-content: center;
@@ -130,11 +132,6 @@
                     font-weight: 500;
                     line-height: 1.8;
                     padding: 10px 5px 10px 25px;
-                    ul.feature-li {
-                        li {
-
-                        }
-                    }
                 }
             }
         }
@@ -150,6 +147,7 @@
             font-size: 24px;
             margin: 60px auto;
             padding: 13px 20px;
+            width: 730px;
         }
     }
     .inner {
@@ -157,6 +155,19 @@
             font-size: 24px;
             text-align: center;
             margin: 30px auto 50px;
+        }
+        .yellow-bg {
+            background: linear-gradient(transparent 50%, #ffff01 50%);
+            font-weight: bold;
+            letter-spacing: 0.1em;
+            margin-bottom: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+            position: relative;
+            text-align: center;
+            width: -webkit-fit-content;
+            width: -moz-fit-content;
+            width: fit-content;
         }
         .wrapper {
             display: flex;

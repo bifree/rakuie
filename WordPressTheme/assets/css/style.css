@@ -1762,7 +1762,7 @@ select {
 }
 
 .tokuten .inner .intro p {
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.7;
 	text-align: center;
 }
@@ -1801,6 +1801,7 @@ select {
 .tokuten .inner .tokuten p {
 	font-size: 16px;
 	line-height: 1.7;
+	text-align: center;
 }
 
 .top-onayami {
@@ -1873,7 +1874,7 @@ select {
 .muryo-satei p {
 	align-items: center;
 	display: flex;
-	font-size: 32px;
+	font-size: 48px;
 	line-height: 80px;
 	margin: 0 auto;
 	text-align: center;
@@ -2630,10 +2631,6 @@ select {
 	text-align: center;
 }
 
-.baikai-contract .inner .table {
-	overflow-x: scroll;
-}
-
 .baikai-contract .inner .table table {
 	justify-content: center;
 	margin: 0 auto;
@@ -2727,12 +2724,27 @@ select {
 	font-size: 24px;
 	margin: 60px auto;
 	padding: 13px 20px;
+	width: 730px;
 }
 
 .example .inner h3 {
 	font-size: 24px;
 	margin: 30px auto 50px;
 	text-align: center;
+}
+
+.example .inner .yellow-bg {
+	background: linear-gradient(transparent 50%, #ffff01 50%);
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+	text-align: center;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
 }
 
 .example .inner .wrapper {
@@ -3340,7 +3352,8 @@ select {
 }
 
 .faq-inner .intro p {
-	font-size: 1.4rem;
+	font-size: 1.8rem;
+	letter-spacing: -0.03em;
 	line-height: 1.7;
 }
 
@@ -3374,7 +3387,7 @@ select {
 .faq-inner .question .question_inner .answer {
 	color: white;
 	color: black;
-	font-size: 1.4rem;
+	font-size: 1.8rem;
 	letter-spacing: 0.1em;
 	line-height: 1.7;
 	margin: 0 auto;
@@ -5084,6 +5097,10 @@ body {
 
 .rakuie-omakase p strong {
 	font-size: 2rem;
+}
+
+.baikai-contract .inner .table {
+	overflow-x: scroll;
 }
 
 .baikai-contract .inner .table table tbody tr th {
