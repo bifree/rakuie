@@ -939,6 +939,7 @@ select {
 	color: #FFF;
 	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
 	font-size: 24px;
+	font-weight: 900;
 	text-align: center;
 }
 
@@ -975,7 +976,7 @@ select {
 
 .baikyaku .inner .trouble .image {
 	margin: 30px auto 120px;
-	width: 50%;
+	width: 60%;
 }
 
 .baikyaku .inner .trouble .image img {
@@ -987,10 +988,20 @@ select {
 }
 
 .baikyaku .inner .trouble .about-rakuie h3 {
+	background: linear-gradient(transparent 50%, #ffff01 50%);
 	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
 	font-size: 28px;
 	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
 	text-align: center;
+	text-align: center;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
 }
 
 .baikyaku .inner .trouble .about-rakuie p {
@@ -1908,7 +1919,7 @@ select {
 .want-wrap .inner .wrap .item p.title {
 	border-bottom: solid 1px #dedede;
 	color: #eb5e00;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: bold;
 	line-height: 1.4em;
 	margin-bottom: 14px;
@@ -1918,7 +1929,7 @@ select {
 
 .want-wrap .inner .wrap .item h3 {
 	font: 62.5% Meiryo, arial, clean, verdana, 'Hiragino Kaku Gothic Pro', "ＭＳ Ｐゴシック", Osaka, sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	margin-bottom: 20px;
 	text-align: center;
 }
@@ -2411,7 +2422,7 @@ select {
 }
 
 .rakuie-baikyaku ol li dl dd {
-	font-size: 1.6rem;
+	font-size: 2rem;
 	font-weight: 500;
 	line-height: 1.4em;
 	text-align: center;
@@ -2631,6 +2642,10 @@ select {
 	text-align: center;
 }
 
+.baikai-contract .inner .bigger {
+	font-size: 22px !important;
+}
+
 .baikai-contract .inner .table table {
 	justify-content: center;
 	margin: 0 auto;
@@ -2738,6 +2753,7 @@ select {
 	font-weight: bold;
 	letter-spacing: 0.1em;
 	margin-bottom: 30px;
+	margin-top: 80px;
 	padding-left: 20px;
 	padding-right: 20px;
 	position: relative;
@@ -3912,7 +3928,8 @@ select {
 
 .service .container .intro {
 	margin: 0 auto 90px;
-	width: 90%;
+	text-align: center;
+	width: 96%;
 }
 
 .service .container .rakuie__service h3 {
