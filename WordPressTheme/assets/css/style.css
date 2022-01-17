@@ -1658,6 +1658,23 @@ select {
 	width: 100%;
 }
 
+.thanks p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.thanks .text {
+	margin: 126px auto 120px;
+	width: 540px;
+}
+
+.thanks .text h3 {
+	font-size: 24px;
+	line-height: 42px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
 .third-box {
 	background: url("../img/mv1.jpg") center bottom/cover no-repeat;
 	background-blend-mode: lighten;
@@ -3211,8 +3228,8 @@ select {
 }
 
 .company__message--box .sign {
-	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
-	font-size: 28px !important;
+	font-family: 'Zen Antique Soft', serif !important;
+	font-size: 42px !important;
 	font-weight: 700;
 	letter-spacing: 0.1em;
 	margin-top: 20px;
@@ -3221,8 +3238,8 @@ select {
 
 .company__message--box .sign small {
 	display: inline-block;
-	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
-	font-size: 18px;
+	font-family: 'Zen Antique Soft', serif !important;
+	font-size: 22px;
 	margin-right: 20px;
 }
 
