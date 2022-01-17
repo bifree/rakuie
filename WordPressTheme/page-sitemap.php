@@ -17,18 +17,21 @@
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="first">トップページ</a>
                     </li>
                     <li>
-                        <a href="<?php echo esc_url( home_url( '/service' ) ); ?>" class="first">サービス内容</a>
+                        <a href="<?php echo esc_url( home_url( '/service' ) ); ?>" class="first">売却について</a>
                         <ul>
                             <li>
                                 <a href="<?php echo esc_url( home_url( '/service#promise' ) ); ?>">５つの約束</a>
                             </li>
                             <li>
-                                <a href="<?php echo esc_url( home_url( '/service#merit' ) ); ?>">ラクイエの強み</a>
+                                <a href="<?php echo esc_url( home_url( '/service#merit' ) ); ?>">相続・売却について</a>
                             </li>
                             <li>
-                                <a href="<?php echo esc_url( home_url( '/service#tokuten' ) ); ?>">特典情報</a>
+                                <a href="<?php echo esc_url( home_url( '/service#tokuten' ) ); ?>">サポート・媒介契約・税について</a>
                             </li>
                         </ul>
+                    </li>
+                    <li>
+                        <a href="<?php echo esc_url( home_url( '/reason' ) ); ?>" class="first">ラクイエが選ばれる理由</a>
                     </li>
                     <li>
                         <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="first">ご相談・査定依頼フォーム</a>
