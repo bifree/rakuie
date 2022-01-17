@@ -117,7 +117,7 @@
 			<div class="blogs-box js-inview">
 				<div class="top_blog">
 					<div class="ttl-Box">
-						<p class="ttl">社長ブログ</p>
+						<p class="ttl">ブログ</p>
 					</div>
 					<div class="scroll_box">
 						<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
@@ -169,7 +169,7 @@
 				</a>
 			</span>
 			<span class="img_wide">
-				<a href="">
+				<a href="https://lin.ee/dA27qRe">
 					<span>LINEで相談する</span>
 				</a>
 			</span>

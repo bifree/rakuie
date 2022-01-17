@@ -72,8 +72,9 @@
   .intro {
     margin-bottom: 60px;
     p {
-      font-size: 1.4rem;
+      font-size: 1.8rem;
       line-height: 1.7;
+      letter-spacing: -0.03em;
     }
   }
   .question {
@@ -99,7 +100,7 @@
       position:relative;
       display:flex;
       .answer{
-        font-size:1.4rem;
+        font-size:1.8rem;
         margin:0 auto;
         letter-spacing: 0.1em;
         max-width:90%;
