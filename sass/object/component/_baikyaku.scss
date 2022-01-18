@@ -7,12 +7,16 @@
                 font-weight: 500;
                 line-height: 1.8;
                 text-align: center;
+                @include mobile {
+                    font-weight: normal;
+                }
             }
             .trouble-inner {
                 h2 {
                     text-align: center;
                     font-size: 32px;
                     margin-bottom: 50px;
+                    line-height: 1.2;
                 }
                 .inner {
                     display: flex;
@@ -40,6 +44,9 @@
                             font-size: 2rem;
                             @include mobile {
                                 background: #ffff01;
+                                font-size: 1.6rem;
+                                margin: 0 0 10px;
+                                text-align: initial;
                             }
                         }
                     }
@@ -107,6 +114,17 @@
             }
             .about-rakuie {
                 padding-bottom: 60px;
+                .sp-block {
+                    display: none;
+                    @include mobile {
+                        display: block;
+                    }
+                }
+                .sp-none {
+                    @include mobile {
+                        display: none;
+                    }
+                }
                 h3 {
                     font-size: 28px;
                     text-align: center;
@@ -122,6 +140,12 @@
                     width: -webkit-fit-content;
                     width: -moz-fit-content;
                     width: fit-content;
+                    @include mobile {
+                        line-height: 1.5;
+                        &:nth-child(1) {
+                            margin-bottom: 0;
+                        }
+                    }
                 }
                 p {
                     text-align: initial;

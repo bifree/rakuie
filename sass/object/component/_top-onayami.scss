@@ -114,6 +114,9 @@
             color: orange;
             font-weight: bold;
             line-height: 80px;
+            @include mobile {
+                font-size: 7vw;
+            }
         }
         img {
             height: 80px;

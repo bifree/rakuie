@@ -384,6 +384,7 @@
         font-family: 'Zen Antique Soft', serif !important;
         font-size: 42px !important;
         letter-spacing: 0.1em;
+        padding-right: 40px;
         small {
           font-family: 'Zen Antique Soft', serif !important;
           display: inline-block;
@@ -472,7 +473,7 @@
         padding: 0 vw(20);
       }
       p {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
         strong {
           font-size: 2rem;
           font-weight: 700;
@@ -540,6 +541,10 @@
         }
         p {
           font-size: 1.4rem;
+          @include mobile {
+            font-size: 1.8rem;
+            font-weight: normal;
+          }
         }
         ul {
           margin: vw(15) 0;
@@ -640,7 +645,7 @@
         .sign {
           text-align: right;
           margin-top: vw(20);
-          font-size: 2.4rem;
+          font-size: 2.8rem !important;
           small {
             margin-right: vw(15);
             font-size: 1.4rem;
