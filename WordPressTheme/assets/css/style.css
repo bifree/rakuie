@@ -2300,7 +2300,7 @@ select {
 	text-align: center;
 }
 
-.contact .contact__content .contact__form .confirm-btn button[type="submit"] {
+.contact .contact__content .contact__form .confirm-btn input[type="submit"] {
 	align-items: center;
 	background: #EB5E00;
 	border: solid 1px #EB5E00;
@@ -2312,6 +2312,11 @@ select {
 	letter-spacing: 0.1rem;
 	text-align: center;
 	width: 290px;
+}
+
+.mw_wp_form_complete p {
+	font-size: 18px;
+	text-align: center;
 }
 
 .rakuie-baikyaku {
@@ -3683,7 +3688,11 @@ select {
 }
 
 .reason .reason-container article .reason_box .box_inner .left p .bold {
-	font-size: 16px;
+	font-weight: bold;
+}
+
+.reason .reason-container article .reason_box .box_inner .left p .bigger {
+	font-size: 20px;
 	font-weight: bold;
 }
 
@@ -3702,7 +3711,7 @@ select {
 }
 
 .reason .reason-container article .reason_box .box_inner .left ul li .bold {
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
@@ -3982,11 +3991,6 @@ select {
 .service .container .rakuie__service .inner .promise dl {
 	margin-bottom: 40px;
 	width: 85%;
-}
-
-.service .container .rakuie__service .inner .promise dl .ls-small {
-	font-size: 1.5rem;
-	letter-spacing: -0.03em;
 }
 
 .service .container .rakuie__service .inner .promise dl dt {
@@ -4463,6 +4467,13 @@ body {
 .l-header .header-wrapper .containerMiddle .inner {
 	min-width: auto;
 	width: 100%;
+}
+
+.l-header .header-wrapper #header-nav nav ul li:nth-child(1) a,
+.l-header .header-wrapper #header-nav nav ul li:nth-child(5) a,
+.l-header .header-wrapper #header-nav nav ul li:nth-child(3) a {
+	height: 13.33333vw;
+	line-height: 13.33333vw;
 }
 
 .l-header {
@@ -5069,7 +5080,7 @@ body {
 	font-size: 1.2rem;
 }
 
-.contact .contact__content .contact__form .confirm-btn button[type="submit"] {
+.contact .contact__content .contact__form .confirm-btn input[type="submit"] {
 	height: 60px;
 	width: 200px;
 }
@@ -5177,6 +5188,15 @@ body {
 
 .rakuie-omakase p strong {
 	font-size: 2rem;
+}
+
+.article__container {
+	width: 90%;
+}
+
+.article__container__bottom .btn a {
+	height: 50px;
+	width: 200px;
 }
 
 .baikai-contract .inner .bigger {
@@ -5728,10 +5748,27 @@ body {
 	width: 100%;
 }
 
+.service .container .rakuie__service .inner .promise dl .ls-small {
+	font-size: 1.5rem;
+	letter-spacing: -0.03em;
+}
+
 .service .container .rakuie__service .inner .promise dl dt {
 	font-size: 1.6rem;
 	padding-left: 60px;
 	padding-right: 0;
+}
+
+.service .container .rakuie__service .inner .promise dl dt span {
+	color: #e45213;
+	font-size: 7vw;
+	padding: 0;
+	text-align: center;
+	transform: rotate(0);
+}
+
+.service .container .rakuie__service .inner .promise dl dt:before {
+	display: none;
 }
 
 .service .container .merit .wrapItems .item {
@@ -5779,6 +5816,22 @@ body {
 	width: 100%;
 }
 
+.service .container h3.subtitle {
+	font-size: 24px;
+}
+
+.service .container .rakuie__service .inner .promise dl dt span {
+	font-size: 10vw;
+}
+
+}
+
+@media screen and (max-width: 767px) and (max-width: 410px) {
+
+.company__lead p {
+	font-size: 1.6rem;
+}
+
 }
 
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -5804,16 +5857,12 @@ body {
 	width: 90%;
 }
 
-.service .container .rakuie__service .inner .promise dl dt span {
-	color: #e45213;
-	font-size: 10vw;
-	padding: 0;
-	text-align: center;
-	transform: rotate(0);
 }
 
-.service .container .rakuie__service .inner .promise dl dt:before {
-	display: none;
+@media screen and (max-width: 390px) {
+
+.contact-btn {
+	width: 95%;
 }
 
 }

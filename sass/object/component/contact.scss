@@ -238,7 +238,7 @@
         margin:20px 0;
         text-align:center;
       
-        button[type="submit"]{
+        input[type="submit"]{
         font-size:1.8rem;
         letter-spacing:0.1rem;
         color:#fff;
@@ -294,7 +294,7 @@
 
         .confirm-btn{
        
-          button[type="submit"]{
+          input[type="submit"]{
             width:200px;
             height:60px;
           }
@@ -306,3 +306,9 @@
   }
 }
 
+.mw_wp_form_complete {
+  p {
+    font-size: 18px;
+    text-align: center;
+  }
+}

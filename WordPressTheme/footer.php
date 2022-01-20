@@ -30,3 +30,4 @@
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.scroll.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.inview.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
+<?php wp_footer(); ?>

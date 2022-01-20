@@ -17,7 +17,7 @@
         <h3 class="contact__content__title"><span>ラクイエへのご相談・査定依頼はこちらから</span></h3>
 
         <div class="contact__form">
-            <?php echo do_shortcode('[mwform_formkey key="6"]'); ?>
+            <?php the_content(); ?>
         </div>
         </div>
 

@@ -100,6 +100,9 @@
 				line-height: 1.2;
 				letter-spacing: 0.1em;
 				margin-top: 0;
+				@media screen and (max-width:425px) {
+					font-size: 24px;
+				}
 			}
 		}
 		h3.subtitle:before {
@@ -157,8 +160,10 @@
 							width: 100%;
 						}
 						.ls-small {
-							letter-spacing: -0.03em;
-							font-size: 1.5rem;
+							@include mobile {
+								letter-spacing: -0.03em;
+								font-size: 1.5rem;
+							}
 						}
 						dt {
 							position: relative;
@@ -183,13 +188,16 @@
 								padding-top: 3px;
 								padding-left: 16px;
 								color: #fff;
-								@media screen and (max-width:425px) {
+								@include mobile {
 									-webkit-transform: rotate(0);
 									transform: rotate(0);
-									font-size: 10vw;
+									font-size: 7vw;
 									padding: 0;
 									color: #e45213;
 									text-align: center;
+									@media screen and (max-width: 425px) {
+										font-size: 10vw;
+									}
 								}
 							}
 						}
@@ -203,7 +211,7 @@
 							-webkit-transform: rotate(25deg);
 							transform: rotate(25deg);
 							background: #e45213;
-							@media screen and (max-width:425px) {
+							@include mobile {
 								display: none;
 							}
 						}

@@ -41,7 +41,7 @@
                         <h2 class="title">
                             <span>すべてラクイエ窓口となり一括で<br>トータルサポート</span>
                         </h2>
-                        <p>相続にはときとして、さまざまな専門家の力が必要に。<br> 相続に関する専門家のとりまとめ、窓口役となり事務手続きや提携士業との連携で相続問題を<span class="bold">ワンストップでラクイエが解決!!</span></p>
+                        <p>相続にはときとして、さまざまな専門家の力が必要に。<br> 相続に関する専門家のとりまとめ、窓口役となり事務手続きや提携士業との連携で相続問題を<span class="bold bigger">ワンストップでラクイエが解決!!</span></p>
                     </div>
                     <div class="right js-inview">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/madoguchi.jpg" alt="">
@@ -54,7 +54,7 @@
                         <h2 class="title">
                             <span>豊富な相談実績と依頼実績があり、不動産相続のプロである</span>
                         </h2>
-                        <p>不動産仲介会社は仲介が得意<br>新築販売会社は新築が得意<br>というふうに不動産業界の中でも得意分野があるように、<br><span class="bold">弊社 ラクイエは不動産相続に強い不動産会社です。</span></p>
+                        <p>不動産仲介会社は仲介が得意<br>新築販売会社は新築が得意<br>というふうに不動産業界の中でも得意分野があるように、<br><span class="bold bigger">弊社 ラクイエは不動産相続に強い不動産会社です。</span></p>
                     </div>
                     <div class="right js-inview">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pro.jpg" alt="">
@@ -89,7 +89,7 @@
                         <div class="list">
                             <ul>
                                 <li>ラクイエが窓口となり、司法書士をご紹介。ご不満や問題は、弊社が責任を持ってご対応。</li>
-                                <li>税理士が同席して、相続税などについて無料相談可能。<br>メリット・デメリットを税理士が考慮して、<span class="bold">最良なご提案を一緒に検討。</span></li>
+                                <li>税理士が同席して、相続税などについて無料相談可能。<br>メリット・デメリットを税理士が考慮して、<span class="bold bigger">最良なご提案を一緒に検討。</span></li>
                                 <li>相続税の申告は税理士、不動産の鑑定には不動産鑑定士、相続人同士で揉め事が起きれば弁護士、遺産分割協議書作成は行政書士、不動産の名義変更は司法書士など相続における様々な場面で色々な専門家が必要です。</li>
                             </ul>
                         </div>
@@ -107,7 +107,7 @@
                         </h2>
                         <p>仲介では物件をお預かりして買主が見つかるまで時間がかかってしまうデメリットがあります。<br>
                         買主が見つかっても購入希望者は融資を受けて購入することが一般的です。融資審査には1ヶ月以上かかるケースも多く売却決定まで時間がかかります。</br>
-                        <span class="bold">買取では、最短1週間で現金化することもできます。</span></p>
+                        <span class="bold bigger">買取では、最短1週間で現金化することもできます。</span></p>
                     </div>
                     <div class="right js-inview">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/speed.jpg" alt="">

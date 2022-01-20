@@ -482,6 +482,9 @@
             background: linear-gradient(transparent 50%, #ffff01 50%);
           }
         }
+        @media screen and (max-width:410px) {
+          font-size: 1.6rem;
+        }
       }
     }
     &__nav {

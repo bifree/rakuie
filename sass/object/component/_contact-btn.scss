@@ -26,6 +26,9 @@
   a {
     text-decoration: none;
   }
+  @media screen and (max-width: 390px) {
+    width: 95%;
+  }
 }
 .contact-btn:hover {
 	margin-top: 63px;
