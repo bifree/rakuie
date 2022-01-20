@@ -896,6 +896,7 @@ select {
 
 .baikyaku .inner .trouble .trouble-inner h2 {
 	font-size: 32px;
+	line-height: 1.2;
 	margin-bottom: 50px;
 	text-align: center;
 }
@@ -985,6 +986,10 @@ select {
 
 .baikyaku .inner .trouble .about-rakuie {
 	padding-bottom: 60px;
+}
+
+.baikyaku .inner .trouble .about-rakuie .sp-block {
+	display: none;
 }
 
 .baikyaku .inner .trouble .about-rakuie h3 {
@@ -1658,6 +1663,23 @@ select {
 	width: 100%;
 }
 
+.thanks p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.thanks .text {
+	margin: 126px auto 120px;
+	width: 540px;
+}
+
+.thanks .text h3 {
+	font-size: 24px;
+	line-height: 42px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
 .third-box {
 	background: url("../img/mv1.jpg") center bottom/cover no-repeat;
 	background-blend-mode: lighten;
@@ -2278,7 +2300,7 @@ select {
 	text-align: center;
 }
 
-.contact .contact__content .contact__form .confirm-btn button[type="submit"] {
+.contact .contact__content .contact__form .confirm-btn input[type="submit"] {
 	align-items: center;
 	background: #EB5E00;
 	border: solid 1px #EB5E00;
@@ -2290,6 +2312,11 @@ select {
 	letter-spacing: 0.1rem;
 	text-align: center;
 	width: 290px;
+}
+
+.mw_wp_form_complete p {
+	font-size: 18px;
+	text-align: center;
 }
 
 .rakuie-baikyaku {
@@ -3211,18 +3238,19 @@ select {
 }
 
 .company__message--box .sign {
-	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
-	font-size: 28px !important;
+	font-family: 'Zen Antique Soft', serif !important;
+	font-size: 42px !important;
 	font-weight: 700;
 	letter-spacing: 0.1em;
 	margin-top: 20px;
+	padding-right: 40px;
 	text-align: right;
 }
 
 .company__message--box .sign small {
 	display: inline-block;
-	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
-	font-size: 18px;
+	font-family: 'Zen Antique Soft', serif !important;
+	font-size: 22px;
 	margin-right: 20px;
 }
 
@@ -3660,7 +3688,11 @@ select {
 }
 
 .reason .reason-container article .reason_box .box_inner .left p .bold {
-	font-size: 16px;
+	font-weight: bold;
+}
+
+.reason .reason-container article .reason_box .box_inner .left p .bigger {
+	font-size: 20px;
 	font-weight: bold;
 }
 
@@ -3679,7 +3711,7 @@ select {
 }
 
 .reason .reason-container article .reason_box .box_inner .left ul li .bold {
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
@@ -4437,6 +4469,13 @@ body {
 	width: 100%;
 }
 
+.l-header .header-wrapper #header-nav nav ul li:nth-child(1) a,
+.l-header .header-wrapper #header-nav nav ul li:nth-child(5) a,
+.l-header .header-wrapper #header-nav nav ul li:nth-child(3) a {
+	height: 13.33333vw;
+	line-height: 13.33333vw;
+}
+
 .l-header {
 	height: 16vw;
 	min-width: inherit;
@@ -4524,6 +4563,10 @@ body {
 	line-height: 13.33333vw;
 }
 
+.baikyaku .inner .trouble p {
+	font-weight: normal;
+}
+
 .baikyaku .inner .trouble .trouble-inner .inner {
 	display: block;
 }
@@ -4543,6 +4586,9 @@ body {
 
 .baikyaku .inner .trouble .trouble-inner .inner .left .yellow {
 	background: #ffff01;
+	font-size: 1.6rem;
+	margin: 0 0 10px;
+	text-align: initial;
 }
 
 .baikyaku .inner .trouble .arrow-down {
@@ -4555,6 +4601,22 @@ body {
 
 .baikyaku .inner .trouble .image {
 	width: 100%;
+}
+
+.baikyaku .inner .trouble .about-rakuie .sp-block {
+	display: block;
+}
+
+.baikyaku .inner .trouble .about-rakuie .sp-none {
+	display: none;
+}
+
+.baikyaku .inner .trouble .about-rakuie h3 {
+	line-height: 1.5;
+}
+
+.baikyaku .inner .trouble .about-rakuie h3:nth-child(1) {
+	margin-bottom: 0;
 }
 
 .c-breadcrumb {
@@ -4623,9 +4685,9 @@ body {
 }
 
 .covid .inner h4 {
-	font-size: 2rem;
+	font-size: 1.7rem;
 	margin-bottom: 8vw;
-	padding-bottom: 4vw;
+	padding-bottom: 0vw;
 }
 
 .covid .inner .covid_flow {
@@ -4800,7 +4862,7 @@ body {
 }
 
 .shigyou-box .inner h2.shigyo-title {
-	font-size: 2rem;
+	font-size: 4vw;
 	line-height: 1.2;
 	padding: 1.33333vw 4vw;
 	top: -7.2vw;
@@ -4873,6 +4935,14 @@ body {
 	width: 100%;
 }
 
+.tokuten .inner .intro {
+	width: 100% !important;
+}
+
+.tokuten .inner .intro p {
+	text-align: justify;
+}
+
 .tokuten .inner .tokuten {
 	display: block;
 }
@@ -4924,6 +4994,10 @@ body {
 	font-size: 2rem;
 	padding: 0 4vw;
 	top: -7.2vw;
+}
+
+.muryo-satei p .num {
+	font-size: 7vw;
 }
 
 .want-wrap .inner .wrap {
@@ -5006,7 +5080,7 @@ body {
 	font-size: 1.2rem;
 }
 
-.contact .contact__content .contact__form .confirm-btn button[type="submit"] {
+.contact .contact__content .contact__form .confirm-btn input[type="submit"] {
 	height: 60px;
 	width: 200px;
 }
@@ -5063,7 +5137,7 @@ body {
 }
 
 .rakuie-baikyaku ol li dl dd {
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	text-align: left;
 }
 
@@ -5116,6 +5190,20 @@ body {
 	font-size: 2rem;
 }
 
+.article__container {
+	width: 90%;
+}
+
+.article__container__bottom .btn a {
+	height: 50px;
+	width: 200px;
+}
+
+.baikai-contract .inner .bigger {
+	font-size: 1.8rem !important;
+	text-align: justify;
+}
+
 .baikai-contract .inner .table {
 	overflow-x: scroll;
 }
@@ -5154,6 +5242,11 @@ body {
 	padding: 2.66667vw 5.33333vw;
 	text-align: center;
 	text-align: center;
+	width: 100%;
+}
+
+.example .tax-inner h3 {
+	font-size: 22px;
 	width: 100%;
 }
 
@@ -5217,7 +5310,7 @@ body {
 }
 
 .company__lead p {
-	font-size: 1.4rem;
+	font-size: 1.8rem;
 }
 
 .company__lead p strong {
@@ -5403,7 +5496,7 @@ body {
 }
 
 .company__message--box .sign {
-	font-size: 2.4rem;
+	font-size: 2.8rem !important;
 	margin-top: 5.33333vw;
 	text-align: right;
 }
@@ -5637,6 +5730,16 @@ body {
 	width: 100%;
 }
 
+.service .container h3.subtitle {
+	letter-spacing: 0.1em;
+	line-height: 1.2;
+	margin-top: 0;
+}
+
+.service .container .intro {
+	text-align: justify;
+}
+
 .service .container .rakuie__service .inner {
 	display: block;
 }
@@ -5645,8 +5748,27 @@ body {
 	width: 100%;
 }
 
+.service .container .rakuie__service .inner .promise dl .ls-small {
+	font-size: 1.5rem;
+	letter-spacing: -0.03em;
+}
+
 .service .container .rakuie__service .inner .promise dl dt {
 	font-size: 1.6rem;
+	padding-left: 60px;
+	padding-right: 0;
+}
+
+.service .container .rakuie__service .inner .promise dl dt span {
+	color: #e45213;
+	font-size: 7vw;
+	padding: 0;
+	text-align: center;
+	transform: rotate(0);
+}
+
+.service .container .rakuie__service .inner .promise dl dt:before {
+	display: none;
 }
 
 .service .container .merit .wrapItems .item {
@@ -5694,6 +5816,31 @@ body {
 	width: 100%;
 }
 
+.service .container h3.subtitle {
+	font-size: 24px;
+}
+
+.service .container .rakuie__service .inner .promise dl dt span {
+	font-size: 10vw;
+}
+
+}
+
+@media screen and (max-width: 767px) and (max-width: 410px) {
+
+.company__lead p {
+	font-size: 1.6rem;
+}
+
+}
+
+@media screen and (max-width: 767px) and (max-width: 767px) {
+
+.company__about--wrap p {
+	font-size: 1.8rem;
+	font-weight: normal;
+}
+
 }
 
 @media screen and (max-width: 425px) {
@@ -5710,15 +5857,12 @@ body {
 	width: 90%;
 }
 
-.service .container .rakuie__service .inner .promise dl dt span {
-	font-size: 10vw;
-	padding: 0;
-	text-align: center;
-	transform: rotate(0);
 }
 
-.service .container .rakuie__service .inner .promise dl dt:before {
-	transform: rotate(0);
+@media screen and (max-width: 390px) {
+
+.contact-btn {
+	width: 95%;
 }
 
 }

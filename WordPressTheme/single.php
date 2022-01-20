@@ -31,7 +31,7 @@
             <?php //一覧へ戻る ?>
             <div class="article__container__bottom">
                 <div class="btn">
-                    <a href="">一覧へ戻る</a>
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>">トップへ戻る</a>
                 </div>
             </div>
             <?php //一覧へ戻る end ?>

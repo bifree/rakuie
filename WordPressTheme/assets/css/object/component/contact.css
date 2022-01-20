@@ -241,7 +241,7 @@
 	text-align: center;
 }
 
-.contact .contact__content .contact__form .confirm-btn button[type="submit"] {
+.contact .contact__content .contact__form .confirm-btn input[type="submit"] {
 	align-items: center;
 	background: #EB5E00;
 	border: solid 1px #EB5E00;
@@ -253,6 +253,11 @@
 	letter-spacing: 0.1rem;
 	text-align: center;
 	width: 290px;
+}
+
+.mw_wp_form_complete p {
+	font-size: 18px;
+	text-align: center;
 }
 
 @media screen and (max-width: 767px) {
@@ -287,7 +292,7 @@
 	font-size: 1.2rem;
 }
 
-.contact .contact__content .contact__form .confirm-btn button[type="submit"] {
+.contact .contact__content .contact__form .confirm-btn input[type="submit"] {
 	height: 60px;
 	width: 200px;
 }

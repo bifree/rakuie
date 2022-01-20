@@ -381,14 +381,15 @@
         margin-top: 20px;
         font-weight: 700;
         text-align: right;
-        font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
-        font-size: 28px !important;
+        font-family: 'Zen Antique Soft', serif !important;
+        font-size: 42px !important;
         letter-spacing: 0.1em;
+        padding-right: 40px;
         small {
-          font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','MS P 明朝','MS PMincho','serif' !important;
+          font-family: 'Zen Antique Soft', serif !important;
           display: inline-block;
           margin-right: 20px;
-          font-size: 18px;
+          font-size: 22px;
         }
       }
       .message {
@@ -472,7 +473,7 @@
         padding: 0 vw(20);
       }
       p {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
         strong {
           font-size: 2rem;
           font-weight: 700;
@@ -480,6 +481,9 @@
             font-style: normal;
             background: linear-gradient(transparent 50%, #ffff01 50%);
           }
+        }
+        @media screen and (max-width:410px) {
+          font-size: 1.6rem;
         }
       }
     }
@@ -540,6 +544,10 @@
         }
         p {
           font-size: 1.4rem;
+          @include mobile {
+            font-size: 1.8rem;
+            font-weight: normal;
+          }
         }
         ul {
           margin: vw(15) 0;
@@ -640,7 +648,7 @@
         .sign {
           text-align: right;
           margin-top: vw(20);
-          font-size: 2.4rem;
+          font-size: 2.8rem !important;
           small {
             margin-right: vw(15);
             font-size: 1.4rem;

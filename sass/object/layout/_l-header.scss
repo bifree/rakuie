@@ -195,6 +195,10 @@
 		#header-nav nav ul li:nth-child(3) a {
 			height: 50px;
 			line-height: 60px;
+			@include mobile {
+				height: vw(50);
+				line-height: vw(50);
+			}
 		}
 	}
 	@include mobile {

@@ -19,6 +19,10 @@
         }
         .bigger {
             font-size: 22px !important;
+            @include mobile {
+                font-size: 1.8rem !important;
+                text-align: justify;
+            }
         }
         .table {
             @include mobile {
@@ -151,6 +155,10 @@
             margin: 60px auto;
             padding: 13px 20px;
             width: 730px;
+            @include mobile {
+                width: 100%;
+                font-size: 22px;
+            }
         }
     }
     .inner {

@@ -2,6 +2,9 @@
     &__container {
         width: 1080px;
         margin: 40px auto;
+        @include mobile {
+            width: 90%;
+        }
         &__title {
             margin-bottom: 40px;
             h1.blog-detail__title {
@@ -38,6 +41,10 @@
                     margin: 0 !important;
                     box-sizing: border-box !important;
                     text-decoration: none !important;
+                    @include mobile {
+                        width: 200px;
+                        height: 50px;
+                    }
                     &::before {
                         content: "";
                         border-left: solid 5px #70c438;

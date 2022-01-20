@@ -96,6 +96,14 @@
 				padding: 0 25px;
 				display: inline-block;
 			}
+			@include mobile {
+				line-height: 1.2;
+				letter-spacing: 0.1em;
+				margin-top: 0;
+				@media screen and (max-width:425px) {
+					font-size: 24px;
+				}
+			}
 		}
 		h3.subtitle:before {
 			position: absolute;
@@ -110,6 +118,9 @@
 			width: 96%;
 			margin: 0 auto 90px;
 			text-align: center;
+			@include mobile {
+				text-align: justify;
+			}
 		}
 		.rakuie__service {
 			h3 {
@@ -148,6 +159,12 @@
 						@include mobile {
 							width: 100%;
 						}
+						.ls-small {
+							@include mobile {
+								letter-spacing: -0.03em;
+								font-size: 1.5rem;
+							}
+						}
 						dt {
 							position: relative;
 							overflow: hidden;
@@ -158,6 +175,8 @@
 							color: #e45213;
 							@include mobile {
 								font-size: 1.6rem;
+								padding-left: 60px;
+								padding-right: 0;
 							}
 							span {
 								font-size: 40px;
@@ -169,12 +188,16 @@
 								padding-top: 3px;
 								padding-left: 16px;
 								color: #fff;
-								@media screen and (max-width:425px) {
+								@include mobile {
 									-webkit-transform: rotate(0);
 									transform: rotate(0);
-									font-size: 10vw;
+									font-size: 7vw;
 									padding: 0;
+									color: #e45213;
 									text-align: center;
+									@media screen and (max-width: 425px) {
+										font-size: 10vw;
+									}
 								}
 							}
 						}
@@ -188,9 +211,8 @@
 							-webkit-transform: rotate(25deg);
 							transform: rotate(25deg);
 							background: #e45213;
-							@media screen and (max-width:425px) {
-								-webkit-transform: rotate(0);
-								transform: rotate(0);
+							@include mobile {
+								display: none;
 							}
 						}
 						dd {
@@ -199,19 +221,6 @@
 						}
 					}
 				}
-				// .promise-img {
-				// 	width: 45%;
-				// 	@include mobile {
-				// 		width: 90%;
-				// 	}
-				// 	img {
-				// 		width: 100%;
-				// 	}
-				// 	.block-img {
-				// 		display: block;
-				// 		margin-top: 30px;
-				// 	}
-				// }
 			}
 		}
 		.merit {
